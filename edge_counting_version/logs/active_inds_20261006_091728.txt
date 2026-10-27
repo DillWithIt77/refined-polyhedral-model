@@ -1,0 +1,136 @@
+
+=== Total solve time (s) ===
+Problem           Gurobi LP          Scipy           sdac      sdac_edge      sdac_triv      sdac_rest
+------------------------------------------------------------------------------------------------------
+adlittle             0.0000         0.2662         0.3522         0.3857         0.3827         0.3212
+afiro                0.0000         0.0218         0.0145         0.0158         0.0154         0.0192
+agg                  0.0067         0.5573         0.5502         0.5595         0.5837         0.9446
+agg2                 0.0000         1.8808         2.3268         2.4231         2.4528         2.4756
+agg3                 0.0160         2.0515         3.0631         3.3590         2.6885         2.8336
+beaconfd             0.0079         0.3842         0.3955         0.3611         0.3635         0.6033
+blend                0.0060         0.2039         0.1422         0.1387         0.1406         0.1204
+capri                0.0101         1.4190         3.1708         3.1119         3.0844         2.4858
+e226                 0.0314         4.1427         5.5847         5.3793         5.5640         5.6590
+gfrd-pnc             0.0481        11.2115         8.9173         8.2670         8.3384        12.8896
+israel               0.0141         1.7938         2.5419         2.5206         2.5331         1.8226
+kb2                  0.0000         0.0911         0.1296         0.1481         0.1342         0.0972
+lotfi                0.0133         1.3711         1.1559         0.9599         0.9246         1.8453
+sc105                0.0063         0.2022         0.1038         0.0891         0.0896         0.1434
+sc205                0.0113         0.9064         0.3681         0.4435         0.3669         0.6731
+sc50a                0.0000         0.0698         0.0318         0.0315         0.0318         0.0433
+sc50b                0.0000         0.0630         0.0157         0.0214         0.0189         0.0206
+scagr7               0.0092         0.1608         0.2666         0.2900         0.2717         0.2720
+scrs8                0.0529        22.7535        13.6738        12.8238        12.4261        24.7671
+scsd1                0.0790         6.8955         0.6293         1.0784         0.9445         0.6078
+sctap1               0.0090         1.3017         1.2917         1.4455         1.2693         1.3032
+share1b              0.0118         0.9785         1.8268         1.9181         1.7264         1.5558
+share2b              0.0026         0.1131         0.1566         0.1394         0.1356         0.2098
+ship04l              0.0316        17.6632        11.2221        10.9953        12.2247        11.1054
+ship04s              0.0157        11.3994         5.4064         5.3256         5.2463         5.7752
+ship08s              0.0442        52.6922        15.4717        15.0310        15.1266        15.5665
+ship12s              0.0670        46.0758        21.1101        19.2230        20.5306        20.6054
+standata             0.0168        12.3541         2.4749         2.8507         2.7622         2.6287
+standmps             0.0215        10.4605         4.5849         6.8436         5.3992         4.3960
+stocfor1             0.0038         0.2308         0.1348         0.1042         0.1343         0.1615
+
+=== Number of steps (last x-value in the step plots) ===
+Problem             Scipy         sdac    sdac_edge    sdac_triv    sdac_rest
+-----------------------------------------------------------------------------
+adlittle               81           61           62           61           86
+afiro                   3            3            3            3            3
+agg                    48           29           29           29           48
+agg2                  119           95           96           97          105
+agg3                  111          103          102           95          109
+beaconfd               20           21           21           21           21
+blend                  26           24           25           25           32
+capri                 138          124          127          126          127
+e226                  432          271          260          276          482
+gfrd-pnc              135          124          126          124          149
+israel                390          214          212          215          263
+kb2                    38           38           41           39           41
+lotfi                  94           52           50           49           74
+sc105                  38           13           13           13           36
+sc205                 104           31           31           31           96
+sc50a                  17            7            8            7           13
+sc50b                  13            5            5            5            7
+scagr7                 42           37           37           37           39
+scrs8                 280          189          183          176          227
+scsd1                  10            1            1            1            1
+sctap1                 50           40           40           40           40
+share1b               155          134          135          131          161
+share2b                35           19           19           19           35
+ship04l                79           78           78           78           78
+ship04s                58           55           55           55           55
+ship08s               108          101          101          101          101
+ship12s                96          113          112          113          113
+standata                5            4            4            4            4
+standmps               14           17           17           17           17
+stocfor1               21           10           10           10           10
+
+=== Time per step (ms) = solve_time_total / steps ===
+Problem             Scipy         sdac    sdac_edge    sdac_triv    sdac_rest
+-----------------------------------------------------------------------------
+adlittle              3.3          5.8          6.2          6.3          3.7
+afiro                 7.3          4.8          5.3          5.1          6.4
+agg                  11.6         19.0         19.3         20.1         19.7
+agg2                 15.8         24.5         25.2         25.3         23.6
+agg3                 18.5         29.7         32.9         28.3         26.0
+beaconfd             19.2         18.8         17.2         17.3         28.7
+blend                 7.8          5.9          5.5          5.6          3.8
+capri                10.3         25.6         24.5         24.5         19.6
+e226                  9.6         20.6         20.7         20.2         11.7
+gfrd-pnc             83.0         71.9         65.6         67.2         86.5
+israel                4.6         11.9         11.9         11.8          6.9
+kb2                   2.4          3.4          3.6          3.4          2.4
+lotfi                14.6         22.2         19.2         18.9         24.9
+sc105                 5.3          8.0          6.9          6.9          4.0
+sc205                 8.7         11.9         14.3         11.8          7.0
+sc50a                 4.1          4.5          3.9          4.5          3.3
+sc50b                 4.8          3.1          4.3          3.8          2.9
+scagr7                3.8          7.2          7.8          7.3          7.0
+scrs8                81.3         72.3         70.1         70.6        109.1
+scsd1               689.5        629.3       1078.4        944.5        607.8
+sctap1               26.0         32.3         36.1         31.7         32.6
+share1b               6.3         13.6         14.2         13.2          9.7
+share2b               3.2          8.2          7.3          7.1          6.0
+ship04l             223.6        143.9        141.0        156.7        142.4
+ship04s             196.5         98.3         96.8         95.4        105.0
+ship08s             487.9        153.2        148.8        149.8        154.1
+ship12s             480.0        186.8        171.6        181.7        182.3
+standata           2470.8        618.7        712.7        690.5        657.2
+standmps            747.2        269.7        402.6        317.6        258.6
+stocfor1             11.0         13.5         10.4         13.4         16.1
+
+=== Facet restriction: first restricted step / # restricted steps ===
+Problem              sdac 1st  #rest    sdac_edge 1st  #rest    sdac_triv 1st  #rest    sdac_rest 1st  #rest
+------------------------------------------------------------------------------------------------------------
+adlittle                never      0            never      0            never      0               10      4
+afiro                   never      0            never      0            never      0                2      1
+agg                     never      0            never      0            never      0               19      2
+agg2                    never      0            never      0            never      0               45      7
+agg3                    never      0            never      0            never      0               38      6
+beaconfd                never      0            never      0            never      0               20      1
+blend                   never      0            never      0            never      0                1      1
+capri                   never      0            never      0            never      0               28     17
+e226                    never      0            never      0            never      0               27     11
+gfrd-pnc                never      0            never      0            never      0               68      8
+israel                  never      0            never      0            never      0                7     41
+kb2                     never      0            never      0            never      0                1      1
+lotfi                   never      0            never      0            never      0               13      3
+sc105                   never      0            never      0            never      0                1      1
+sc205                   never      0            never      0            never      0                1      1
+sc50a                   never      0            never      0            never      0                1      1
+sc50b                   never      0            never      0            never      0                1      1
+scagr7                  never      0            never      0            never      0                6      9
+scrs8                   never      0            never      0            never      0               26      9
+scsd1                   never      0            never      0            never      0            never      0
+sctap1                  never      0            never      0            never      0            never      0
+share1b                 never      0            never      0            never      0                3     20
+share2b                 never      0            never      0            never      0                2      4
+ship04l                 never      0            never      0            never      0            never      0
+ship04s                 never      0            never      0            never      0            never      0
+ship08s                 never      0            never      0            never      0            never      0
+ship12s                 never      0            never      0            never      0            never      0
+standata                never      0            never      0            never      0            never      0
+standmps                never      0            never      0            never      0            never      0
+stocfor1                never      0            never      0            never      0                1      1

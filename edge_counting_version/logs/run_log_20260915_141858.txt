@@ -1,0 +1,16 @@
+
+Solving: adlittle
+Working on problem 1 of 29
+Traceback (most recent call last):
+  File "C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py", line 381, in <module>
+    c, A, b = mps_to_standard(path)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py", line 113, in mps_to_standard
+    c, G, h, A, b = read_mps_preprocess(filepath)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DillW\Documents\refined polyhedral model\mps_reader_preprocessor.py", line 9, in read_mps_preprocess
+    problem.fromfile(filepath)
+  File "C:\Users\DillW\AppData\Local\Programs\Python\Python311\Lib\site-packages\cvxopt\modeling.py", line 2778, in fromfile
+    f = open(filename,'r')
+        ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'netlib_lp_subset\\adlittle'

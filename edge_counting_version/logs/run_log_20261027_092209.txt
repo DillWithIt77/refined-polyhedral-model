@@ -1,0 +1,1892 @@
+
+Solving: circ_n50_01
+Working on problem 1 of 20
+[DEBUG inside circulation_mps_to_standard] new_c shape: (4900,), new_A shape: (2500, 4900)
+Known optimal value (minimization form): -1488869804481.0
+Standard form dimensions -> c: (4900,), A: (2500, 4900)
+Building polyhedron in standard form...
+Problem size: n = 4900,  m_A = 2500
+rank(A): 2499
+Finding feasible solution for polyhedron in standard form...
+Set parameter Username
+Set parameter LicenseID to value 2851667
+Academic license - for non-commercial use only - expires 2027-08-05
+problem was built
+  !! WARNING: recovery stopped early; active vars not all zero (max 5.55e+02).
+max |x_gurobi - x_start| = 5.550e+02
+
+Solving circ_n50_01: variant 'sdac'...
+Problem size: n = 4900,  m_A = 2500
+Problem size: n = 4900,  m_A = 2500
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Polyhedral model build time: 6.869990110397339
+
+Iteration 0
+Objective: -714848074006.0
+Steepness: -2942529.888888889
+Step length: 1026.0
+
+Iteration 1
+Objective: -720999703661.0
+Steepness: -2934937.8125
+Step length: 2096.0
+
+Iteration 50
+Objective: -787172154330.0
+Steepness: -2766949.5
+Step length: 1540.0
+
+Iteration 100
+Objective: -851646040897.0
+Steepness: -2659484.6875
+Step length: 384.0
+
+Iteration 150
+Objective: -906936993117.0
+Steepness: -2557116.5000000005
+Step length: 557.9999999999998
+
+Iteration 200
+Objective: -958402401752.0
+Steepness: -2435633.7142857136
+Step length: 238.000000000002
+
+Iteration 250
+Objective: -1009815384133.0
+Steepness: -2338498.875
+Step length: 319.999999999999
+
+Iteration 300
+Objective: -1058416451275.0
+Steepness: -2235244.7
+Step length: 330.0000000000211
+
+Iteration 350
+Objective: -1106638127649.0
+Steepness: -2111827.538461538
+Step length: 805.9999999999059
+
+Iteration 400
+Objective: -1143763347131.0
+Steepness: -1999614.3000000003
+Step length: 880.0000000000048
+
+Iteration 450
+Objective: -1183332365092.9998
+Steepness: -1877460.625
+Step length: 112.00000000000068
+
+Iteration 500
+Objective: -1222823437847.0
+Steepness: -1761144.5000000005
+Step length: 797.9999999999999
+
+Iteration 550
+Objective: -1256165157674.0007
+Steepness: -1663446.863636364
+Step length: 329.9999999999995
+
+Iteration 600
+Objective: -1288069569163.9998
+Steepness: -1553135.4000000001
+Step length: 230.0000000002197
+
+Iteration 650
+Objective: -1320166421883.0
+Steepness: -1451109.8999999997
+Step length: 359.99999999987403
+
+Iteration 700
+Objective: -1345005874698.0007
+Steepness: -1357859.5
+Step length: 1554.0000000002394
+
+Iteration 750
+Objective: -1366117422857.0007
+Steepness: -1243100.6428571427
+Step length: 27.999999999666752
+
+Iteration 800
+Objective: -1391371057994.999
+Steepness: -1099510.0
+Step length: 72.00000000023226
+
+Iteration 850
+Objective: -1412776559231.9985
+Steepness: -948293.2857142857
+Step length: 966.0000000008347
+
+Iteration 900
+Objective: -1430301471699.9988
+Steepness: -850571.2000000002
+Step length: 179.9999999990182
+
+Iteration 950
+Objective: -1445567796558.9993
+Steepness: -723619.1875
+Step length: 47.9999999619163
+
+Iteration 1000
+Objective: -1458388616507.9639
+Steepness: -612727.2499999999
+Step length: 192.00000001819402
+
+Iteration 1050
+Objective: -1469165377864.0596
+Steepness: -489172.6000000001
+Step length: 1140.0000000088746
+
+Iteration 1100
+Objective: -1476168809330.0093
+Steepness: -374165.75
+Step length: 287.9999999999999
+
+Iteration 1150
+Objective: -1483583520815.1362
+Steepness: -247164.8571428571
+Step length: 378.00000036317846
+
+Iteration 1200
+Objective: -1487741481890.6929
+Steepness: -122072.20000000001
+Step length: 679.9999977944822
+Total time for steepest-descent scheme: 38.31519627571106
+Final sdac objective value: -1488869804481.001
+Final steepness value: 0.0
+
+Solving circ_n50_01: variant 'sdac_rest'...
+Problem size: n = 4900,  m_A = 2500
+Problem size: n = 4900,  m_A = 2500
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Polyhedral model build time: 7.164506912231445
+
+Iteration 0
+Objective: -714848074006.0
+Steepness: -2942529.888888889
+Step length: 1026.0
+
+Iteration 1
+Objective: -720999703661.0
+Steepness: -2934937.8125
+Step length: 2096.0
+------ Entered Facet Restriction at step 7! ------
+++++++ Exited Facet Restriction at step 32! ++++++
+problem was built
+len c_new: 4900
+m: 2500
+T shape[1]: 4900
+Total time for steepest-descent scheme: 71.3790431022644
+Final sdac objective value: -1488869804481.0
+Final steepness value: 0.0
+
+Solving: circ_n50_02
+Working on problem 2 of 20
+[DEBUG inside circulation_mps_to_standard] new_c shape: (4900,), new_A shape: (2500, 4900)
+Known optimal value (minimization form): -1537029098677.0
+Standard form dimensions -> c: (4900,), A: (2500, 4900)
+Building polyhedron in standard form...
+Problem size: n = 4900,  m_A = 2500
+rank(A): 2499
+Finding feasible solution for polyhedron in standard form...
+problem was built
+  !! WARNING: recovery stopped early; active vars not all zero (max 5.14e+02).
+max |x_gurobi - x_start| = 5.140e+02
+
+Solving circ_n50_02: variant 'sdac'...
+Problem size: n = 4900,  m_A = 2500
+Problem size: n = 4900,  m_A = 2500
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Polyhedral model build time: 6.655396223068237
+
+Iteration 0
+Objective: -685363554496.0
+Steepness: -2971159.25
+Step length: 604.0
+
+Iteration 1
+Objective: -687776278612.0
+Steepness: -2956769.75
+Step length: 816.0
+
+Iteration 50
+Objective: -775061701429.0
+Steepness: -2786072.5
+Step length: 560.0
+
+Iteration 100
+Objective: -836015427417.0
+Steepness: -2650797.249999999
+Step length: 256.0000000000001
+
+Iteration 150
+Objective: -898072949382.0
+Steepness: -2541090.833333334
+Step length: 1163.9999999999984
+
+Iteration 200
+Objective: -942479244695.0
+Steepness: -2452416.5
+Step length: 708.0000000000018
+
+Iteration 250
+Objective: -989867034289.0
+Steepness: -2370162.2916666665
+Step length: 288.0000000000008
+
+Iteration 300
+Objective: -1043639245379.0
+Steepness: -2252276.9
+Step length: 240.00000000000028
+
+Iteration 350
+Objective: -1086753838021.0
+Steepness: -2151053.5
+Step length: 224.00000000000614
+
+Iteration 400
+Objective: -1132552429281.0
+Steepness: -2032769.0833333337
+Step length: 683.9999999999786
+
+Iteration 450
+Objective: -1173865004711.0
+Steepness: -1921697.875
+Step length: 560.0000000000119
+
+Iteration 500
+Objective: -1210951692454.0
+Steepness: -1815160.0
+Step length: 32.00000000000159
+
+Iteration 550
+Objective: -1250437286730.9995
+Steepness: -1724927.875
+Step length: 703.9999999998505
+
+Iteration 600
+Objective: -1284673056417.9995
+Steepness: -1581439.5833333335
+Step length: 563.9999999996005
+
+Iteration 650
+Objective: -1317745120223.9993
+Steepness: -1477935.0833333333
+Step length: 72.00000000017803
+
+Iteration 700
+Objective: -1346276712387.9988
+Steepness: -1398525.25
+Step length: 480.00000000053905
+
+Iteration 750
+Objective: -1372856754813.0
+Steepness: -1284003.0833333335
+Step length: 24.000000002134612
+
+Iteration 800
+Objective: -1403403573180.0083
+Steepness: -1138299.03125
+Step length: 1023.9999999849047
+
+Iteration 850
+Objective: -1423540278247.0273
+Steepness: -1038758.8333333333
+Step length: 377.9999999981709
+
+Iteration 900
+Objective: -1444809926936.0522
+Steepness: -930567.25
+Step length: 351.99999997360743
+
+Iteration 950
+Objective: -1464234224071.1255
+Steepness: -835324.8749999999
+Step length: 216.0000001258394
+
+Iteration 1000
+Objective: -1479675432615.0127
+Steepness: -752394.4545454545
+Step length: 22.000000103132116
+
+Iteration 1050
+Objective: -1495968891290.697
+Steepness: -652007.7307692306
+Step length: 25.999999916289003
+
+Iteration 1100
+Objective: -1509689507099.0977
+Steepness: -545560.4285714285
+Step length: 629.9999992404705
+
+Iteration 1150
+Objective: -1520299222453.1511
+Steepness: -451551.24999999977
+Step length: 419.9999998915272
+
+Iteration 1200
+Objective: -1527197732307.7268
+Steepness: -336722.875
+Step length: 95.99999984723024
+
+Iteration 1250
+Objective: -1532343038687.421
+Steepness: -239128.3333333333
+Step length: 413.9999998409375
+
+Iteration 1300
+Objective: -1536511562487.219
+Steepness: -103895.40000000001
+Step length: 900.0000031451119
+Total time for steepest-descent scheme: 39.34378123283386
+Final sdac objective value: -1537029098677.0146
+Final steepness value: 0.0
+
+Solving circ_n50_02: variant 'sdac_rest'...
+Problem size: n = 4900,  m_A = 2500
+Problem size: n = 4900,  m_A = 2500
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Polyhedral model build time: 6.801818370819092
+
+Iteration 0
+Objective: -685363554496.0
+Steepness: -2971159.25
+Step length: 604.0
+
+Iteration 1
+Objective: -687776278612.0
+Steepness: -2956769.75
+Step length: 816.0
+------ Entered Facet Restriction at step 10! ------
+++++++ Exited Facet Restriction at step 35! ++++++
+problem was built
+len c_new: 4900
+m: 2500
+T shape[1]: 4900
+Total time for steepest-descent scheme: 64.68506836891174
+Final sdac objective value: -1537029098677.0
+Final steepness value: 0.0
+
+Solving: circ_n50_03
+Working on problem 3 of 20
+[DEBUG inside circulation_mps_to_standard] new_c shape: (4898,), new_A shape: (2499, 4898)
+Known optimal value (minimization form): -1502147497199.0
+Standard form dimensions -> c: (4898,), A: (2499, 4898)
+Building polyhedron in standard form...
+Problem size: n = 4898,  m_A = 2499
+rank(A): 2498
+Finding feasible solution for polyhedron in standard form...
+problem was built
+  !! WARNING: recovery stopped early; active vars not all zero (max 5.24e+02).
+max |x_gurobi - x_start| = 5.240e+02
+
+Solving circ_n50_03: variant 'sdac'...
+Problem size: n = 4898,  m_A = 2499
+Problem size: n = 4898,  m_A = 2499
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Polyhedral model build time: 6.719470262527466
+
+Iteration 0
+Objective: -692163457416.0
+Steepness: -2931827.142857143
+Step length: 545.9999999999999
+
+Iteration 1
+Objective: -697752134568.0
+Steepness: -2910769.3499999996
+Step length: 1920.0000000000002
+
+Iteration 50
+Objective: -772503809546.0
+Steepness: -2768984.6818181826
+Step length: 967.9999999999995
+
+Iteration 100
+Objective: -830504439091.0
+Steepness: -2668011.428571428
+Step length: 420.0000000000006
+
+Iteration 150
+Objective: -887327135911.0
+Steepness: -2542183.2333333334
+Step length: 510.0
+
+Iteration 200
+Objective: -937097749287.0
+Steepness: -2427969.763157895
+Step length: 608.0
+
+Iteration 250
+Objective: -985552242493.0
+Steepness: -2317400.6875
+Step length: 1279.9999999999982
+
+Iteration 300
+Objective: -1029962130293.0
+Steepness: -2216458.708333333
+Step length: 23.999999999992838
+
+Iteration 350
+Objective: -1080270169424.0
+Steepness: -2082141.4000000004
+Step length: 840.0000000000077
+
+Iteration 400
+Objective: -1129831228209.0
+Steepness: -1990186.5625
+Step length: 800.0000000000509
+
+Iteration 450
+Objective: -1163642634973.9995
+Steepness: -1866431.5000000002
+Step length: 415.9999999993338
+
+Iteration 500
+Objective: -1204805436052.9995
+Steepness: -1752992.366666667
+Step length: 690.0000000006056
+
+Iteration 550
+Objective: -1240378543647.9941
+Steepness: -1648825.7000000002
+Step length: 300.000000000439
+
+Iteration 600
+Objective: -1274265277471.0044
+Steepness: -1522372.4375
+Step length: 304.00000000447005
+
+Iteration 650
+Objective: -1308130130323.006
+Steepness: -1407654.0
+Step length: 896.0000000000009
+
+Iteration 700
+Objective: -1335730766498.004
+Steepness: -1323938.875
+Step length: 359.9999999919205
+
+Iteration 750
+Objective: -1359684915411.9753
+Steepness: -1230197.3928571427
+Step length: 224.000000007958
+
+Iteration 800
+Objective: -1383810794182.9392
+Steepness: -1111142.3499999999
+Step length: 199.99999986467253
+
+Iteration 850
+Objective: -1404594404912.1726
+Steepness: -1002419.7857142857
+Step length: 1049.999999999114
+
+Iteration 900
+Objective: -1425254751361.0918
+Steepness: -913304.75
+Step length: 1056.0000000912516
+
+Iteration 950
+Objective: -1443786967938.0073
+Steepness: -813640.1666666665
+Step length: 155.99999980339106
+
+Iteration 1000
+Objective: -1458996722716.7861
+Steepness: -684194.125
+Step length: 63.99999999999932
+
+Iteration 1050
+Objective: -1471682441374.0254
+Steepness: -572357.1333333334
+Step length: 300.0000000147385
+
+Iteration 1100
+Objective: -1481364400836.3232
+Steepness: -455917.0000000001
+Step length: 695.9999996874183
+
+Iteration 1150
+Objective: -1491111345671.1091
+Steepness: -364798.880952381
+Step length: 126.00000000000934
+
+Iteration 1200
+Objective: -1496717708007.1348
+Steepness: -248711.0
+Step length: 1023.9999956750167
+
+Iteration 1250
+Objective: -1500591083781.8364
+Steepness: -155099.0
+Step length: 71.99999974821037
+Total time for steepest-descent scheme: 38.92842888832092
+Final sdac objective value: -1502147497199.0093
+Final steepness value: 0.0
+
+Solving circ_n50_03: variant 'sdac_rest'...
+Problem size: n = 4898,  m_A = 2499
+Problem size: n = 4898,  m_A = 2499
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Polyhedral model build time: 6.746238470077515
+
+Iteration 0
+Objective: -692163457416.0
+Steepness: -2931827.142857143
+Step length: 545.9999999999999
+
+Iteration 1
+Objective: -697752134568.0
+Steepness: -2910769.3499999996
+Step length: 1920.0000000000002
+------ Entered Facet Restriction at step 4! ------
+++++++ Exited Facet Restriction at step 30! ++++++
+problem was built
+len c_new: 4898
+m: 2499
+T shape[1]: 4898
+Total time for steepest-descent scheme: 54.438952922821045
+Final sdac objective value: -1502147497199.0
+Final steepness value: 0.0
+
+Solving: circ_n50_04
+Working on problem 4 of 20
+[DEBUG inside circulation_mps_to_standard] new_c shape: (4898,), new_A shape: (2499, 4898)
+Known optimal value (minimization form): -1575908636568.0
+Standard form dimensions -> c: (4898,), A: (2499, 4898)
+Building polyhedron in standard form...
+Problem size: n = 4898,  m_A = 2499
+rank(A): 2498
+Finding feasible solution for polyhedron in standard form...
+problem was built
+  !! WARNING: recovery stopped early; active vars not all zero (max 4.95e+02).
+max |x_gurobi - x_start| = 4.950e+02
+
+Solving circ_n50_04: variant 'sdac'...
+Problem size: n = 4898,  m_A = 2499
+Problem size: n = 4898,  m_A = 2499
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Polyhedral model build time: 6.715278625488281
+
+Iteration 0
+Objective: -677123954075.0
+Steepness: -2961690.7500000005
+Step length: 215.99999999999994
+
+Iteration 1
+Objective: -684357583100.0
+Steepness: -2952501.6428571427
+Step length: 2450.0
+
+Iteration 50
+Objective: -757919453900.0
+Steepness: -2765925.0000000005
+Step length: 408.00000000000165
+
+Iteration 100
+Objective: -827736417961.0
+Steepness: -2669801.7499999995
+Step length: 264.0000000000002
+
+Iteration 150
+Objective: -881951755602.0
+Steepness: -2585963.142857143
+Step length: 475.99999999999005
+
+Iteration 200
+Objective: -931019269963.0
+Steepness: -2482900.4
+Step length: 100.0000000000017
+
+Iteration 250
+Objective: -988018601242.0
+Steepness: -2387716.666666667
+Step length: 24.000000000027967
+
+Iteration 300
+Objective: -1034398236819.0001
+Steepness: -2318568.181818182
+Step length: 87.99999999998374
+
+Iteration 350
+Objective: -1078802153863.9999
+Steepness: -2227569.0999999996
+Step length: 720.0000000000086
+
+Iteration 400
+Objective: -1125486578938.0
+Steepness: -2124314.8
+Step length: 430.00000000010505
+
+Iteration 450
+Objective: -1172563053482.0
+Steepness: -2034236.3333333333
+Step length: 300.0000000000947
+
+Iteration 500
+Objective: -1214782217086.0005
+Steepness: -1936270.0
+Step length: 159.99999999999991
+
+Iteration 550
+Objective: -1254831696897.0002
+Steepness: -1817274.9166666665
+Step length: 1248.0000000001316
+
+Iteration 600
+Objective: -1293230912935.0
+Steepness: -1723432.9285714284
+Step length: 41.999999999704954
+
+Iteration 650
+Objective: -1328870252873.998
+Steepness: -1602483.2999999998
+Step length: 359.9999999994228
+
+Iteration 700
+Objective: -1359395309056.0012
+Steepness: -1490349.357142857
+Step length: 126.00000000304794
+
+Iteration 750
+Objective: -1390201633118.009
+Steepness: -1390464.5909090908
+Step length: 176.00000000016072
+
+Iteration 800
+Objective: -1422404261135.969
+Steepness: -1288175.0
+Step length: 335.99999999940894
+
+Iteration 850
+Objective: -1448262451249.0625
+Steepness: -1182413.375
+Step length: 623.9999999331918
+
+Iteration 900
+Objective: -1469993533762.1045
+Steepness: -1065226.25
+Step length: 443.9999999999993
+
+Iteration 950
+Objective: -1493946241130.7378
+Steepness: -965473.2
+Step length: 90.00000003061133
+
+Iteration 1000
+Objective: -1507469109362.9502
+Steepness: -858185.8125
+Step length: 95.99999971116279
+
+Iteration 1050
+Objective: -1527600136562.9727
+Steepness: -718723.4
+Step length: 759.9999995979883
+
+Iteration 1100
+Objective: -1539481059022.0146
+Steepness: -616159.607142857
+Step length: 167.9999976351729
+
+Iteration 1150
+Objective: -1551561832098.767
+Steepness: -508824.2500000001
+Step length: 119.99999960591052
+
+Iteration 1200
+Objective: -1560995094078.957
+Steepness: -429130.7500000001
+Step length: 156.0000063273136
+
+Iteration 1250
+Objective: -1568110092732.9087
+Steepness: -330851.875
+Step length: 383.99998100939115
+
+Iteration 1300
+Objective: -1573774126880.6902
+Steepness: -184712.55000000002
+Step length: 199.99996034464803
+Total time for steepest-descent scheme: 39.7948043346405
+Final sdac objective value: -1575908636567.9917
+Final steepness value: 0.0
+
+Solving circ_n50_04: variant 'sdac_rest'...
+Problem size: n = 4898,  m_A = 2499
+Problem size: n = 4898,  m_A = 2499
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Polyhedral model build time: 6.6897501945495605
+
+Iteration 0
+Objective: -677123954075.0
+Steepness: -2961690.7500000005
+Step length: 215.99999999999994
+
+Iteration 1
+Objective: -684357583100.0
+Steepness: -2952501.6428571427
+Step length: 2450.0
+------ Entered Facet Restriction at step 6! ------
+++++++ Exited Facet Restriction at step 30! ++++++
+problem was built
+len c_new: 4898
+m: 2499
+T shape[1]: 4898
+Total time for steepest-descent scheme: 60.61382269859314
+Final sdac objective value: -1575908636568.0
+Final steepness value: 0.0
+
+Solving: circ_n50_05
+Working on problem 5 of 20
+[DEBUG inside circulation_mps_to_standard] new_c shape: (4898,), new_A shape: (2499, 4898)
+Known optimal value (minimization form): -1552595672448.0
+Standard form dimensions -> c: (4898,), A: (2499, 4898)
+Building polyhedron in standard form...
+Problem size: n = 4898,  m_A = 2499
+rank(A): 2498
+Finding feasible solution for polyhedron in standard form...
+problem was built
+  !! WARNING: recovery stopped early; active vars not all zero (max 5.98e+02).
+max |x_gurobi - x_start| = 5.980e+02
+
+Solving circ_n50_05: variant 'sdac'...
+Problem size: n = 4898,  m_A = 2499
+Problem size: n = 4898,  m_A = 2499
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Polyhedral model build time: 7.426460266113281
+
+Iteration 0
+Objective: -683680256679.0
+Steepness: -2946545.75
+Step length: 848.0
+
+Iteration 1
+Objective: -688282908215.0
+Steepness: -2935364.5
+Step length: 1568.0
+
+Iteration 50
+Objective: -765349754133.0
+Steepness: -2798346.0833333335
+Step length: 335.99999999999994
+
+Iteration 100
+Objective: -828966471097.0
+Steepness: -2693112.7857142864
+Step length: 336.0
+
+Iteration 150
+Objective: -887199931677.0
+Steepness: -2586973.777777778
+Step length: 324.0000000000008
+
+Iteration 200
+Objective: -940760838299.0
+Steepness: -2504287.9473684207
+Step length: 304.0000000000092
+
+Iteration 250
+Objective: -996280200189.0
+Steepness: -2406053.875000001
+Step length: 559.9999999999998
+
+Iteration 300
+Objective: -1043076366473.0
+Steepness: -2294721.8666666667
+Step length: 180.0000000000032
+
+Iteration 350
+Objective: -1086937001468.0
+Steepness: -2162531.583333333
+Step length: 503.9999999999722
+
+Iteration 400
+Objective: -1132061387416.0
+Steepness: -2077707.8333333335
+Step length: 1092.0000000000023
+
+Iteration 450
+Objective: -1175427083086.0
+Steepness: -1993433.4090909092
+Step length: 681.9999999999822
+
+Iteration 500
+Objective: -1214817218690.0
+Steepness: -1866202.4999999995
+Step length: 251.99999999996624
+
+Iteration 550
+Objective: -1252520280698.0002
+Steepness: -1751242.499999999
+Step length: 246.0000000002034
+
+Iteration 600
+Objective: -1284713577586.0005
+Steepness: -1631661.875
+Step length: 479.99999999900075
+
+Iteration 650
+Objective: -1317197154762.9949
+Steepness: -1551625.6249999998
+Step length: 447.99999999804135
+
+Iteration 700
+Objective: -1348292228788.004
+Steepness: -1458207.5
+Step length: 352.00000000010357
+
+Iteration 750
+Objective: -1378667901060.005
+Steepness: -1343191.5
+Step length: 64.00000000200947
+
+Iteration 800
+Objective: -1408597669572.0107
+Steepness: -1228579.8333333333
+Step length: 60.00000001498826
+
+Iteration 850
+Objective: -1429083341486.977
+Steepness: -1115035.2499999998
+Step length: 84.00000000242272
+
+Iteration 900
+Objective: -1450513396432.9521
+Steepness: -1039606.0
+Step length: 49.99999994591151
+
+Iteration 950
+Objective: -1470965675671.0645
+Steepness: -922808.3500000001
+Step length: 859.9999999368426
+
+Iteration 1000
+Objective: -1490995589587.9849
+Steepness: -809735.1363636362
+Step length: 241.99999987882103
+
+Iteration 1050
+Objective: -1505732668391.768
+Steepness: -679258.75
+Step length: 96.00000000033305
+
+Iteration 1100
+Objective: -1519168749063.1562
+Steepness: -569674.75
+Step length: 56.00000047460844
+
+Iteration 1150
+Objective: -1529352603042.7695
+Steepness: -488891.6666666666
+Step length: 155.9999997071408
+
+Iteration 1200
+Objective: -1539091271041.6318
+Steepness: -393827.64285714296
+Step length: 560.0000083666733
+
+Iteration 1250
+Objective: -1545707009848.838
+Steepness: -280247.35714285716
+Step length: 1007.9999996541737
+
+Iteration 1300
+Objective: -1550706805511.9678
+Steepness: -137806.9375
+Step length: 479.999999992762
+Total time for steepest-descent scheme: 46.09003758430481
+Final sdac objective value: -1552595672448.007
+Final steepness value: 0.0
+
+Solving circ_n50_05: variant 'sdac_rest'...
+Problem size: n = 4898,  m_A = 2499
+Problem size: n = 4898,  m_A = 2499
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Polyhedral model build time: 7.415062189102173
+
+Iteration 0
+Objective: -683680256679.0
+Steepness: -2946545.75
+Step length: 848.0
+
+Iteration 1
+Objective: -688282908215.0
+Steepness: -2935364.5
+Step length: 1568.0
+------ Entered Facet Restriction at step 13! ------
+++++++ Exited Facet Restriction at step 37! ++++++
+problem was built
+len c_new: 4898
+m: 2499
+T shape[1]: 4898
+Total time for steepest-descent scheme: 62.53886556625366
+Final sdac objective value: -1552595672448.0
+Final steepness value: 0.0
+
+Solving: circ_n50_06
+Working on problem 6 of 20
+[DEBUG inside circulation_mps_to_standard] new_c shape: (4896,), new_A shape: (2498, 4896)
+Known optimal value (minimization form): -1628795875875.0
+Standard form dimensions -> c: (4896,), A: (2498, 4896)
+Building polyhedron in standard form...
+Problem size: n = 4896,  m_A = 2498
+rank(A): 2497
+Finding feasible solution for polyhedron in standard form...
+problem was built
+  !! WARNING: recovery stopped early; active vars not all zero (max 6.25e+02).
+max |x_gurobi - x_start| = 6.250e+02
+
+Solving circ_n50_06: variant 'sdac'...
+Problem size: n = 4896,  m_A = 2498
+Problem size: n = 4896,  m_A = 2498
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Polyhedral model build time: 7.481245756149292
+
+Iteration 0
+Objective: -730429730236.0
+Steepness: -2943322.1
+Step length: 1230.0
+
+Iteration 1
+Objective: -732635825260.0
+Steepness: -2933636.9999999995
+Step length: 752.0000000000001
+
+Iteration 50
+Objective: -818734310540.0
+Steepness: -2800008.625
+Step length: 152.00000000000003
+
+Iteration 100
+Objective: -890708148969.0
+Steepness: -2679809.285714286
+Step length: 252.00000000000006
+
+Iteration 150
+Objective: -942750747478.0
+Steepness: -2590129.25
+Step length: 379.99999999999994
+
+Iteration 200
+Objective: -998841513218.0
+Steepness: -2495612.000000001
+Step length: 123.99999999999972
+
+Iteration 250
+Objective: -1053615058395.0
+Steepness: -2377829.3636363638
+Step length: 154.0000000000022
+
+Iteration 300
+Objective: -1110684367396.0
+Steepness: -2259871.25
+Step length: 224.00000000000313
+
+Iteration 350
+Objective: -1160900148234.0
+Steepness: -2172166.8571428573
+Step length: 658.0000000000065
+
+Iteration 400
+Objective: -1205449895342.0
+Steepness: -2065980.4
+Step length: 209.99999999998892
+
+Iteration 450
+Objective: -1249916083828.0
+Steepness: -1954868.3000000003
+Step length: 299.99999999999955
+
+Iteration 500
+Objective: -1293917369205.0
+Steepness: -1836730.5625
+Step length: 463.99999999999704
+
+Iteration 550
+Objective: -1331068821041.9995
+Steepness: -1727974.9999999998
+Step length: 1128.0000000000805
+
+Iteration 600
+Objective: -1371861654877.9995
+Steepness: -1622571.214285714
+Step length: 196.00000000004505
+
+Iteration 650
+Objective: -1405710307499.0002
+Steepness: -1513888.4374999998
+Step length: 207.99999999967775
+
+Iteration 700
+Objective: -1435966349016.0044
+Steepness: -1405684.25
+Step length: 1312.000000002458
+
+Iteration 750
+Objective: -1465612423678.998
+Steepness: -1299271.5
+Step length: 104.00000000217221
+
+Iteration 800
+Objective: -1492715202521.9946
+Steepness: -1200007.75
+Step length: 207.99999999945317
+
+Iteration 850
+Objective: -1520173123590.0005
+Steepness: -1062720.8333333335
+Step length: 678.0000000012874
+
+Iteration 900
+Objective: -1540434334200.9978
+Steepness: -965670.1
+Step length: 880.000000002043
+
+Iteration 950
+Objective: -1559240153328.9478
+Steepness: -833715.55
+Step length: 819.9999999708219
+
+Iteration 1000
+Objective: -1576849132155.0693
+Steepness: -727398.1250000001
+Step length: 319.99999999856794
+
+Iteration 1050
+Objective: -1590869429057.0051
+Steepness: -590269.875
+Step length: 120.00000000088687
+
+Iteration 1100
+Objective: -1601120050183.973
+Steepness: -500533.16666666674
+Step length: 443.9999999661514
+
+Iteration 1150
+Objective: -1611959032489.1572
+Steepness: -394055.9090909092
+Step length: 242.0000004728455
+
+Iteration 1200
+Objective: -1619511139015.9282
+Steepness: -293865.5
+Step length: 44.00000038308516
+
+Iteration 1250
+Objective: -1625443142505.921
+Steepness: -191299.625
+Step length: 1144.000000017337
+
+Iteration 1300
+Objective: -1628442139867.0151
+Steepness: -74227.33333333333
+Step length: 360.0000001405437
+Total time for steepest-descent scheme: 44.498424768447876
+Final sdac objective value: -1628795875874.9888
+Final steepness value: 0.0
+
+Solving circ_n50_06: variant 'sdac_rest'...
+Problem size: n = 4896,  m_A = 2498
+Problem size: n = 4896,  m_A = 2498
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Polyhedral model build time: 7.340780735015869
+
+Iteration 0
+Objective: -730429730236.0
+Steepness: -2943322.1
+Step length: 1230.0
+
+Iteration 1
+Objective: -732635825260.0
+Steepness: -2933636.9999999995
+Step length: 752.0000000000001
+------ Entered Facet Restriction at step 6! ------
+++++++ Exited Facet Restriction at step 30! ++++++
+problem was built
+len c_new: 4896
+m: 2498
+T shape[1]: 4896
+Total time for steepest-descent scheme: 62.77536416053772
+Final sdac objective value: -1628795875875.0
+Final steepness value: 0.0
+
+Solving: circ_n50_07
+Working on problem 7 of 20
+[DEBUG inside circulation_mps_to_standard] new_c shape: (4898,), new_A shape: (2499, 4898)
+Known optimal value (minimization form): -1491718995125.0
+Standard form dimensions -> c: (4898,), A: (2499, 4898)
+Building polyhedron in standard form...
+Problem size: n = 4898,  m_A = 2499
+rank(A): 2498
+Finding feasible solution for polyhedron in standard form...
+problem was built
+  !! WARNING: recovery stopped early; active vars not all zero (max 5.29e+02).
+max |x_gurobi - x_start| = 5.290e+02
+
+Solving circ_n50_07: variant 'sdac'...
+Problem size: n = 4898,  m_A = 2499
+Problem size: n = 4898,  m_A = 2499
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Polyhedral model build time: 7.483253479003906
+
+Iteration 0
+Objective: -661797574637.0
+Steepness: -2981153.7500000005
+Step length: 699.9999999999999
+
+Iteration 1
+Objective: -664809206917.0
+Steepness: -2918248.333333333
+Step length: 1032.0
+
+Iteration 50
+Objective: -742132953445.0
+Steepness: -2743803.625
+Step length: 648.0
+
+Iteration 100
+Objective: -802392948994.0
+Steepness: -2651532.75
+Step length: 672.000000000001
+
+Iteration 150
+Objective: -857325667315.0
+Steepness: -2535602.3571428573
+Step length: 168.00000000000773
+
+Iteration 200
+Objective: -918607227573.0
+Steepness: -2430827.9285714286
+Step length: 238.0000000000012
+
+Iteration 250
+Objective: -961838062688.0
+Steepness: -2315267.166666667
+Step length: 299.9999999999996
+
+Iteration 300
+Objective: -1005737202533.0
+Steepness: -2218030.25
+Step length: 239.99999999998275
+
+Iteration 350
+Objective: -1051301599637.9999
+Steepness: -2104995.333333333
+Step length: 1026.0
+
+Iteration 400
+Objective: -1093234051847.0
+Steepness: -2019676.7499999998
+Step length: 96.00000000010931
+
+Iteration 450
+Objective: -1130938775440.0
+Steepness: -1933259.5625
+Step length: 720.0000000000738
+
+Iteration 500
+Objective: -1168682819103.0
+Steepness: -1831227.4000000001
+Step length: 750.000000000023
+
+Iteration 550
+Objective: -1211274431791.0
+Steepness: -1713136.4375
+Step length: 143.99999999983424
+
+Iteration 600
+Objective: -1243848856104.9995
+Steepness: -1611324.25
+Step length: 220.00000000011522
+
+Iteration 650
+Objective: -1277182682136.998
+Steepness: -1516106.25
+Step length: 507.9999999999545
+
+Iteration 700
+Objective: -1313163401428.0005
+Steepness: -1410131.625
+Step length: 768.000000000217
+
+Iteration 750
+Objective: -1340763790655.007
+Steepness: -1281542.925
+Step length: 719.9999999984898
+
+Iteration 800
+Objective: -1364865164881.0
+Steepness: -1168560.625
+Step length: 192.00000000014802
+
+Iteration 850
+Objective: -1388438736911.012
+Steepness: -1078014.5833333333
+Step length: 48.00000001446847
+
+Iteration 900
+Objective: -1407629108747.0098
+Steepness: -961321.7222222222
+Step length: 17.999999975674115
+
+Iteration 950
+Objective: -1422876118442.0337
+Steepness: -844085.7222222222
+Step length: 215.99999999262184
+
+Iteration 1000
+Objective: -1438772471202.098
+Steepness: -732706.5
+Step length: 48.00000011337147
+
+Iteration 1050
+Objective: -1453603535395.9375
+Steepness: -645079.05
+Step length: 39.999999858669675
+
+Iteration 1100
+Objective: -1464614636431.851
+Steepness: -546583.0
+Step length: 67.99999997981593
+Degenerate step computed. Changing active facets...
+
+Iteration 1150
+Objective: -1474367860101.1917
+Steepness: -442147.0
+Step length: 232.0000000276043
+
+Iteration 1200
+Objective: -1482194301316.538
+Steepness: -334497.54166666674
+Step length: 1223.9999986476987
+
+Iteration 1250
+Objective: -1488345321388.0056
+Steepness: -213498.75
+Step length: 559.9999999971667
+
+Iteration 1300
+Objective: -1491651221041.9941
+Steepness: -64611.50000000001
+Step length: 119.99999955718594
+Total time for steepest-descent scheme: 44.20415759086609
+Final sdac objective value: -1491718995124.9893
+Final steepness value: 0.0
+
+Solving circ_n50_07: variant 'sdac_rest'...
+Problem size: n = 4898,  m_A = 2499
+Problem size: n = 4898,  m_A = 2499
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Polyhedral model build time: 7.254380226135254
+
+Iteration 0
+Objective: -661797574637.0
+Steepness: -2981153.7500000005
+Step length: 699.9999999999999
+
+Iteration 1
+Objective: -664809206917.0
+Steepness: -2918248.333333333
+Step length: 1032.0
+------ Entered Facet Restriction at step 8! ------
+++++++ Exited Facet Restriction at step 32! ++++++
+problem was built
+len c_new: 4898
+m: 2499
+T shape[1]: 4898
+Total time for steepest-descent scheme: 63.62957787513733
+Final sdac objective value: -1491718995125.0
+Final steepness value: 0.0
+
+Solving: circ_n50_08
+Working on problem 8 of 20
+[DEBUG inside circulation_mps_to_standard] new_c shape: (4900,), new_A shape: (2500, 4900)
+Known optimal value (minimization form): -1446105457889.0
+Standard form dimensions -> c: (4900,), A: (2500, 4900)
+Building polyhedron in standard form...
+Problem size: n = 4900,  m_A = 2500
+rank(A): 2499
+Finding feasible solution for polyhedron in standard form...
+problem was built
+  !! WARNING: recovery stopped early; active vars not all zero (max 5.11e+02).
+max |x_gurobi - x_start| = 5.110e+02
+
+Solving circ_n50_08: variant 'sdac'...
+Problem size: n = 4900,  m_A = 2500
+Problem size: n = 4900,  m_A = 2500
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Polyhedral model build time: 7.022048711776733
+
+Iteration 0
+Objective: -659491558752.0
+Steepness: -2951981.875
+Step length: 1120.0
+
+Iteration 1
+Objective: -662266746252.0
+Steepness: -2921250.0
+Step length: 950.0
+
+Iteration 50
+Objective: -742308764955.0
+Steepness: -2761070.75
+Step length: 491.99999999999994
+
+Iteration 100
+Objective: -805635334706.0
+Steepness: -2645131.1666666665
+Step length: 2111.999999999999
+
+Iteration 150
+Objective: -857110561432.0
+Steepness: -2539634.5000000005
+Step length: 110.00000000000063
+
+Iteration 200
+Objective: -901603572565.0
+Steepness: -2401915.0909090913
+Step length: 417.9999999999956
+
+Iteration 250
+Objective: -952145489016.0
+Steepness: -2290944.666666667
+Step length: 539.9999999999959
+
+Iteration 300
+Objective: -997400694867.0
+Steepness: -2188465.0
+Step length: 728.0000000000005
+
+Iteration 350
+Objective: -1048364653777.0
+Steepness: -2068817.3333333333
+Step length: 1044.0000000000007
+
+Iteration 400
+Objective: -1092910869467.0
+Steepness: -1952011.357142857
+Step length: 97.99999999997473
+
+Iteration 450
+Objective: -1129179197996.0
+Steepness: -1850606.75
+Step length: 284.0
+
+Iteration 500
+Objective: -1162191766570.0
+Steepness: -1744264.8333333333
+Step length: 47.99999999998073
+
+Iteration 550
+Objective: -1199048061735.0005
+Steepness: -1646620.1153846155
+Step length: 260.00000000012216
+
+Iteration 600
+Objective: -1227771256861.0015
+Steepness: -1547146.1470588236
+Step length: 34.000000000231864
+
+Iteration 650
+Objective: -1256284098172.0
+Steepness: -1402954.3
+Step length: 349.9999999997633
+
+Iteration 700
+Objective: -1288017834210.9995
+Steepness: -1279728.0625000002
+Step length: 1023.9999999997756
+
+Iteration 750
+Objective: -1313429248186.0022
+Steepness: -1193772.882352941
+Step length: 170.00000000374385
+
+Iteration 800
+Objective: -1335654141311.9995
+Steepness: -1083673.7499999998
+Step length: 159.99999999869914
+
+Iteration 850
+Objective: -1356006648800.9976
+Steepness: -997535.7857142859
+Step length: 447.9999999943122
+
+Iteration 900
+Objective: -1375078470431.9841
+Steepness: -882533.25
+Step length: 127.99999998734472
+
+Iteration 950
+Objective: -1389833163918.066
+Steepness: -744746.25
+Step length: 24.00000001717578
+
+Iteration 1000
+Objective: -1403767086539.0176
+Steepness: -644467.75
+Step length: 127.99999993711964
+
+Iteration 1050
+Objective: -1417727294896.9746
+Steepness: -556354.0833333333
+Step length: 1115.9999999371535
+
+Iteration 1100
+Objective: -1427339819236.9653
+Steepness: -474012.5
+Step length: 175.9999998702171
+
+Iteration 1150
+Objective: -1435137962402.5908
+Steepness: -347455.89285714284
+Step length: 224.00000152353746
+
+Iteration 1200
+Objective: -1441274339354.0
+Steepness: -233931.78125
+Step length: 351.9999972142009
+
+Iteration 1250
+Objective: -1445178589798.4502
+Steepness: -121423.75000000001
+Step length: 504.00000146416824
+Total time for steepest-descent scheme: 41.37446093559265
+Final sdac objective value: -1446105457888.999
+Final steepness value: 0.0
+
+Solving circ_n50_08: variant 'sdac_rest'...
+Problem size: n = 4900,  m_A = 2500
+Problem size: n = 4900,  m_A = 2500
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Polyhedral model build time: 7.280622959136963
+
+Iteration 0
+Objective: -659491558752.0
+Steepness: -2951981.875
+Step length: 1120.0
+
+Iteration 1
+Objective: -662266746252.0
+Steepness: -2921250.0
+Step length: 950.0
+------ Entered Facet Restriction at step 16! ------
+++++++ Exited Facet Restriction at step 47! ++++++
+problem was built
+len c_new: 4900
+m: 2500
+T shape[1]: 4900
+Total time for steepest-descent scheme: 58.09619498252869
+Final sdac objective value: -1446105457889.0
+Final steepness value: 0.0
+
+Solving: circ_n50_09
+Working on problem 9 of 20
+[DEBUG inside circulation_mps_to_standard] new_c shape: (4900,), new_A shape: (2500, 4900)
+Known optimal value (minimization form): -1504189503967.0
+Standard form dimensions -> c: (4900,), A: (2500, 4900)
+Building polyhedron in standard form...
+Problem size: n = 4900,  m_A = 2500
+rank(A): 2499
+Finding feasible solution for polyhedron in standard form...
+problem was built
+  !! WARNING: recovery stopped early; active vars not all zero (max 6.22e+02).
+max |x_gurobi - x_start| = 6.220e+02
+
+Solving circ_n50_09: variant 'sdac'...
+Problem size: n = 4900,  m_A = 2500
+Problem size: n = 4900,  m_A = 2500
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Polyhedral model build time: 6.790081739425659
+
+Iteration 0
+Objective: -668577125202.0
+Steepness: -2964697.875
+Step length: 1952.0
+
+Iteration 1
+Objective: -669190771338.0
+Steepness: -2950221.807692308
+Step length: 208.0
+
+Iteration 50
+Objective: -744386601565.0
+Steepness: -2772912.25
+Step length: 19.999999999999996
+
+Iteration 100
+Objective: -806065905611.0
+Steepness: -2659669.333333333
+Step length: 36.00000000000085
+
+Iteration 150
+Objective: -872340044115.0
+Steepness: -2525386.5000000005
+Step length: 240.00000000000006
+
+Iteration 200
+Objective: -924163052555.0
+Steepness: -2429134.692307693
+Step length: 857.9999999999992
+
+Iteration 250
+Objective: -967117880745.0
+Steepness: -2311531.8076923075
+Step length: 363.9999999999642
+
+Iteration 300
+Objective: -1027386800942.0
+Steepness: -2191617.875000001
+Step length: 432.0000000000027
+
+Iteration 350
+Objective: -1065537890701.0
+Steepness: -2101087.0500000003
+Step length: 320.0
+
+Iteration 400
+Objective: -1109770659296.0
+Steepness: -2004426.75
+Step length: 416.0000000000182
+
+Iteration 450
+Objective: -1144544461321.9995
+Steepness: -1889935.8125
+Step length: 703.9999999998465
+
+Iteration 500
+Objective: -1188393428089.0
+Steepness: -1774328.9090909092
+Step length: 440.0000000000713
+
+Iteration 550
+Objective: -1224956495162.9985
+Steepness: -1669678.166666667
+Step length: 342.0000000000848
+
+Iteration 600
+Objective: -1257265527504.9976
+Steepness: -1570502.6363636365
+Step length: 263.9999999999885
+
+Iteration 650
+Objective: -1293595678748.9958
+Steepness: -1486565.833333333
+Step length: 1368.0
+
+Iteration 700
+Objective: -1320464790426.9995
+Steepness: -1386402.25
+Step length: 1199.999999998952
+
+Iteration 750
+Objective: -1346847613554.0015
+Steepness: -1273236.590909091
+Step length: 88.00000000007097
+
+Iteration 800
+Objective: -1371729328591.001
+Steepness: -1160129.6999999997
+Step length: 250.00000000184417
+
+Iteration 850
+Objective: -1396698761610.9932
+Steepness: -1051913.375
+Step length: 656.0000000012988
+
+Iteration 900
+Objective: -1416917898010.0195
+Steepness: -920182.9444444444
+Step length: 341.99999999964956
+
+Iteration 950
+Objective: -1438138880412.014
+Steepness: -814883.8333333333
+Step length: 935.9999999495292
+
+Iteration 1000
+Objective: -1450922282701.0022
+Steepness: -696975.9166666667
+Step length: 23.999999970675617
+
+Iteration 1050
+Objective: -1467111746513.0823
+Steepness: -621243.625
+Step length: 40.00000003803842
+
+Iteration 1100
+Objective: -1478775834426.8953
+Steepness: -518122.74999999994
+Step length: 459.99999994236316
+
+Iteration 1150
+Objective: -1488304223884.0962
+Steepness: -399256.9375
+Step length: 1200.0000014686398
+
+Iteration 1200
+Objective: -1495524782458.2473
+Steepness: -300649.0
+Step length: 329.9999987464458
+
+Iteration 1250
+Objective: -1500258437808.025
+Steepness: -198355.5
+Step length: 167.99999979870074
+
+Iteration 1300
+Objective: -1503784316392.8286
+Steepness: -89393.59999999999
+Step length: 479.9999966030085
+Total time for steepest-descent scheme: 41.05386924743652
+Final sdac objective value: -1504189503966.9854
+Final steepness value: 0.0
+
+Solving circ_n50_09: variant 'sdac_rest'...
+Problem size: n = 4900,  m_A = 2500
+Problem size: n = 4900,  m_A = 2500
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Polyhedral model build time: 7.173537254333496
+
+Iteration 0
+Objective: -668577125202.0
+Steepness: -2964697.875
+Step length: 1952.0
+
+Iteration 1
+Objective: -669190771338.0
+Steepness: -2950221.807692308
+Step length: 208.0
+------ Entered Facet Restriction at step 10! ------
+++++++ Exited Facet Restriction at step 38! ++++++
+problem was built
+len c_new: 4900
+m: 2500
+T shape[1]: 4900
+Total time for steepest-descent scheme: 57.794047117233276
+Final sdac objective value: -1504189503967.0
+Final steepness value: 0.0
+
+Solving: circ_n50_10
+Working on problem 10 of 20
+[DEBUG inside circulation_mps_to_standard] new_c shape: (4898,), new_A shape: (2499, 4898)
+Known optimal value (minimization form): -1460294570909.0
+Standard form dimensions -> c: (4898,), A: (2499, 4898)
+Building polyhedron in standard form...
+Problem size: n = 4898,  m_A = 2499
+rank(A): 2498
+Finding feasible solution for polyhedron in standard form...
+problem was built
+  !! WARNING: recovery stopped early; active vars not all zero (max 5.59e+02).
+max |x_gurobi - x_start| = 5.590e+02
+
+Solving circ_n50_10: variant 'sdac'...
+Problem size: n = 4898,  m_A = 2499
+Problem size: n = 4898,  m_A = 2499
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Polyhedral model build time: 6.724523305892944
+
+Iteration 0
+Objective: -657744816678.0
+Steepness: -2919293.9000000004
+Step length: 1680.0
+
+Iteration 1
+Objective: -659457058818.0
+Steepness: -2911976.428571428
+Step length: 588.0
+
+Iteration 50
+Objective: -731933042936.0
+Steepness: -2805413.0
+Step length: 900.0000000000003
+
+Iteration 100
+Objective: -798188706283.0
+Steepness: -2684446.9
+Step length: 1049.9999999999998
+
+Iteration 150
+Objective: -846831024629.0
+Steepness: -2573733.5
+Step length: 23.99999999999983
+
+Iteration 200
+Objective: -899521082869.0
+Steepness: -2443986.25
+Step length: 479.9999999999983
+
+Iteration 250
+Objective: -947748840354.0
+Steepness: -2348941.3888888885
+Step length: 666.0000000000101
+
+Iteration 300
+Objective: -988573417949.0
+Steepness: -2209667.0
+Step length: 132.00000000000009
+
+Iteration 350
+Objective: -1027428722952.0
+Steepness: -2119061.55
+Step length: 320.00000000000364
+
+Iteration 400
+Objective: -1063917715973.0
+Steepness: -2046455.625
+Step length: 672.0000000000069
+
+Iteration 450
+Objective: -1103814830289.0002
+Steepness: -1939359.625
+Step length: 624.0000000001123
+
+Iteration 500
+Objective: -1141728602480.0015
+Steepness: -1835821.4000000001
+Step length: 500.0000000000753
+
+Iteration 550
+Objective: -1180513370303.999
+Steepness: -1751257.3125
+Step length: 48.000000000574346
+
+Iteration 600
+Objective: -1213483816052.0005
+Steepness: -1636754.1875
+Step length: 208.00000000013483
+
+Iteration 650
+Objective: -1244565060475.0044
+Steepness: -1547701.1363636365
+Step length: 571.9999999983447
+
+Iteration 700
+Objective: -1271450741986.9976
+Steepness: -1448049.0714285714
+Step length: 13.99999999995505
+
+Iteration 750
+Objective: -1299549873514.001
+Steepness: -1334376.1666666665
+Step length: 383.9999999994243
+
+Iteration 800
+Objective: -1327228715848.0005
+Steepness: -1204957.8636363638
+Step length: 110.00000000334398
+
+Iteration 850
+Objective: -1348563432033.0063
+Steepness: -1101245.7500000002
+Step length: 251.99999999985027
+
+Iteration 900
+Objective: -1369729161317.0242
+Steepness: -986618.4444444443
+Step length: 18.000000035527805
+
+Iteration 950
+Objective: -1392642393347.0068
+Steepness: -887010.6
+Step length: 1000.0000000094019
+
+Iteration 1000
+Objective: -1409974533845.997
+Steepness: -797609.4375
+Step length: 207.99999991371013
+
+Iteration 1050
+Objective: -1423276010653.898
+Steepness: -700056.6666666666
+Step length: 71.99999982871992
+
+Iteration 1100
+Objective: -1434237863693.0488
+Steepness: -575287.3333333334
+Step length: 179.9999998441598
+
+Iteration 1150
+Objective: -1443301640812.847
+Steepness: -475562.3076923077
+Step length: 103.9999998420833
+
+Iteration 1200
+Objective: -1452225398176.897
+Steepness: -356531.30000000005
+Step length: 500.0000003358017
+
+Iteration 1250
+Objective: -1456871541719.8809
+Steepness: -221639.25
+Step length: 48.00000073630741
+
+Iteration 1300
+Objective: -1459945123196.9482
+Steepness: -85739.10714285714
+Step length: 784.0000000000023
+Total time for steepest-descent scheme: 40.258413314819336
+Final sdac objective value: -1460294570908.999
+Final steepness value: 0.0
+
+Solving circ_n50_10: variant 'sdac_rest'...
+Problem size: n = 4898,  m_A = 2499
+Problem size: n = 4898,  m_A = 2499
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Polyhedral model build time: 6.776723623275757
+
+Iteration 0
+Objective: -657744816678.0
+Steepness: -2919293.9000000004
+Step length: 1680.0
+
+Iteration 1
+Objective: -659457058818.0
+Steepness: -2911976.428571428
+Step length: 588.0
+------ Entered Facet Restriction at step 5! ------
+++++++ Exited Facet Restriction at step 33! ++++++
+problem was built
+len c_new: 4898
+m: 2499
+T shape[1]: 4898
+Total time for steepest-descent scheme: 63.66363549232483
+Final sdac objective value: -1460294570909.0
+Final steepness value: 0.0
+
+Solving: circ_n100_01
+Working on problem 11 of 20
+[DEBUG inside circulation_mps_to_standard] new_c shape: (19440,), new_A shape: (9820, 19440)
+Known optimal value (minimization form): -48078682508310.0
+Standard form dimensions -> c: (19440,), A: (9820, 19440)
+Building polyhedron in standard form...
+Problem size: n = 19440,  m_A = 9820
+rank(A): 9819
+Finding feasible solution for polyhedron in standard form...
+problem was built
+Traceback (most recent call last):
+  File "C:\Users\DillW\Documents\refined polyhedral model\refined_circ_runs.py", line 447, in <module>
+    rec = recover_start_vertex(x_gurobi, P)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DillW\Documents\refined polyhedral model\refined_circ_runs.py", line 285, in recover_start_vertex
+    raise RuntimeError(f'Recovered vertex is not feasible (max residual {resid:.2e}).')
+RuntimeError: Recovered vertex is not feasible (max residual 4.43e+02).

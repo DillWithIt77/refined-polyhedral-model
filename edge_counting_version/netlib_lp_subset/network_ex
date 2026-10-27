@@ -1,0 +1,35 @@
+NAME          NETWORK
+ROWS
+ N  COST
+ E  FLOW1
+ E  FLOW2
+ E  FLOW3
+ E  FLOW4
+COLUMNS
+    X12        COST         1
+    X12        FLOW1        1
+    X12        FLOW2       -1
+    X13        COST         2
+    X13        FLOW1        1
+    X13        FLOW3       -1
+    X23        COST         1
+    X23        FLOW2        1
+    X23        FLOW3       -1
+    X24        COST         3
+    X24        FLOW2        1
+    X24        FLOW4       -1
+    X34        COST         3
+    X34        FLOW3        1
+    X34        FLOW4       -1
+RHS
+    RHS1       FLOW1        5
+    RHS1       FLOW2        0
+    RHS1       FLOW3        0
+    RHS1       FLOW4       -5
+BOUNDS
+ UP BOUND     X12           5
+ UP BOUND     X13           5
+ UP BOUND     X23           5
+ UP BOUND     X24           5
+ UP BOUND     X34           5
+ENDATA

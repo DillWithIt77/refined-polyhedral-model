@@ -1,0 +1,1831 @@
+
+Solving: adlittle
+Working on problem 1 of 30
+[DEBUG inside mps_to_standard] new_c shape: (332,), new_A shape: (153, 332)
+Standard form dimensions -> c: (332,), A: (153, 332)
+Building polyhedron in standard form...
+Problem size: n = 332,  m_A = 153
+rank(A): 153
+Finding feasible solution for polyhedron in standard form...
+Set parameter Username
+Set parameter LicenseID to value 2851667
+Academic license - for non-commercial use only - expires 2027-08-05
+problem was built
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 2.1e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 1.2e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 2.4e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 9.4e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 1.9e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 2.7e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 2.5e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 3.2e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 7.8e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 3.6e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 7.3e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 6.0e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 9.9e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+max |x_gurobi - x_start| = 1.381e-11
+Problem size: n = 332,  m_A = 153
+[DEBUG] callback_log last entry keys: ['x', 'basis', 'T']
+[DEBUG] last_basis is None? False, tableau is None? False
+len c_new: 332
+m: 153
+T shape[1]: 332
+  -> first Phase II iteration
+  -> degenerate iteration
+  -> non-degenerate edge step (change in obj = -9.594e+03), stopping
+[DEBUG] Warmstart caught StopWhenFeasible with len(info_list) = 3
+length of x1: 332
+length of x_feasible: 332
+[DEBUG] info1 basis is None? False
+[DEBUG] info2 basis is None? False
+
+Solving with simplex method (Gurobi)...
+Model Status: 2
+
+Final objective value for simplex: 225494.96316238024
+
+Solving with scipy simplex...
+len c_new: 332
+m: 153
+T shape[1]: 332
+Iter    0 | Phase 2 | Dummy obj = 683218.509108 | Original obj = 683218.509108
+Iter    1 | Phase 2 | Dummy obj = 683218.509108 | Original obj = 683218.509108
+Iter    2 | Phase 2 | Dummy obj = 673624.820989 | Original obj = 673624.820989
+Iter    3 | Phase 2 | Dummy obj = 655723.765977 | Original obj = 655723.765977
+Iter    4 | Phase 2 | Dummy obj = 655723.765977 | Original obj = 655723.765977
+Iter    5 | Phase 2 | Dummy obj = 653538.188008 | Original obj = 653538.188008
+Iter    6 | Phase 2 | Dummy obj = 653538.188008 | Original obj = 653538.188008
+Iter    7 | Phase 2 | Dummy obj = 615696.433935 | Original obj = 615696.433935
+Iter    8 | Phase 2 | Dummy obj = 615696.433935 | Original obj = 615696.433935
+Iter    9 | Phase 2 | Dummy obj = 615696.433935 | Original obj = 615696.433935
+Iter   10 | Phase 2 | Dummy obj = 615696.433935 | Original obj = 615696.433935
+Iter   11 | Phase 2 | Dummy obj = 615696.433935 | Original obj = 615696.433935
+Iter   12 | Phase 2 | Dummy obj = 615696.433935 | Original obj = 615696.433935
+Iter   13 | Phase 2 | Dummy obj = 615696.433935 | Original obj = 615696.433935
+Iter   14 | Phase 2 | Dummy obj = 612978.511688 | Original obj = 612978.511688
+Iter   15 | Phase 2 | Dummy obj = 612978.511688 | Original obj = 612978.511688
+Iter   16 | Phase 2 | Dummy obj = 611992.951045 | Original obj = 611992.951045
+Iter   17 | Phase 2 | Dummy obj = 611992.951045 | Original obj = 611992.951045
+Iter   18 | Phase 2 | Dummy obj = 610860.277130 | Original obj = 610860.277130
+Iter   19 | Phase 2 | Dummy obj = 599259.448477 | Original obj = 599259.448477
+Iter   20 | Phase 2 | Dummy obj = 586114.499509 | Original obj = 586114.499509
+Iter   21 | Phase 2 | Dummy obj = 586114.499509 | Original obj = 586114.499509
+Iter   22 | Phase 2 | Dummy obj = 583929.143585 | Original obj = 583929.143585
+Iter   23 | Phase 2 | Dummy obj = 583929.143585 | Original obj = 583929.143585
+Iter   24 | Phase 2 | Dummy obj = 583929.143585 | Original obj = 583929.143585
+Iter   25 | Phase 2 | Dummy obj = 583929.143585 | Original obj = 583929.143585
+Iter   26 | Phase 2 | Dummy obj = 580258.612216 | Original obj = 580258.612216
+Iter   27 | Phase 2 | Dummy obj = 580258.612216 | Original obj = 580258.612216
+Iter   28 | Phase 2 | Dummy obj = 580258.612216 | Original obj = 580258.612216
+Iter   29 | Phase 2 | Dummy obj = 580258.612216 | Original obj = 580258.612216
+Iter   30 | Phase 2 | Dummy obj = 574681.724577 | Original obj = 574681.724577
+Iter   31 | Phase 2 | Dummy obj = 574681.724577 | Original obj = 574681.724577
+Iter   32 | Phase 2 | Dummy obj = 573369.105058 | Original obj = 573369.105058
+Iter   33 | Phase 2 | Dummy obj = 573369.105058 | Original obj = 573369.105058
+Iter   34 | Phase 2 | Dummy obj = 573369.105058 | Original obj = 573369.105058
+Iter   35 | Phase 2 | Dummy obj = 573369.105058 | Original obj = 573369.105058
+Iter   36 | Phase 2 | Dummy obj = 572766.345948 | Original obj = 572766.345948
+Iter   37 | Phase 2 | Dummy obj = 572766.345948 | Original obj = 572766.345948
+Iter   38 | Phase 2 | Dummy obj = 572766.345948 | Original obj = 572766.345948
+Iter   39 | Phase 2 | Dummy obj = 563697.596420 | Original obj = 563697.596420
+Iter   40 | Phase 2 | Dummy obj = 562179.063954 | Original obj = 562179.063954
+sys:1: OptimizeWarning: The pivot operation produces a pivot value of: 4.9e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+Iter   41 | Phase 2 | Dummy obj = 560208.978623 | Original obj = 560208.978623
+Iter   42 | Phase 2 | Dummy obj = 542098.430618 | Original obj = 542098.430618
+Iter   43 | Phase 2 | Dummy obj = 538299.112800 | Original obj = 538299.112800
+Iter   44 | Phase 2 | Dummy obj = 537223.277933 | Original obj = 537223.277933
+Iter   45 | Phase 2 | Dummy obj = 537223.277933 | Original obj = 537223.277933
+Iter   46 | Phase 2 | Dummy obj = 531976.766462 | Original obj = 531976.766462
+Iter   47 | Phase 2 | Dummy obj = 531976.766462 | Original obj = 531976.766462
+Iter   48 | Phase 2 | Dummy obj = 531234.194017 | Original obj = 531234.194017
+Iter   49 | Phase 2 | Dummy obj = 526974.308089 | Original obj = 526974.308089
+Iter   50 | Phase 2 | Dummy obj = 526974.308089 | Original obj = 526974.308089
+Iter   51 | Phase 2 | Dummy obj = 526946.589197 | Original obj = 526946.589197
+Iter   52 | Phase 2 | Dummy obj = 526946.589197 | Original obj = 526946.589197
+Iter   53 | Phase 2 | Dummy obj = 526946.589197 | Original obj = 526946.589197
+Iter   54 | Phase 2 | Dummy obj = 526700.150712 | Original obj = 526700.150712
+Iter   55 | Phase 2 | Dummy obj = 526700.150712 | Original obj = 526700.150712
+Iter   56 | Phase 2 | Dummy obj = 526427.249426 | Original obj = 526427.249426
+Iter   57 | Phase 2 | Dummy obj = 526048.629810 | Original obj = 526048.629810
+Iter   58 | Phase 2 | Dummy obj = 526048.629810 | Original obj = 526048.629810
+Iter   59 | Phase 2 | Dummy obj = 526048.629810 | Original obj = 526048.629810
+Iter   60 | Phase 2 | Dummy obj = 526048.629810 | Original obj = 526048.629810
+sys:1: OptimizeWarning: The pivot operation produces a pivot value of: 1.4e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+Iter   61 | Phase 2 | Dummy obj = 509945.116001 | Original obj = 509945.116001
+Iter   62 | Phase 2 | Dummy obj = 509945.116001 | Original obj = 509945.116001
+Iter   63 | Phase 2 | Dummy obj = 467015.340848 | Original obj = 467015.340848
+Iter   64 | Phase 2 | Dummy obj = 467015.340848 | Original obj = 467015.340848
+Iter   65 | Phase 2 | Dummy obj = 434235.688879 | Original obj = 434235.688879
+Iter   66 | Phase 2 | Dummy obj = 434235.688879 | Original obj = 434235.688879
+Iter   67 | Phase 2 | Dummy obj = 430628.929505 | Original obj = 430628.929505
+Iter   68 | Phase 2 | Dummy obj = 430313.187873 | Original obj = 430313.187873
+Iter   69 | Phase 2 | Dummy obj = 430313.187873 | Original obj = 430313.187873
+Iter   70 | Phase 2 | Dummy obj = 430313.187873 | Original obj = 430313.187873
+Iter   71 | Phase 2 | Dummy obj = 430313.187873 | Original obj = 430313.187873
+sys:1: OptimizeWarning: The pivot operation produces a pivot value of: 6.4e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+Iter   72 | Phase 2 | Dummy obj = 424481.600206 | Original obj = 424481.600206
+Iter   73 | Phase 2 | Dummy obj = 424481.600206 | Original obj = 424481.600206
+Iter   74 | Phase 2 | Dummy obj = 362414.904394 | Original obj = 362414.904394
+Iter   75 | Phase 2 | Dummy obj = 347306.175138 | Original obj = 347306.175138
+Iter   76 | Phase 2 | Dummy obj = 347306.175138 | Original obj = 347306.175138
+Iter   77 | Phase 2 | Dummy obj = 344489.393653 | Original obj = 344489.393653
+Iter   78 | Phase 2 | Dummy obj = 324237.809515 | Original obj = 324237.809515
+Iter   79 | Phase 2 | Dummy obj = 324237.809515 | Original obj = 324237.809515
+Iter   80 | Phase 2 | Dummy obj = 306793.100282 | Original obj = 306793.100282
+Iter   81 | Phase 2 | Dummy obj = 306793.100282 | Original obj = 306793.100282
+Iter   82 | Phase 2 | Dummy obj = 304422.439392 | Original obj = 304422.439392
+Iter   83 | Phase 2 | Dummy obj = 304422.439392 | Original obj = 304422.439392
+Iter   84 | Phase 2 | Dummy obj = 303397.136036 | Original obj = 303397.136036
+Iter   85 | Phase 2 | Dummy obj = 303397.136036 | Original obj = 303397.136036
+Iter   86 | Phase 2 | Dummy obj = 303397.136036 | Original obj = 303397.136036
+Iter   87 | Phase 2 | Dummy obj = 298353.732693 | Original obj = 298353.732693
+Iter   88 | Phase 2 | Dummy obj = 291706.087621 | Original obj = 291706.087621
+Iter   89 | Phase 2 | Dummy obj = 291706.087621 | Original obj = 291706.087621
+Iter   90 | Phase 2 | Dummy obj = 291706.087621 | Original obj = 291706.087621
+Iter   91 | Phase 2 | Dummy obj = 281916.525349 | Original obj = 281916.525349
+Iter   92 | Phase 2 | Dummy obj = 277246.228803 | Original obj = 277246.228803
+Iter   93 | Phase 2 | Dummy obj = 277246.228803 | Original obj = 277246.228803
+Iter   94 | Phase 2 | Dummy obj = 277246.228803 | Original obj = 277246.228803
+Iter   95 | Phase 2 | Dummy obj = 274084.794985 | Original obj = 274084.794985
+Iter   96 | Phase 2 | Dummy obj = 263324.689673 | Original obj = 263324.689673
+Iter   97 | Phase 2 | Dummy obj = 263324.689673 | Original obj = 263324.689673
+Iter   98 | Phase 2 | Dummy obj = 263324.689673 | Original obj = 263324.689673
+Iter   99 | Phase 2 | Dummy obj = 251384.793441 | Original obj = 251384.793441
+Iter  100 | Phase 2 | Dummy obj = 251384.793441 | Original obj = 251384.793441
+Iter  101 | Phase 2 | Dummy obj = 250645.026269 | Original obj = 250645.026269
+Iter  102 | Phase 2 | Dummy obj = 250642.288567 | Original obj = 250642.288567
+sys:1: OptimizeWarning: The pivot operation produces a pivot value of: 1.5e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+Iter  103 | Phase 2 | Dummy obj = 250621.154448 | Original obj = 250621.154448
+Iter  104 | Phase 2 | Dummy obj = 246489.835108 | Original obj = 246489.835108
+Iter  105 | Phase 2 | Dummy obj = 246489.835108 | Original obj = 246489.835108
+Iter  106 | Phase 2 | Dummy obj = 245511.933351 | Original obj = 245511.933351
+Iter  107 | Phase 2 | Dummy obj = 245511.933351 | Original obj = 245511.933351
+Iter  108 | Phase 2 | Dummy obj = 243233.847093 | Original obj = 243233.847093
+Iter  109 | Phase 2 | Dummy obj = 243233.847093 | Original obj = 243233.847093
+Iter  110 | Phase 2 | Dummy obj = 241547.624101 | Original obj = 241547.624101
+Iter  111 | Phase 2 | Dummy obj = 241547.624101 | Original obj = 241547.624101
+Iter  112 | Phase 2 | Dummy obj = 241547.624101 | Original obj = 241547.624101
+Iter  113 | Phase 2 | Dummy obj = 241547.624101 | Original obj = 241547.624101
+Iter  114 | Phase 2 | Dummy obj = 239004.341176 | Original obj = 239004.341176
+Iter  115 | Phase 2 | Dummy obj = 234959.316393 | Original obj = 234959.316393
+Iter  116 | Phase 2 | Dummy obj = 234489.645608 | Original obj = 234489.645608
+Iter  117 | Phase 2 | Dummy obj = 234107.445608 | Original obj = 234107.445608
+Iter  118 | Phase 2 | Dummy obj = 234107.445608 | Original obj = 234107.445608
+Iter  119 | Phase 2 | Dummy obj = 234005.120282 | Original obj = 234005.120282
+Iter  120 | Phase 2 | Dummy obj = 234005.120282 | Original obj = 234005.120282
+Iter  121 | Phase 2 | Dummy obj = 234005.120282 | Original obj = 234005.120282
+Iter  122 | Phase 2 | Dummy obj = 233250.916837 | Original obj = 233250.916837
+sys:1: OptimizeWarning: The pivot operation produces a pivot value of: 5.4e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+Iter  123 | Phase 2 | Dummy obj = 230813.588861 | Original obj = 230813.588861
+Iter  124 | Phase 2 | Dummy obj = 230813.588861 | Original obj = 230813.588861
+Iter  125 | Phase 2 | Dummy obj = 230151.785866 | Original obj = 230151.785866
+Iter  126 | Phase 2 | Dummy obj = 230151.785866 | Original obj = 230151.785866
+Iter  127 | Phase 2 | Dummy obj = 230151.785866 | Original obj = 230151.785866
+Iter  128 | Phase 2 | Dummy obj = 230079.532854 | Original obj = 230079.532854
+Iter  129 | Phase 2 | Dummy obj = 230079.532854 | Original obj = 230079.532854
+Iter  130 | Phase 2 | Dummy obj = 230043.717535 | Original obj = 230043.717535
+Iter  131 | Phase 2 | Dummy obj = 230043.717535 | Original obj = 230043.717535
+Iter  132 | Phase 2 | Dummy obj = 229485.525748 | Original obj = 229485.525748
+Iter  133 | Phase 2 | Dummy obj = 229485.525748 | Original obj = 229485.525748
+Iter  134 | Phase 2 | Dummy obj = 229204.849886 | Original obj = 229204.849886
+Iter  135 | Phase 2 | Dummy obj = 229204.849886 | Original obj = 229204.849886
+Iter  136 | Phase 2 | Dummy obj = 228524.715238 | Original obj = 228524.715238
+Iter  137 | Phase 2 | Dummy obj = 228524.715238 | Original obj = 228524.715238
+Iter  138 | Phase 2 | Dummy obj = 228506.586139 | Original obj = 228506.586139
+Iter  139 | Phase 2 | Dummy obj = 228503.944175 | Original obj = 228503.944175
+Iter  140 | Phase 2 | Dummy obj = 228503.944175 | Original obj = 228503.944175
+Iter  141 | Phase 2 | Dummy obj = 228466.737205 | Original obj = 228466.737205
+Iter  142 | Phase 2 | Dummy obj = 228016.499562 | Original obj = 228016.499562
+Iter  143 | Phase 2 | Dummy obj = 228016.499562 | Original obj = 228016.499562
+Iter  144 | Phase 2 | Dummy obj = 227331.008420 | Original obj = 227331.008420
+Iter  145 | Phase 2 | Dummy obj = 227331.008420 | Original obj = 227331.008420
+Iter  146 | Phase 2 | Dummy obj = 227331.008420 | Original obj = 227331.008420
+Iter  147 | Phase 2 | Dummy obj = 227180.051545 | Original obj = 227180.051545
+Iter  148 | Phase 2 | Dummy obj = 227180.051545 | Original obj = 227180.051545
+Iter  149 | Phase 2 | Dummy obj = 227180.051545 | Original obj = 227180.051545
+Iter  150 | Phase 2 | Dummy obj = 225853.650427 | Original obj = 225853.650427
+Iter  151 | Phase 2 | Dummy obj = 225853.650427 | Original obj = 225853.650427
+Iter  152 | Phase 2 | Dummy obj = 225737.902989 | Original obj = 225737.902989
+Iter  153 | Phase 2 | Dummy obj = 225737.902989 | Original obj = 225737.902989
+Iter  154 | Phase 2 | Dummy obj = 225737.902989 | Original obj = 225737.902989
+sys:1: OptimizeWarning: The pivot operation produces a pivot value of: 4.1e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+Iter  155 | Phase 2 | Dummy obj = 225693.185347 | Original obj = 225693.185347
+Iter  156 | Phase 2 | Dummy obj = 225531.417194 | Original obj = 225531.417194
+Iter  157 | Phase 2 | Dummy obj = 225531.417194 | Original obj = 225531.417194
+Iter  158 | Phase 2 | Dummy obj = 225531.417194 | Original obj = 225531.417194
+Iter  159 | Phase 2 | Dummy obj = 225531.417194 | Original obj = 225531.417194
+Iter  160 | Phase 2 | Dummy obj = 225529.737662 | Original obj = 225529.737662
+Iter  161 | Phase 2 | Dummy obj = 225529.737662 | Original obj = 225529.737662
+Iter  162 | Phase 2 | Dummy obj = 225522.705854 | Original obj = 225522.705854
+Iter  163 | Phase 2 | Dummy obj = 225498.324261 | Original obj = 225498.324261
+Iter  164 | Phase 2 | Dummy obj = 225498.324261 | Original obj = 225498.324261
+Iter  165 | Phase 2 | Dummy obj = 225498.324261 | Original obj = 225498.324261
+Iter  166 | Phase 2 | Dummy obj = 225494.963162 | Original obj = 225494.963162
+Iter  167 | Phase 2 | Dummy obj = 225494.963162 | Original obj = 225494.963162
+Iter  168 | Phase 2 | Dummy obj = 225494.963162 | Original obj = 225494.963162
+Iter  169 | Phase 2 | Dummy obj = 225494.963162 | Original obj = 225494.963162
+Edge steps: 81
+Occurred at iterations: [2, 3, 5, 7, 14, 16, 18, 19, 20, 22, 26, 30, 32, 36, 39, 40, 41, 42, 43, 44, 46, 48, 49, 51, 54, 56, 57, 61, 63, 65, 67, 68, 72, 74, 75, 77, 78, 80, 82, 84, 87, 88, 91, 92, 95, 96, 99, 101, 102, 103, 104, 106, 108, 110, 114, 115, 116, 117, 119, 122, 123, 125, 128, 130, 132, 134, 136, 138, 139, 141, 142, 144, 147, 150, 152, 155, 156, 160, 162, 163, 166]
+Optimal objective after scipy simplex is: 225494.96316238947
+
+Solving adlittle: variant 'sdac'...
+Problem size: n = 332,  m_A = 153
+Problem size: n = 332,  m_A = 153
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Polyhedral model build time: 0.04710054397583008
+
+Iteration 0
+Objective: 681909.1677743215
+Steepness: -715.245917888956
+Step length: 1.8306169960281053
+
+Iteration 1
+Objective: 681877.1228153366
+Steepness: -460.41412911084035
+Step length: 0.06960029451518918
+
+Iteration 50
+Objective: 226287.2402609819
+Steepness: -0.9660916761178309
+Step length: 105.1435165290406
+Total time for steepest-descent scheme: 0.15993046760559082
+Final sdac objective value: 225494.96316238513
+Final steepness value: 0.0
+
+Solving adlittle: variant 'sdac_rest'...
+Problem size: n = 332,  m_A = 153
+Problem size: n = 332,  m_A = 153
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Polyhedral model build time: 0.04664325714111328
+
+Iteration 0
+Objective: 681909.1677743215
+Steepness: -715.245917888956
+Step length: 1.8306169960281053
+
+Iteration 1
+Objective: 681877.1228153366
+Steepness: -460.41412911084035
+Step length: 0.06960029451518918
+------ Entered Facet Restriction! ------
+++++++ Exited Facet Restriction! ++++++
+problem was built
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 2.1e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 1.2e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 2.4e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 9.4e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 1.9e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 2.7e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 2.5e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 3.2e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 7.8e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 3.6e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 7.3e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 6.0e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 9.9e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+len c_new: 332
+m: 153
+T shape[1]: 332
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 7.7e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 1.7e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 8.1e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 6.5e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 2.2e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 6.3e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+Total time for steepest-descent scheme: 0.40025973320007324
+Final sdac objective value: 225494.96316238656
+Final steepness value: 0.0
+
+Solving adlittle: variant 'sdac_triv'...
+basis1 length: 153
+Problem size: n = 332,  m_A = 153
+Problem size: n = 332,  m_A = 153
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Using trivial warm start
+Polyhedral model build time: 0.05168271064758301
+
+Iteration 0
+Objective: 681909.1677743216
+Steepness: -715.245917888956
+Step length: 1.8306169960281053
+
+Iteration 1
+Objective: 681877.1228153366
+Steepness: -460.41412911084035
+Step length: 0.06960029451518918
+
+Iteration 50
+Objective: 226287.24026098163
+Steepness: -0.9660916761178271
+Step length: 105.14351652903446
+Total time for steepest-descent scheme: 0.15353631973266602
+Final sdac objective value: 225494.96316238504
+Final steepness value: 0.0
+
+Solving adlittle: variant 'sdac_edge'...
+Problem size: n = 332,  m_A = 153
+Problem size: n = 332,  m_A = 153
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Using edge warm start
+x1==x2: False basis1 len: 153 basis2 len: 153 basis1: [ 95  50  81 199  53 309 282   6  73  45 210   8 232  72  70 228 280 196
+ 234 198  64 200 201 202 203 204 285 206 207  71 213 225 211  96 194 214
+ 215 216  10 218 219 302 208 261 223 224 217 226 300 100 229  93  75 291
+ 233 221  97  98  99  74 239  83 101 102 243  38 269 209 247 248 249 250
+ 251 252 253 254 255 256 257 117 259 260  40 262 263 123 124  85 267 323
+  52  23 271 272 131 274 275 276 277 179 279  51 281  31 283 284 144 286
+ 287 288 289  28 145 146 293 294  39 296  46  61 151 157 185  87 152 153
+ 154 155 156   7  89 159 160 312 162 163 164  90 317 166 319 320 321 322
+  77 324 173 326 175 176 177 330 191] basis2: [ 95  50  81 199  53 309  86   6  73  45 210   8 232  72  70 228 280 196
+ 234 198  64 200 201 202 203 204 285 206 207  71 213 225 211  96 194 214
+ 215 216  10 218 219 302 208 261 223 224 217 226 300 100 229  93  75 291
+ 233 221  97  98  99  74 239  83 101 102 243  38 269 209 247 248 249 250
+ 251 252 253 254 255 256 257 117 259 260  40 262 263 123 124  85 267 323
+  52  23 271 272 131 274 275 276 277 179 279  51 281  31 283 284 144 286
+ 287 288 289  28 145 146 293 294  39 296  46  61 151 157 185  87 152 153
+ 154 155 156   7  89 159 160 312 162 163 164  90 317 166 319 320 321 322
+  77 324 173 326 175 176 177 330 191]
+Polyhedral model build time: 0.030132770538330078
+
+Iteration 0
+Objective: 681909.1677743216
+Steepness: -715.245917888956
+Step length: 1.8306169960281053
+
+Iteration 1
+Objective: 681851.369090342
+Steepness: -460.4141291108404
+Step length: 0.12553629509850456
+
+Iteration 50
+Objective: 226388.81853709833
+Steepness: -0.9852151198027982
+Step length: 807.1884735546403
+Total time for steepest-descent scheme: 0.17630529403686523
+Final sdac objective value: 225494.96316238516
+Final steepness value: 0.0
+
+Solving adlittle: variant 'sdac_triv_rest'...
+basis1 length: 153
+Problem size: n = 332,  m_A = 153
+Problem size: n = 332,  m_A = 153
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Using trivial warm start
+Polyhedral model build time: 0.0849299430847168
+
+Iteration 0
+Objective: 681909.1677743216
+Steepness: -715.245917888956
+Step length: 1.8306169960281053
+
+Iteration 1
+Objective: 681877.1228153366
+Steepness: -460.41412911084035
+Step length: 0.06960029451518918
+------ Entered Facet Restriction! ------
+++++++ Exited Facet Restriction! ++++++
+problem was built
+len c_new: 332
+m: 153
+T shape[1]: 332
+Total time for steepest-descent scheme: 0.40703272819519043
+Final sdac objective value: 225494.96316238656
+Final steepness value: 0.0
+
+Solving adlittle: variant 'sdac_edge_rest'...
+Problem size: n = 332,  m_A = 153
+Problem size: n = 332,  m_A = 153
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Using edge warm start
+x1==x2: False basis1 len: 153 basis2 len: 153 basis1: [ 95  50  81 199  53 309 282   6  73  45 210   8 232  72  70 228 280 196
+ 234 198  64 200 201 202 203 204 285 206 207  71 213 225 211  96 194 214
+ 215 216  10 218 219 302 208 261 223 224 217 226 300 100 229  93  75 291
+ 233 221  97  98  99  74 239  83 101 102 243  38 269 209 247 248 249 250
+ 251 252 253 254 255 256 257 117 259 260  40 262 263 123 124  85 267 323
+  52  23 271 272 131 274 275 276 277 179 279  51 281  31 283 284 144 286
+ 287 288 289  28 145 146 293 294  39 296  46  61 151 157 185  87 152 153
+ 154 155 156   7  89 159 160 312 162 163 164  90 317 166 319 320 321 322
+  77 324 173 326 175 176 177 330 191] basis2: [ 95  50  81 199  53 309  86   6  73  45 210   8 232  72  70 228 280 196
+ 234 198  64 200 201 202 203 204 285 206 207  71 213 225 211  96 194 214
+ 215 216  10 218 219 302 208 261 223 224 217 226 300 100 229  93  75 291
+ 233 221  97  98  99  74 239  83 101 102 243  38 269 209 247 248 249 250
+ 251 252 253 254 255 256 257 117 259 260  40 262 263 123 124  85 267 323
+  52  23 271 272 131 274 275 276 277 179 279  51 281  31 283 284 144 286
+ 287 288 289  28 145 146 293 294  39 296  46  61 151 157 185  87 152 153
+ 154 155 156   7  89 159 160 312 162 163 164  90 317 166 319 320 321 322
+  77 324 173 326 175 176 177 330 191]
+Polyhedral model build time: 0.05285048484802246
+
+Iteration 0
+Objective: 681909.1677743216
+Steepness: -715.245917888956
+Step length: 1.8306169960281053
+
+Iteration 1
+Objective: 681851.369090342
+Steepness: -460.4141291108404
+Step length: 0.12553629509850456
+------ Entered Facet Restriction! ------
+++++++ Exited Facet Restriction! ++++++
+problem was built
+len c_new: 332
+m: 153
+T shape[1]: 332
+Total time for steepest-descent scheme: 0.38983917236328125
+Final sdac objective value: 225494.96316238656
+Final steepness value: 0.0
+
+Solving: afiro
+Working on problem 2 of 30
+[DEBUG inside mps_to_standard] new_c shape: (115,), new_A shape: (59, 115)
+Standard form dimensions -> c: (115,), A: (59, 115)
+Building polyhedron in standard form...
+Problem size: n = 115,  m_A = 59
+rank(A): 59
+Finding feasible solution for polyhedron in standard form...
+problem was built
+max |x_gurobi - x_start| = 5.949e-15
+Problem size: n = 115,  m_A = 59
+[DEBUG] callback_log last entry keys: ['x', 'basis', 'T']
+[DEBUG] last_basis is None? False, tableau is None? False
+len c_new: 115
+m: 59
+T shape[1]: 115
+  -> first Phase II iteration
+  -> degenerate iteration
+  -> degenerate iteration
+  -> degenerate iteration
+  -> non-degenerate edge step (change in obj = -4.400e+02), stopping
+[DEBUG] Warmstart caught StopWhenFeasible with len(info_list) = 5
+length of x1: 115
+length of x_feasible: 115
+[DEBUG] info1 basis is None? False
+[DEBUG] info2 basis is None? False
+
+Solving with simplex method (Gurobi)...
+Model Status: 2
+
+Final objective value for simplex: -464.75314285714285
+
+Solving with scipy simplex...
+len c_new: 115
+m: 59
+T shape[1]: 115
+Iter    0 | Phase 2 | Dummy obj =   440.000000 | Original obj =   440.000000
+Iter    1 | Phase 2 | Dummy obj =   440.000000 | Original obj =   440.000000
+Iter    2 | Phase 2 | Dummy obj =   440.000000 | Original obj =   440.000000
+Iter    3 | Phase 2 | Dummy obj =   440.000000 | Original obj =   440.000000
+Iter    4 | Phase 2 | Dummy obj =     0.000000 | Original obj =     0.000000
+Iter    5 | Phase 2 | Dummy obj =     0.000000 | Original obj =     0.000000
+Iter    6 | Phase 2 | Dummy obj =     0.000000 | Original obj =     0.000000
+Iter    7 | Phase 2 | Dummy obj =     0.000000 | Original obj =     0.000000
+Iter    8 | Phase 2 | Dummy obj =     0.000000 | Original obj =     0.000000
+Iter    9 | Phase 2 | Dummy obj =     0.000000 | Original obj =     0.000000
+Iter   10 | Phase 2 | Dummy obj =     0.000000 | Original obj =     0.000000
+Iter   11 | Phase 2 | Dummy obj =     0.000000 | Original obj =    -0.000000
+Iter   12 | Phase 2 | Dummy obj =     0.000000 | Original obj =    -0.000000
+Iter   13 | Phase 2 | Dummy obj =     0.000000 | Original obj =    -0.000000
+Iter   14 | Phase 2 | Dummy obj =     0.000000 | Original obj =     0.000000
+Iter   15 | Phase 2 | Dummy obj =     0.000000 | Original obj =     0.000000
+Iter   16 | Phase 2 | Dummy obj =     0.000000 | Original obj =     0.000000
+Iter   17 | Phase 2 | Dummy obj =     0.000000 | Original obj =     0.000000
+Iter   18 | Phase 2 | Dummy obj =  -455.961471 | Original obj =  -455.961471
+Iter   19 | Phase 2 | Dummy obj =  -455.961471 | Original obj =  -455.961471
+Iter   20 | Phase 2 | Dummy obj =  -455.961471 | Original obj =  -455.961471
+Iter   21 | Phase 2 | Dummy obj =  -464.753143 | Original obj =  -464.753143
+Edge steps: 3
+Occurred at iterations: [4, 18, 21]
+Optimal objective after scipy simplex is: -464.7531428571425
+
+Solving afiro: variant 'sdac'...
+Problem size: n = 115,  m_A = 59
+Problem size: n = 115,  m_A = 59
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Polyhedral model build time: 0.01592254638671875
+
+Iteration 0
+Objective: 6.20731321195303e-31
+Steepness: -2.0
+Step length: 220.0
+
+Iteration 1
+Objective: -455.9614714285715
+Steepness: -0.08574029549456715
+Step length: 5317.936785714286
+Total time for steepest-descent scheme: 0.0
+Final sdac objective value: -464.75314285714285
+Final steepness value: 0.0
+
+Solving afiro: variant 'sdac_rest'...
+Problem size: n = 115,  m_A = 59
+Problem size: n = 115,  m_A = 59
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Polyhedral model build time: 0.015916824340820312
+
+Iteration 0
+Objective: 6.20731321195303e-31
+Steepness: -2.0
+Step length: 220.0
+
+Iteration 1
+Objective: -455.9614714285715
+Steepness: -0.08574029549456715
+Step length: 5317.936785714286
+------ Entered Facet Restriction! ------
+++++++ Exited Facet Restriction! ++++++
+problem was built
+len c_new: 115
+m: 59
+T shape[1]: 115
+Total time for steepest-descent scheme: 0.04749584197998047
+Final sdac objective value: -464.7531428571429
+Final steepness value: 0.0
+
+Solving afiro: variant 'sdac_triv'...
+basis1 length: 59
+Problem size: n = 115,  m_A = 59
+Problem size: n = 115,  m_A = 59
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Using trivial warm start
+Polyhedral model build time: 0.0
+
+Iteration 0
+Objective: 6.20731321195303e-31
+Steepness: -2.0
+Step length: 220.0
+
+Iteration 1
+Objective: -455.9614714285715
+Steepness: -0.08574029549456715
+Step length: 5317.936785714286
+Total time for steepest-descent scheme: 0.0
+Final sdac objective value: -464.75314285714285
+Final steepness value: 0.0
+
+Solving afiro: variant 'sdac_edge'...
+Problem size: n = 115,  m_A = 59
+Problem size: n = 115,  m_A = 59
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Using edge warm start
+x1==x2: False basis1 len: 59 basis2 len: 59 basis1: [ 37  60  46  15  90  58  31  27  64  24  66  41  43  61  70  13  72  50
+  52  54  35  84   1  79  40  81  82  83   4  95  86  30   6  42  44  39
+  92  93  94  25  96  97  77  99 100 101 102 103  49  51  53  48 108 109
+ 110 111 112 113 114] basis2: [ 37  60  46  15  90  58  31  27  64  24  66  41  43  61  70  13  72  50
+  52  54  35  84   1  79  40  81  82  83  87  95  86  30   6  42  44  39
+  92  93  94  25  96  97  77  99 100 101 102 103  49  51  53  48 108 109
+ 110 111 112 113 114]
+Polyhedral model build time: 0.0
+
+Iteration 0
+Objective: 6.20731321195303e-31
+Steepness: -2.0
+Step length: 220.0
+
+Iteration 1
+Objective: -455.9614714285714
+Steepness: -0.08574029549456715
+Step length: 5317.936785714285
+Total time for steepest-descent scheme: 0.014783382415771484
+Final sdac objective value: -464.7531428571428
+Final steepness value: 0.0
+
+Solving afiro: variant 'sdac_triv_rest'...
+basis1 length: 59
+Problem size: n = 115,  m_A = 59
+Problem size: n = 115,  m_A = 59
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Using trivial warm start
+Polyhedral model build time: 0.0
+
+Iteration 0
+Objective: 6.20731321195303e-31
+Steepness: -2.0
+Step length: 220.0
+
+Iteration 1
+Objective: -455.9614714285715
+Steepness: -0.08574029549456715
+Step length: 5317.936785714286
+------ Entered Facet Restriction! ------
+++++++ Exited Facet Restriction! ++++++
+problem was built
+len c_new: 115
+m: 59
+T shape[1]: 115
+Total time for steepest-descent scheme: 0.047707557678222656
+Final sdac objective value: -464.7531428571429
+Final steepness value: 0.0
+
+Solving afiro: variant 'sdac_edge_rest'...
+Problem size: n = 115,  m_A = 59
+Problem size: n = 115,  m_A = 59
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Using edge warm start
+x1==x2: False basis1 len: 59 basis2 len: 59 basis1: [ 37  60  46  15  90  58  31  27  64  24  66  41  43  61  70  13  72  50
+  52  54  35  84   1  79  40  81  82  83   4  95  86  30   6  42  44  39
+  92  93  94  25  96  97  77  99 100 101 102 103  49  51  53  48 108 109
+ 110 111 112 113 114] basis2: [ 37  60  46  15  90  58  31  27  64  24  66  41  43  61  70  13  72  50
+  52  54  35  84   1  79  40  81  82  83  87  95  86  30   6  42  44  39
+  92  93  94  25  96  97  77  99 100 101 102 103  49  51  53  48 108 109
+ 110 111 112 113 114]
+Polyhedral model build time: 0.0
+
+Iteration 0
+Objective: 6.20731321195303e-31
+Steepness: -2.0
+Step length: 220.0
+
+Iteration 1
+Objective: -455.9614714285714
+Steepness: -0.08574029549456715
+Step length: 5317.936785714285
+------ Entered Facet Restriction! ------
+++++++ Exited Facet Restriction! ++++++
+problem was built
+len c_new: 115
+m: 59
+T shape[1]: 115
+Total time for steepest-descent scheme: 0.06381678581237793
+Final sdac objective value: -464.7531428571429
+Final steepness value: 0.0
+
+Solving: agg
+Working on problem 3 of 30
+[DEBUG inside mps_to_standard] new_c shape: (941,), new_A shape: (651, 941)
+Standard form dimensions -> c: (941,), A: (651, 941)
+Building polyhedron in standard form...
+Problem size: n = 941,  m_A = 651
+rank(A): 651
+Finding feasible solution for polyhedron in standard form...
+problem was built
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 3.8e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 4.5e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 2.2e-04, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 2.9e-04, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 3.4e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 6.7e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 1.8e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 4.4e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 3.3e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 1.6e-04, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 4.3e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 3.7e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 5.2e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 6.4e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 6.2e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 7.0e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 2.3e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 6.1e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 4.0e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 6.1e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 6.2e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 1.3e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 2.4e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 7.5e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 4.6e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 6.6e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 1.6e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 2.8e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 9.6e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 2.9e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 1.9e-04, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 8.4e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 4.8e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 1.1e-04, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 1.4e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 5.5e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 3.8e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 5.5e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 3.0e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 7.3e-04, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 6.7e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 2.2e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 6.4e-04, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 1.9e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 6.6e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 6.5e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 6.3e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 2.9e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 6.5e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+  !! WARNING: recovery stopped early; active vars not all zero (max 2.92e-08).
+max |x_gurobi - x_start| = 2.917e-08
+Problem size: n = 941,  m_A = 651
+[DEBUG] callback_log last entry keys: ['x', 'basis', 'T']
+[DEBUG] last_basis is None? False, tableau is None? False
+len c_new: 941
+m: 651
+T shape[1]: 941
+  -> first Phase II iteration
+  -> degenerate iteration
+  -> non-degenerate edge step (change in obj = -2.573e+07), stopping
+[DEBUG] Warmstart caught StopWhenFeasible with len(info_list) = 3
+length of x1: 941
+length of x_feasible: 941
+[DEBUG] info1 basis is None? False
+[DEBUG] info2 basis is None? False
+
+Solving with simplex method (Gurobi)...
+Model Status: 2
+
+Final objective value for simplex: -35991767.28657651
+
+Solving with scipy simplex...
+len c_new: 941
+m: 651
+T shape[1]: 941
+Iter    0 | Phase 2 | Dummy obj = 4048071.882525 | Original obj = 4048071.882525
+Iter    1 | Phase 2 | Dummy obj = 4048071.882525 | Original obj = 4048071.882525
+Iter    2 | Phase 2 | Dummy obj = -21684655.501317 | Original obj = -21684655.501317
+Iter    3 | Phase 2 | Dummy obj = -23207090.444838 | Original obj = -23207090.444838
+Iter    4 | Phase 2 | Dummy obj = -31422423.473518 | Original obj = -31422423.473518
+Iter    5 | Phase 2 | Dummy obj = -31422423.473518 | Original obj = -31422423.473518
+Iter    6 | Phase 2 | Dummy obj = -31422423.473518 | Original obj = -31422423.473518
+Iter    7 | Phase 2 | Dummy obj = -31422423.473518 | Original obj = -31422423.473518
+Iter    8 | Phase 2 | Dummy obj = -31422423.473518 | Original obj = -31422423.473518
+Iter    9 | Phase 2 | Dummy obj = -31422423.473518 | Original obj = -31422423.473518
+Iter   10 | Phase 2 | Dummy obj = -31422423.473518 | Original obj = -31422423.473518
+Iter   11 | Phase 2 | Dummy obj = -31422423.473518 | Original obj = -31422423.473518
+Iter   12 | Phase 2 | Dummy obj = -31422423.473518 | Original obj = -31422423.473518
+Iter   13 | Phase 2 | Dummy obj = -31422423.473518 | Original obj = -31422423.473518
+Iter   14 | Phase 2 | Dummy obj = -31422423.473518 | Original obj = -31422423.473518
+Iter   15 | Phase 2 | Dummy obj = -31422423.473518 | Original obj = -31422423.473518
+Iter   16 | Phase 2 | Dummy obj = -31422423.473518 | Original obj = -31422423.473518
+Iter   17 | Phase 2 | Dummy obj = -31422423.473518 | Original obj = -31422423.473518
+sys:1: OptimizeWarning: The pivot operation produces a pivot value of: 2.6e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+Iter   18 | Phase 2 | Dummy obj = -31422423.473518 | Original obj = -31422423.473518
+Iter   19 | Phase 2 | Dummy obj = -31422423.473518 | Original obj = -31422423.473518
+Iter   20 | Phase 2 | Dummy obj = -31422423.473518 | Original obj = -31422423.473518
+Iter   21 | Phase 2 | Dummy obj = -32497677.953518 | Original obj = -32497677.953518
+Iter   22 | Phase 2 | Dummy obj = -32497677.953518 | Original obj = -32497677.953518
+Iter   23 | Phase 2 | Dummy obj = -32497677.953518 | Original obj = -32497677.953518
+Iter   24 | Phase 2 | Dummy obj = -32497677.953518 | Original obj = -32497677.953518
+Iter   25 | Phase 2 | Dummy obj = -32497677.953518 | Original obj = -32497677.953518
+Iter   26 | Phase 2 | Dummy obj = -32497677.953518 | Original obj = -32497677.953518
+Iter   27 | Phase 2 | Dummy obj = -32497677.953518 | Original obj = -32497677.953518
+Iter   28 | Phase 2 | Dummy obj = -32497677.953518 | Original obj = -32497677.953518
+Iter   29 | Phase 2 | Dummy obj = -33634320.273518 | Original obj = -33634320.273518
+Iter   30 | Phase 2 | Dummy obj = -33634320.273518 | Original obj = -33634320.273518
+Iter   31 | Phase 2 | Dummy obj = -33974160.273518 | Original obj = -33974160.273518
+Iter   32 | Phase 2 | Dummy obj = -33974160.273518 | Original obj = -33974160.273518
+sys:1: OptimizeWarning: The pivot operation produces a pivot value of: 1.9e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+Iter   33 | Phase 2 | Dummy obj = -34867182.072173 | Original obj = -34867182.072173
+Iter   34 | Phase 2 | Dummy obj = -34867182.072173 | Original obj = -34867182.072173
+Iter   35 | Phase 2 | Dummy obj = -34867182.072173 | Original obj = -34867182.072173
+Iter   36 | Phase 2 | Dummy obj = -35307473.026663 | Original obj = -35307473.026663
+Iter   37 | Phase 2 | Dummy obj = -35307473.026663 | Original obj = -35307473.026663
+Iter   38 | Phase 2 | Dummy obj = -35307473.026663 | Original obj = -35307473.026663
+Iter   39 | Phase 2 | Dummy obj = -35524769.400558 | Original obj = -35524769.400558
+Iter   40 | Phase 2 | Dummy obj = -35524769.400558 | Original obj = -35524769.400558
+Iter   41 | Phase 2 | Dummy obj = -35524769.400558 | Original obj = -35524769.400558
+Iter   42 | Phase 2 | Dummy obj = -35524769.400558 | Original obj = -35524769.400558
+Iter   43 | Phase 2 | Dummy obj = -35524769.400558 | Original obj = -35524769.400558
+Iter   44 | Phase 2 | Dummy obj = -35524769.400557 | Original obj = -35524769.400557
+Iter   45 | Phase 2 | Dummy obj = -35524769.400557 | Original obj = -35524769.400557
+Iter   46 | Phase 2 | Dummy obj = -35524769.400557 | Original obj = -35524769.400557
+Iter   47 | Phase 2 | Dummy obj = -35524769.400557 | Original obj = -35524769.400557
+Iter   48 | Phase 2 | Dummy obj = -35524769.400557 | Original obj = -35524769.400557
+Iter   49 | Phase 2 | Dummy obj = -35524769.400557 | Original obj = -35524769.400557
+Iter   50 | Phase 2 | Dummy obj = -35524769.400557 | Original obj = -35524769.400557
+Iter   51 | Phase 2 | Dummy obj = -35524769.400557 | Original obj = -35524769.400557
+Iter   52 | Phase 2 | Dummy obj = -35524769.400557 | Original obj = -35524769.400557
+Iter   53 | Phase 2 | Dummy obj = -35524769.400557 | Original obj = -35524769.400557
+Iter   54 | Phase 2 | Dummy obj = -35524769.400557 | Original obj = -35524769.400557
+Iter   55 | Phase 2 | Dummy obj = -35524769.400557 | Original obj = -35524769.400557
+Iter   56 | Phase 2 | Dummy obj = -35525333.013361 | Original obj = -35525333.013361
+Iter   57 | Phase 2 | Dummy obj = -35525333.013361 | Original obj = -35525333.013361
+Iter   58 | Phase 2 | Dummy obj = -35525368.477195 | Original obj = -35525368.477195
+sys:1: OptimizeWarning: The pivot operation produces a pivot value of: 8.0e-04, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+Iter   59 | Phase 2 | Dummy obj = -35526220.513195 | Original obj = -35526220.513195
+sys:1: OptimizeWarning: The pivot operation produces a pivot value of: 3.7e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+Iter   60 | Phase 2 | Dummy obj = -35527249.104284 | Original obj = -35527249.104284
+Iter   61 | Phase 2 | Dummy obj = -35527249.104284 | Original obj = -35527249.104284
+Iter   62 | Phase 2 | Dummy obj = -35527249.104284 | Original obj = -35527249.104284
+Iter   63 | Phase 2 | Dummy obj = -35527249.104284 | Original obj = -35527249.104284
+Iter   64 | Phase 2 | Dummy obj = -35527249.104284 | Original obj = -35527249.104284
+Iter   65 | Phase 2 | Dummy obj = -35527249.104284 | Original obj = -35527249.104284
+Iter   66 | Phase 2 | Dummy obj = -35527249.104284 | Original obj = -35527249.104284
+Iter   67 | Phase 2 | Dummy obj = -35527249.104284 | Original obj = -35527249.104284
+Iter   68 | Phase 2 | Dummy obj = -35527249.104284 | Original obj = -35527249.104284
+Iter   69 | Phase 2 | Dummy obj = -35620067.386560 | Original obj = -35620067.386560
+sys:1: OptimizeWarning: The pivot operation produces a pivot value of: 3.0e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+Iter   70 | Phase 2 | Dummy obj = -35620207.450453 | Original obj = -35620207.450453
+sys:1: OptimizeWarning: The pivot operation produces a pivot value of: 4.8e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+Iter   71 | Phase 2 | Dummy obj = -35620494.167319 | Original obj = -35620494.167319
+sys:1: OptimizeWarning: The pivot operation produces a pivot value of: 7.3e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+Iter   72 | Phase 2 | Dummy obj = -35743480.354269 | Original obj = -35743480.354269
+Iter   73 | Phase 2 | Dummy obj = -35743480.354269 | Original obj = -35743480.354269
+sys:1: OptimizeWarning: The pivot operation produces a pivot value of: 3.8e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+Iter   74 | Phase 2 | Dummy obj = -35745037.248919 | Original obj = -35745037.248919
+Iter   75 | Phase 2 | Dummy obj = -35745101.841907 | Original obj = -35745101.841907
+Iter   76 | Phase 2 | Dummy obj = -35745101.841906 | Original obj = -35745101.841906
+Iter   77 | Phase 2 | Dummy obj = -35745197.554001 | Original obj = -35745197.554001
+Iter   78 | Phase 2 | Dummy obj = -35745197.554001 | Original obj = -35745197.554001
+Iter   79 | Phase 2 | Dummy obj = -35745197.554000 | Original obj = -35745197.554000
+Iter   80 | Phase 2 | Dummy obj = -35745197.554000 | Original obj = -35745197.554000
+Iter   81 | Phase 2 | Dummy obj = -35745197.554000 | Original obj = -35745197.554000
+Iter   82 | Phase 2 | Dummy obj = -35745197.554000 | Original obj = -35745197.554000
+Iter   83 | Phase 2 | Dummy obj = -35857699.586736 | Original obj = -35857699.586735
+Iter   84 | Phase 2 | Dummy obj = -35857699.586736 | Original obj = -35857699.586735
+Iter   85 | Phase 2 | Dummy obj = -35927037.559322 | Original obj = -35927037.559322
+Iter   86 | Phase 2 | Dummy obj = -35927037.559322 | Original obj = -35927037.559322
+Iter   87 | Phase 2 | Dummy obj = -35970014.698016 | Original obj = -35970014.698016
+Iter   88 | Phase 2 | Dummy obj = -35970014.698016 | Original obj = -35970014.698016
+Iter   89 | Phase 2 | Dummy obj = -35970014.698016 | Original obj = -35970014.698016
+Iter   90 | Phase 2 | Dummy obj = -35970076.344121 | Original obj = -35970076.344121
+Iter   91 | Phase 2 | Dummy obj = -35970076.344121 | Original obj = -35970076.344121
+Iter   92 | Phase 2 | Dummy obj = -35975169.067331 | Original obj = -35975169.067331
+Iter   93 | Phase 2 | Dummy obj = -35980459.991178 | Original obj = -35980459.991178
+Iter   94 | Phase 2 | Dummy obj = -35980459.991178 | Original obj = -35980459.991178
+Iter   95 | Phase 2 | Dummy obj = -35980463.761845 | Original obj = -35980463.761845
+Iter   96 | Phase 2 | Dummy obj = -35980463.761845 | Original obj = -35980463.761845
+Iter   97 | Phase 2 | Dummy obj = -35980463.761845 | Original obj = -35980463.761845
+Iter   98 | Phase 2 | Dummy obj = -35982825.181845 | Original obj = -35982825.181845
+Iter   99 | Phase 2 | Dummy obj = -35982825.181845 | Original obj = -35982825.181845
+Iter  100 | Phase 2 | Dummy obj = -35982825.181845 | Original obj = -35982825.181845
+Iter  101 | Phase 2 | Dummy obj = -35991081.916575 | Original obj = -35991081.916575
+Iter  102 | Phase 2 | Dummy obj = -35991081.916575 | Original obj = -35991081.916575
+Iter  103 | Phase 2 | Dummy obj = -35991081.916575 | Original obj = -35991081.916575
+Iter  104 | Phase 2 | Dummy obj = -35991767.286575 | Original obj = -35991767.286575
+Iter  105 | Phase 2 | Dummy obj = -35991767.286575 | Original obj = -35991767.286575
+Edge steps: 48
+Occurred at iterations: [2, 3, 4, 8, 10, 13, 20, 21, 22, 23, 26, 28, 29, 31, 33, 35, 36, 39, 41, 42, 44, 49, 50, 56, 58, 59, 60, 69, 70, 71, 72, 74, 75, 76, 77, 78, 79, 80, 83, 85, 87, 90, 92, 93, 95, 98, 101, 104]
+Optimal objective after scipy simplex is: -35991767.28657485
+
+Solving agg: variant 'sdac'...
+Problem size: n = 941,  m_A = 651
+Problem size: n = 941,  m_A = 651
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Polyhedral model build time: 0.39235806465148926
+
+Iteration 0
+Objective: -21684655.501317002
+Steepness: -49.48922891486877
+Step length: 519966.22190472257
+
+Iteration 1
+Objective: -23207090.444837883
+Steepness: -47.48559643128728
+Step length: 32060.983918015678
+Total time for steepest-descent scheme: 0.2721893787384033
+Final sdac objective value: -35991767.28657564
+Final steepness value: 0.0
+
+Solving agg: variant 'sdac_rest'...
+Problem size: n = 941,  m_A = 651
+Problem size: n = 941,  m_A = 651
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Polyhedral model build time: 0.4001469612121582
+
+Iteration 0
+Objective: -21684655.501317002
+Steepness: -49.48922891486877
+Step length: 519966.22190472257
+
+Iteration 1
+Objective: -23207090.444837883
+Steepness: -47.48559643128728
+Step length: 32060.983918015678
+------ Entered Facet Restriction! ------
+++++++ Exited Facet Restriction! ++++++
+problem was built
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 3.8e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 4.5e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 2.2e-04, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 2.9e-04, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 3.4e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 6.7e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 1.8e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 4.4e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 3.3e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 1.6e-04, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 4.3e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 3.7e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 5.2e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 6.4e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 6.2e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 7.0e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 2.3e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 6.1e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 4.0e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 6.1e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 6.2e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 1.3e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 2.4e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 7.5e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 4.6e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 6.6e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 1.6e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 2.8e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 9.6e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 2.9e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 1.9e-04, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 8.4e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 4.8e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 1.1e-04, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 1.4e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 5.5e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 3.8e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 5.5e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 3.0e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 7.3e-04, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 6.7e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 6.4e-04, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 1.9e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 3.0e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 8.6e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 8.0e-04, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+len c_new: 941
+m: 651
+T shape[1]: 941
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 9.4e-04, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 7.5e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+Total time for steepest-descent scheme: 3.196373224258423
+Final sdac objective value: -35991767.286574826
+Final steepness value: 0.0
+
+Solving agg: variant 'sdac_triv'...
+basis1 length: 651
+Problem size: n = 941,  m_A = 651
+Problem size: n = 941,  m_A = 651
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Using trivial warm start
+Polyhedral model build time: 0.3724343776702881
+
+Iteration 0
+Objective: -21684655.501317002
+Steepness: -49.489229445481016
+Step length: 519966.21632976324
+
+Iteration 1
+Objective: -23207090.444837883
+Steepness: -47.48559663803555
+Step length: 32060.9837784248
+Total time for steepest-descent scheme: 0.26883363723754883
+Final sdac objective value: -35991767.28657563
+Final steepness value: 0.0
+
+Solving agg: variant 'sdac_edge'...
+Problem size: n = 941,  m_A = 651
+Problem size: n = 941,  m_A = 651
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Using edge warm start
+x1==x2: False basis1 len: 651 basis2 len: 651 basis1: [905 206 718 276 120 935 196 912 798 114  69 936 131 132 135 134 137 138
+ 139 140 148 463 143 151 262 915 703 280 150 940 910 769 922 928 287 938
+ 326 327 328 329 330 331 332 333 334 335 336 337 338 339 340 341 342 343
+ 344 345 346 347 348 349 350 351 352 353 354 355 356 357 358 359 360 361
+   1 363 152 365 366 367 368 364 370 371  80 373 374 375 376 377 378 379
+  77 381 382 383 384 385 386 387 388 389 390 391 392 393 394 395 396 397
+ 398 399 400 401 402 403 404 405 406 407 408 409 410 411 412 413 414 415
+ 416 417 418 419 420 421 422 423 424 425 426 427 428  39 430 431 432 433
+ 434 435 436 437 438 439  26 441 442 443 444 500 446 447 448 449 450 451
+ 452 453 454 455 456 457 458 459 460 461 462 695 464 465 466 467 468 469
+ 470 471 472 473 474 475 476 477 478 479 480 481 482 483 484  68 486 487
+ 488 489 490 491 735 493  34 495 496 497 498 726 615 501 502 699 504 505
+ 506 507 508 509 715 511 512 513 514 515 516 517 518 519 520 521 522 523
+ 524 525 526 527  13 529 530 531 532 533 534 535 536 537 538 539 540 541
+ 542 543 544 545 546 547 548 549  89 551 552 553 554 555 556 557 558 429
+ 560 561 562 563 564 565 566 157 568 569  18 571 572 573 574 575 576 577
+ 578 579 580 581 582 583 584 585 586 587 588 589 590 591 592 680 594 595
+ 596 597 598 599 600 601 602 603 604 605 606 607 608 609 610 611 612 613
+ 614 731 616 617 618 619 620 621 622 623 369 625 626 627 628 624 630 631
+ 632 633 634  23 636 637 638 639 640 641 642 643 644 645 646 647 648 649
+ 650 651 652 653 654 655 656 657 658 659 660 661 662 663 664 665 666 667
+ 668 669 670 671 672 673 674 675 676 677 678 679 693 681 682 683 146  27
+ 686 687  41 689 691 854 119  60 722  78 868 697 685   7  25 701 107 720
+ 126 705 201 707 102 709 834 711 224 713 239 372 716 717  22 719 175 721
+  16 723 192 725  35 727 101 729  57 110 485 733 593 503  92 737 738 739
+ 149 741 115 743  30 745  40 747  48 749 730 751 550 753 109 755 158 757
+   5 759 801 761  24 763  31 765  32 767 748 316 837 771  67 773 754 775
+  93 777 778 779 165 781 782 783 169 785 171 787 362 174 700 791 177 178
+  10 180 796 182 183 184 800 154 802 803 804 805 806 807 808 292 810  96
+ 812 813 814 815 816 817 818 819 824 821 207 823 209 825 826 827 833  56
+ 215 831 832 218  51 835 836 222 838 839 225 226 445 843 844 845 846 847
+ 233 848 235 236 852 238  71 855 856 857 858 244 245 861 862 863 249 865
+ 866 867  85 254 870 871 900 873 874 875 876 877 878 308 880 296 882 883
+ 884 885 886 887 323 889 890 891 318 893 894 895 324 897 898 899  94 901
+ 902 293 325 258 906 260 261  36 144  42 708 266 267  45 269 917 271 919
+ 920 274 760  50 924 925 926  83  84 929 930 284 285 286  64  28 704 290
+ 291 764 159] basis2: [905 206 718 276 120 935 196 912 798 114  69 936 131 132 135 134 137 138
+ 139 140 148 463 143 151 262 915 703 280 150 940 910 769 922 928 287 938
+ 326 327 328 329 330 331 332 333 334 335 336 337 338 339 340 341 342 343
+ 344 345 346 347 348 349 350 351 352 353 354 355 356 357 358 359 360 361
+   1 363 152 365 366 367 368 364 370 371  80 373 374 375 376 377 378 379
+  77 381 382 383 384 385 386 387 388 389 390 391 392 393 394 395 396 397
+ 398 399 400 401 402 403 404 405 406 407 408 409 410 411 412 413 414 415
+ 416 417 418 419 420 421 422 423 424 425 426 427 428  39 430 431 432 433
+ 434 435 436 437 438 439  26 441 442 443 444 500 446 447 448 449 450 451
+ 452 453 454 455 456 457 458 459 460 461 462 695 464 465 466 467 468 469
+ 470 471 472 473 474 475 476 477 478 479 480 481 482 483 484  68 486 487
+ 488 489 490 491 735 493  34 495 496 497 498 726 615 501 502 699 504 505
+ 506 507 508 509 715 511 512 513 514 515 516 517 518 519 520 521 522 523
+ 524 525 526 527  13 529 530 531 532 533 534 535 536 537 538 539 540 541
+ 542 543 544 545 546 547 548 549  89 551 552 553 554 555 556 557 558 429
+ 560 561 562 563 564 565 566 157 568 569  18 571 572 573 574 575 576 577
+ 578 579 580 581 582 583 584 585 586 587 588 589 590 591 592 680 594 595
+ 596 597 598 599 600 601 602 603 604 605 606 607 608 609 610 611 612 613
+ 614 731 616 617 618 619 620 621 622 623 369 625 626 627 628 624 630 631
+ 632 633 634  23 636 637 638 639 640 641 642 643 644 645 646 647 648 649
+ 650 651 652 653 654 655 656 657 658 659 660 661 662 663 664 665 666 667
+ 668 669 670 671 672 673 674 675 676 677 678 679 693 681 682 683 146  27
+ 686 687  41 689 691 854 119  60 722  78 868 697 685   7  25 701 107 720
+ 126 705 201 707 102 709 834 711 224 713 239 372 716 717  22 719 175 721
+  16 723 192 725  35 727 101 729  57 156 485 733 593 503  92 737 738 739
+ 149 741 115 743  30 745  40 747  48 749 730 751 550 753 109 755 158 757
+   5 759 801 761  24 763  31 765  32 767 748 316 837 771  67 773 754 775
+  93 777 778 779 165 781 782 783 169 785 171 787 362 174 700 791 177 178
+  10 180 796 182 183 184 800 154 802 803 804 805 806 807 808 292 810  96
+ 812 813 814 815 816 817 818 819 824 821 207 823 209 825 826 827 833  56
+ 215 831 832 218  51 835 836 222 838 839 225 226 445 843 844 845 846 847
+ 233 848 235 236 852 238  71 855 856 857 858 244 245 861 862 863 249 865
+ 866 867  85 254 870 871 900 873 874 875 876 877 878 308 880 296 882 883
+ 884 885 886 887 323 889 890 891 318 893 894 895 324 897 898 899  94 901
+ 902 293 325 258 906 260 261  36 144  42 708 266 267  45 269 917 271 919
+ 920 274 760  50 924 925 926  83  84 929 930 284 285 286  64  28 704 290
+ 291 764 159]
+Polyhedral model build time: 0.40906620025634766
+
+Iteration 0
+Objective: -21684655.501317006
+Steepness: -49.48922944548101
+Step length: 519966.2163297633
+
+Iteration 1
+Objective: -23207090.444837883
+Steepness: -47.48559663803556
+Step length: 32060.98377842477
+Total time for steepest-descent scheme: 0.25251102447509766
+Final sdac objective value: -35991767.286575645
+Final steepness value: 0.0
+
+Solving agg: variant 'sdac_triv_rest'...
+basis1 length: 651
+Problem size: n = 941,  m_A = 651
+Problem size: n = 941,  m_A = 651
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Using trivial warm start
+Polyhedral model build time: 0.3793509006500244
+
+Iteration 0
+Objective: -21684655.501317002
+Steepness: -49.489229445481016
+Step length: 519966.21632976324
+
+Iteration 1
+Objective: -23207090.444837883
+Steepness: -47.48559663803555
+Step length: 32060.9837784248
+------ Entered Facet Restriction! ------
+++++++ Exited Facet Restriction! ++++++
+problem was built
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 3.5e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+len c_new: 941
+m: 651
+T shape[1]: 941
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 2.8e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 1.8e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+Total time for steepest-descent scheme: 3.042407274246216
+Final sdac objective value: -35991767.28657485
+Final steepness value: 0.0
+
+Solving agg: variant 'sdac_edge_rest'...
+Problem size: n = 941,  m_A = 651
+Problem size: n = 941,  m_A = 651
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Using edge warm start
+x1==x2: False basis1 len: 651 basis2 len: 651 basis1: [905 206 718 276 120 935 196 912 798 114  69 936 131 132 135 134 137 138
+ 139 140 148 463 143 151 262 915 703 280 150 940 910 769 922 928 287 938
+ 326 327 328 329 330 331 332 333 334 335 336 337 338 339 340 341 342 343
+ 344 345 346 347 348 349 350 351 352 353 354 355 356 357 358 359 360 361
+   1 363 152 365 366 367 368 364 370 371  80 373 374 375 376 377 378 379
+  77 381 382 383 384 385 386 387 388 389 390 391 392 393 394 395 396 397
+ 398 399 400 401 402 403 404 405 406 407 408 409 410 411 412 413 414 415
+ 416 417 418 419 420 421 422 423 424 425 426 427 428  39 430 431 432 433
+ 434 435 436 437 438 439  26 441 442 443 444 500 446 447 448 449 450 451
+ 452 453 454 455 456 457 458 459 460 461 462 695 464 465 466 467 468 469
+ 470 471 472 473 474 475 476 477 478 479 480 481 482 483 484  68 486 487
+ 488 489 490 491 735 493  34 495 496 497 498 726 615 501 502 699 504 505
+ 506 507 508 509 715 511 512 513 514 515 516 517 518 519 520 521 522 523
+ 524 525 526 527  13 529 530 531 532 533 534 535 536 537 538 539 540 541
+ 542 543 544 545 546 547 548 549  89 551 552 553 554 555 556 557 558 429
+ 560 561 562 563 564 565 566 157 568 569  18 571 572 573 574 575 576 577
+ 578 579 580 581 582 583 584 585 586 587 588 589 590 591 592 680 594 595
+ 596 597 598 599 600 601 602 603 604 605 606 607 608 609 610 611 612 613
+ 614 731 616 617 618 619 620 621 622 623 369 625 626 627 628 624 630 631
+ 632 633 634  23 636 637 638 639 640 641 642 643 644 645 646 647 648 649
+ 650 651 652 653 654 655 656 657 658 659 660 661 662 663 664 665 666 667
+ 668 669 670 671 672 673 674 675 676 677 678 679 693 681 682 683 146  27
+ 686 687  41 689 691 854 119  60 722  78 868 697 685   7  25 701 107 720
+ 126 705 201 707 102 709 834 711 224 713 239 372 716 717  22 719 175 721
+  16 723 192 725  35 727 101 729  57 110 485 733 593 503  92 737 738 739
+ 149 741 115 743  30 745  40 747  48 749 730 751 550 753 109 755 158 757
+   5 759 801 761  24 763  31 765  32 767 748 316 837 771  67 773 754 775
+  93 777 778 779 165 781 782 783 169 785 171 787 362 174 700 791 177 178
+  10 180 796 182 183 184 800 154 802 803 804 805 806 807 808 292 810  96
+ 812 813 814 815 816 817 818 819 824 821 207 823 209 825 826 827 833  56
+ 215 831 832 218  51 835 836 222 838 839 225 226 445 843 844 845 846 847
+ 233 848 235 236 852 238  71 855 856 857 858 244 245 861 862 863 249 865
+ 866 867  85 254 870 871 900 873 874 875 876 877 878 308 880 296 882 883
+ 884 885 886 887 323 889 890 891 318 893 894 895 324 897 898 899  94 901
+ 902 293 325 258 906 260 261  36 144  42 708 266 267  45 269 917 271 919
+ 920 274 760  50 924 925 926  83  84 929 930 284 285 286  64  28 704 290
+ 291 764 159] basis2: [905 206 718 276 120 935 196 912 798 114  69 936 131 132 135 134 137 138
+ 139 140 148 463 143 151 262 915 703 280 150 940 910 769 922 928 287 938
+ 326 327 328 329 330 331 332 333 334 335 336 337 338 339 340 341 342 343
+ 344 345 346 347 348 349 350 351 352 353 354 355 356 357 358 359 360 361
+   1 363 152 365 366 367 368 364 370 371  80 373 374 375 376 377 378 379
+  77 381 382 383 384 385 386 387 388 389 390 391 392 393 394 395 396 397
+ 398 399 400 401 402 403 404 405 406 407 408 409 410 411 412 413 414 415
+ 416 417 418 419 420 421 422 423 424 425 426 427 428  39 430 431 432 433
+ 434 435 436 437 438 439  26 441 442 443 444 500 446 447 448 449 450 451
+ 452 453 454 455 456 457 458 459 460 461 462 695 464 465 466 467 468 469
+ 470 471 472 473 474 475 476 477 478 479 480 481 482 483 484  68 486 487
+ 488 489 490 491 735 493  34 495 496 497 498 726 615 501 502 699 504 505
+ 506 507 508 509 715 511 512 513 514 515 516 517 518 519 520 521 522 523
+ 524 525 526 527  13 529 530 531 532 533 534 535 536 537 538 539 540 541
+ 542 543 544 545 546 547 548 549  89 551 552 553 554 555 556 557 558 429
+ 560 561 562 563 564 565 566 157 568 569  18 571 572 573 574 575 576 577
+ 578 579 580 581 582 583 584 585 586 587 588 589 590 591 592 680 594 595
+ 596 597 598 599 600 601 602 603 604 605 606 607 608 609 610 611 612 613
+ 614 731 616 617 618 619 620 621 622 623 369 625 626 627 628 624 630 631
+ 632 633 634  23 636 637 638 639 640 641 642 643 644 645 646 647 648 649
+ 650 651 652 653 654 655 656 657 658 659 660 661 662 663 664 665 666 667
+ 668 669 670 671 672 673 674 675 676 677 678 679 693 681 682 683 146  27
+ 686 687  41 689 691 854 119  60 722  78 868 697 685   7  25 701 107 720
+ 126 705 201 707 102 709 834 711 224 713 239 372 716 717  22 719 175 721
+  16 723 192 725  35 727 101 729  57 156 485 733 593 503  92 737 738 739
+ 149 741 115 743  30 745  40 747  48 749 730 751 550 753 109 755 158 757
+   5 759 801 761  24 763  31 765  32 767 748 316 837 771  67 773 754 775
+  93 777 778 779 165 781 782 783 169 785 171 787 362 174 700 791 177 178
+  10 180 796 182 183 184 800 154 802 803 804 805 806 807 808 292 810  96
+ 812 813 814 815 816 817 818 819 824 821 207 823 209 825 826 827 833  56
+ 215 831 832 218  51 835 836 222 838 839 225 226 445 843 844 845 846 847
+ 233 848 235 236 852 238  71 855 856 857 858 244 245 861 862 863 249 865
+ 866 867  85 254 870 871 900 873 874 875 876 877 878 308 880 296 882 883
+ 884 885 886 887 323 889 890 891 318 893 894 895 324 897 898 899  94 901
+ 902 293 325 258 906 260 261  36 144  42 708 266 267  45 269 917 271 919
+ 920 274 760  50 924 925 926  83  84 929 930 284 285 286  64  28 704 290
+ 291 764 159]
+Polyhedral model build time: 0.3946349620819092
+
+Iteration 0
+Objective: -21684655.501317006
+Steepness: -49.48922944548101
+Step length: 519966.2163297633
+
+Iteration 1
+Objective: -23207090.444837883
+Steepness: -47.48559663803556
+Step length: 32060.98377842477
+------ Entered Facet Restriction! ------
+++++++ Exited Facet Restriction! ++++++
+problem was built
+len c_new: 941
+m: 651
+T shape[1]: 941
+Total time for steepest-descent scheme: 3.1986889839172363
+Final sdac objective value: -35991767.28657483
+Final steepness value: 0.0
+
+Solving: agg2
+Working on problem 4 of 30
+[DEBUG inside mps_to_standard] new_c shape: (1362,), new_A shape: (818, 1362)
+Standard form dimensions -> c: (1362,), A: (818, 1362)
+Building polyhedron in standard form...
+Problem size: n = 1362,  m_A = 818
+rank(A): 818
+Finding feasible solution for polyhedron in standard form...
+problem was built
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 7.2e-04, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 5.8e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 1.2e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 6.9e-04, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 3.5e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 1.7e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 2.5e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 3.1e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 5.7e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 4.2e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 8.4e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 3.0e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 5.3e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 9.0e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 6.3e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 5.9e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 1.8e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 2.8e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 2.0e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 7.1e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 4.4e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 7.8e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:372: OptimizeWarning: The pivot operation produces a pivot value of: 8.0e-04, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+max |x_gurobi - x_start| = 4.657e-10
+Problem size: n = 1362,  m_A = 818
+[DEBUG] callback_log last entry keys: ['x', 'basis', 'T']
+[DEBUG] last_basis is None? False, tableau is None? False
+len c_new: 1362
+m: 818
+T shape[1]: 1362
+  -> first Phase II iteration
+  -> degenerate iteration
+  -> degenerate iteration
+  -> degenerate iteration
+  -> non-degenerate edge step (change in obj = -4.707e+06), stopping
+[DEBUG] Warmstart caught StopWhenFeasible with len(info_list) = 5
+length of x1: 1362
+length of x_feasible: 1362
+[DEBUG] info1 basis is None? False
+[DEBUG] info2 basis is None? False
+
+Solving with simplex method (Gurobi)...
+Model Status: 2
+
+Final objective value for simplex: -20239252.355977114
+
+Solving with scipy simplex...
+len c_new: 1362
+m: 818
+T shape[1]: 1362
+Iter    0 | Phase 2 | Dummy obj = 221149584.845282 | Original obj = 221149584.845282
+Iter    1 | Phase 2 | Dummy obj = 221149584.845282 | Original obj = 221149584.845282
+Iter    2 | Phase 2 | Dummy obj = 221149584.845282 | Original obj = 221149584.845282
+Iter    3 | Phase 2 | Dummy obj = 221149584.845282 | Original obj = 221149584.845282
+Iter    4 | Phase 2 | Dummy obj = 216442527.355936 | Original obj = 216442527.355936
+Iter    5 | Phase 2 | Dummy obj = 216442527.355936 | Original obj = 216442527.355936
+Iter    6 | Phase 2 | Dummy obj = 216442527.355936 | Original obj = 216442527.355936
+Iter    7 | Phase 2 | Dummy obj = 198134546.885077 | Original obj = 198134546.885077
+Iter    8 | Phase 2 | Dummy obj = 198134546.885077 | Original obj = 198134546.885077
+Iter    9 | Phase 2 | Dummy obj = 198134546.885077 | Original obj = 198134546.885077
+Iter   10 | Phase 2 | Dummy obj = 198134546.885077 | Original obj = 198134546.885077
+Iter   11 | Phase 2 | Dummy obj = 198134546.885077 | Original obj = 198134546.885077
+Iter   12 | Phase 2 | Dummy obj = 198134546.885077 | Original obj = 198134546.885077
+Iter   13 | Phase 2 | Dummy obj = 196987507.198918 | Original obj = 196987507.198918
+Iter   14 | Phase 2 | Dummy obj = 190452881.458296 | Original obj = 190452881.458296
+Iter   15 | Phase 2 | Dummy obj = 190452881.458296 | Original obj = 190452881.458296
+Iter   16 | Phase 2 | Dummy obj = 188260488.681015 | Original obj = 188260488.681015
+Iter   17 | Phase 2 | Dummy obj = 183461300.920051 | Original obj = 183461300.920051
+Iter   18 | Phase 2 | Dummy obj = 183461300.920051 | Original obj = 183461300.920051
+Iter   19 | Phase 2 | Dummy obj = 182140047.252201 | Original obj = 182140047.252201
+Iter   20 | Phase 2 | Dummy obj = 182140047.252201 | Original obj = 182140047.252201
+Iter   21 | Phase 2 | Dummy obj = 181870607.066111 | Original obj = 181870607.066110
+Iter   22 | Phase 2 | Dummy obj = 181870607.066111 | Original obj = 181870607.066110
+Iter   23 | Phase 2 | Dummy obj = 181315053.490521 | Original obj = 181315053.490521
+Iter   24 | Phase 2 | Dummy obj = 181227579.352061 | Original obj = 181227579.352061
+Iter   25 | Phase 2 | Dummy obj = 181227579.352061 | Original obj = 181227579.352061
+Iter   26 | Phase 2 | Dummy obj = 175844562.516068 | Original obj = 175844562.516068
+Iter   27 | Phase 2 | Dummy obj = 175844562.516068 | Original obj = 175844562.516068
+Iter   28 | Phase 2 | Dummy obj = 175500383.179851 | Original obj = 175500383.179851
+Iter   29 | Phase 2 | Dummy obj = 175500383.179851 | Original obj = 175500383.179851
+Iter   30 | Phase 2 | Dummy obj = 175500383.179851 | Original obj = 175500383.179851
+Iter   31 | Phase 2 | Dummy obj = 175330445.179851 | Original obj = 175330445.179851
+sys:1: OptimizeWarning: The pivot operation produces a pivot value of: 6.2e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+Iter   32 | Phase 2 | Dummy obj = 175060359.487963 | Original obj = 175060359.487963
+Iter   33 | Phase 2 | Dummy obj = 174806114.068573 | Original obj = 174806114.068573
+Iter   34 | Phase 2 | Dummy obj = 174806114.068573 | Original obj = 174806114.068573
+Iter   35 | Phase 2 | Dummy obj = 174806114.068573 | Original obj = 174806114.068573
+Iter   36 | Phase 2 | Dummy obj = 174553354.223118 | Original obj = 174553354.223118
+Iter   37 | Phase 2 | Dummy obj = 174553354.223118 | Original obj = 174553354.223118
+Iter   38 | Phase 2 | Dummy obj = 174141599.154658 | Original obj = 174141599.154658
+Iter   39 | Phase 2 | Dummy obj = 174141599.154658 | Original obj = 174141599.154658
+Iter   40 | Phase 2 | Dummy obj = 173988449.154658 | Original obj = 173988449.154658
+Iter   41 | Phase 2 | Dummy obj = 173988449.154658 | Original obj = 173988449.154658
+Iter   42 | Phase 2 | Dummy obj = 173845651.331638 | Original obj = 173845651.331638
+Iter   43 | Phase 2 | Dummy obj = 158847775.715638 | Original obj = 158847775.715638
+Iter   44 | Phase 2 | Dummy obj = 134615657.542415 | Original obj = 134615657.542415
+Iter   45 | Phase 2 | Dummy obj = 134615657.542415 | Original obj = 134615657.542415
+Iter   46 | Phase 2 | Dummy obj = 122588792.278039 | Original obj = 122588792.278039
+Iter   47 | Phase 2 | Dummy obj = 122588792.278039 | Original obj = 122588792.278039
+Iter   48 | Phase 2 | Dummy obj = 122173433.108652 | Original obj = 122173433.108652
+Iter   49 | Phase 2 | Dummy obj = 122173433.108652 | Original obj = 122173433.108652
+Iter   50 | Phase 2 | Dummy obj = 100002590.385847 | Original obj = 100002590.385847
+Iter   51 | Phase 2 | Dummy obj = 100002590.385847 | Original obj = 100002590.385847
+Iter   52 | Phase 2 | Dummy obj = 98705215.131969 | Original obj = 98705215.131969
+Iter   53 | Phase 2 | Dummy obj = 98705215.131969 | Original obj = 98705215.131969
+Iter   54 | Phase 2 | Dummy obj = 98658329.284362 | Original obj = 98658329.284362
+Iter   55 | Phase 2 | Dummy obj = 98658329.284362 | Original obj = 98658329.284362
+Iter   56 | Phase 2 | Dummy obj = 94038897.625873 | Original obj = 94038897.625873
+Iter   57 | Phase 2 | Dummy obj = 94038897.625873 | Original obj = 94038897.625873
+Iter   58 | Phase 2 | Dummy obj = 43857430.851757 | Original obj = 43857430.851757
+Iter   59 | Phase 2 | Dummy obj = 43857430.851757 | Original obj = 43857430.851757
+Iter   60 | Phase 2 | Dummy obj = 39729363.736527 | Original obj = 39729363.736527
+Iter   61 | Phase 2 | Dummy obj = 39729363.736527 | Original obj = 39729363.736527
+Iter   62 | Phase 2 | Dummy obj = 34575298.072527 | Original obj = 34575298.072527
+Iter   63 | Phase 2 | Dummy obj = 27431362.519823 | Original obj = 27431362.519823
+Iter   64 | Phase 2 | Dummy obj = 27431362.519823 | Original obj = 27431362.519823
+Iter   65 | Phase 2 | Dummy obj = 26631415.783727 | Original obj = 26631415.783727
+Iter   66 | Phase 2 | Dummy obj = 22484501.466559 | Original obj = 22484501.466558
+Iter   67 | Phase 2 | Dummy obj = 20470875.123006 | Original obj = 20470875.123006
+Iter   68 | Phase 2 | Dummy obj = 20470875.123006 | Original obj = 20470875.123006
+Iter   69 | Phase 2 | Dummy obj = 19838892.450569 | Original obj = 19838892.450569
+Iter   70 | Phase 2 | Dummy obj = 19838892.450569 | Original obj = 19838892.450569
+Iter   71 | Phase 2 | Dummy obj = 17996983.892861 | Original obj = 17996983.892860
+Iter   72 | Phase 2 | Dummy obj = 17996983.892861 | Original obj = 17996983.892860
+Iter   73 | Phase 2 | Dummy obj = 17884726.999418 | Original obj = 17884726.999418
+Iter   74 | Phase 2 | Dummy obj = 14813585.783418 | Original obj = 14813585.783418
+Iter   75 | Phase 2 | Dummy obj = 14813585.783418 | Original obj = 14813585.783418
+Iter   76 | Phase 2 | Dummy obj = 14813585.783418 | Original obj = 14813585.783418
+Iter   77 | Phase 2 | Dummy obj = 14813585.783418 | Original obj = 14813585.783418
+Iter   78 | Phase 2 | Dummy obj = 14813585.783418 | Original obj = 14813585.783418
+Iter   79 | Phase 2 | Dummy obj = 14813585.783418 | Original obj = 14813585.783418
+Iter   80 | Phase 2 | Dummy obj = 14813585.783418 | Original obj = 14813585.783418
+Iter   81 | Phase 2 | Dummy obj = 14813585.783418 | Original obj = 14813585.783418
+Iter   82 | Phase 2 | Dummy obj = 14813585.783418 | Original obj = 14813585.783418
+Iter   83 | Phase 2 | Dummy obj = 14813585.783418 | Original obj = 14813585.783418
+Iter   84 | Phase 2 | Dummy obj = 14813585.783418 | Original obj = 14813585.783418
+Iter   85 | Phase 2 | Dummy obj = 14813585.783418 | Original obj = 14813585.783418
+sys:1: OptimizeWarning: The pivot operation produces a pivot value of: 2.3e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+Iter   86 | Phase 2 | Dummy obj = 14813585.783418 | Original obj = 14813585.783418
+Iter   87 | Phase 2 | Dummy obj = 14813585.783418 | Original obj = 14813585.783418
+Iter   88 | Phase 2 | Dummy obj = 14813585.783418 | Original obj = 14813585.783418
+Iter   89 | Phase 2 | Dummy obj = 14813585.783418 | Original obj = 14813585.783418
+Iter   90 | Phase 2 | Dummy obj = 14813585.783418 | Original obj = 14813585.783418
+Iter   91 | Phase 2 | Dummy obj = 14813585.783418 | Original obj = 14813585.783418
+sys:1: OptimizeWarning: The pivot operation produces a pivot value of: 6.5e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+Iter   92 | Phase 2 | Dummy obj = 14813585.783418 | Original obj = 14813585.783418
+Iter   93 | Phase 2 | Dummy obj = 14813585.783418 | Original obj = 14813585.783418
+Iter   94 | Phase 2 | Dummy obj = 14813585.783418 | Original obj = 14813585.783418
+Iter   95 | Phase 2 | Dummy obj = 14813585.783418 | Original obj = 14813585.783418
+Iter   96 | Phase 2 | Dummy obj = 14759234.074817 | Original obj = 14759234.074817
+Iter   97 | Phase 2 | Dummy obj = 14733085.597098 | Original obj = 14733085.597098
+Iter   98 | Phase 2 | Dummy obj = 14733085.597098 | Original obj = 14733085.597098
+Iter   99 | Phase 2 | Dummy obj = 14733085.597098 | Original obj = 14733085.597098
+Iter  100 | Phase 2 | Dummy obj = 14733085.597098 | Original obj = 14733085.597098
+Iter  101 | Phase 2 | Dummy obj = 14733085.597098 | Original obj = 14733085.597098
+Iter  102 | Phase 2 | Dummy obj = 14733085.597098 | Original obj = 14733085.597098
+Iter  103 | Phase 2 | Dummy obj = 13994137.195738 | Original obj = 13994137.195738
+Iter  104 | Phase 2 | Dummy obj = 13994137.195738 | Original obj = 13994137.195738
+Iter  105 | Phase 2 | Dummy obj = 13990461.083418 | Original obj = 13990461.083418
+Iter  106 | Phase 2 | Dummy obj = 13990461.083418 | Original obj = 13990461.083418
+Iter  107 | Phase 2 | Dummy obj = 13990461.083418 | Original obj = 13990461.083418
+Iter  108 | Phase 2 | Dummy obj = 13990461.083418 | Original obj = 13990461.083418
+Iter  109 | Phase 2 | Dummy obj = 13990461.083418 | Original obj = 13990461.083418
+Iter  110 | Phase 2 | Dummy obj = 13990461.083418 | Original obj = 13990461.083418
+Iter  111 | Phase 2 | Dummy obj = 13990461.083418 | Original obj = 13990461.083418
+Iter  112 | Phase 2 | Dummy obj = 13990461.083418 | Original obj = 13990461.083418
+Iter  113 | Phase 2 | Dummy obj = 13943608.050678 | Original obj = 13943608.050678
+Iter  114 | Phase 2 | Dummy obj = 13943608.050678 | Original obj = 13943608.050678
+Iter  115 | Phase 2 | Dummy obj = 13784791.492264 | Original obj = 13784791.492264
+Iter  116 | Phase 2 | Dummy obj = 13784791.492264 | Original obj = 13784791.492264
+Iter  117 | Phase 2 | Dummy obj = 13784791.492264 | Original obj = 13784791.492264
+Iter  118 | Phase 2 | Dummy obj = 13320586.282758 | Original obj = 13320586.282758
+Iter  119 | Phase 2 | Dummy obj = 13320586.282758 | Original obj = 13320586.282758
+Iter  120 | Phase 2 | Dummy obj = 12455587.137503 | Original obj = 12455587.137503
+Iter  121 | Phase 2 | Dummy obj = 9934957.187059 | Original obj = 9934957.187059
+Iter  122 | Phase 2 | Dummy obj = -930193.518483 | Original obj = -930193.518483
+Iter  123 | Phase 2 | Dummy obj = -930193.518483 | Original obj = -930193.518483
+Iter  124 | Phase 2 | Dummy obj = -2299702.354761 | Original obj = -2299702.354761
+Iter  125 | Phase 2 | Dummy obj = -2299702.354761 | Original obj = -2299702.354761
+Iter  126 | Phase 2 | Dummy obj = -3337128.072740 | Original obj = -3337128.072741
+Iter  127 | Phase 2 | Dummy obj = -3337128.072740 | Original obj = -3337128.072741
+Iter  128 | Phase 2 | Dummy obj = -3729483.025453 | Original obj = -3729483.025453
+Iter  129 | Phase 2 | Dummy obj = -3729483.025453 | Original obj = -3729483.025453
+Iter  130 | Phase 2 | Dummy obj = -3729483.025453 | Original obj = -3729483.025453
+Iter  131 | Phase 2 | Dummy obj = -5027873.714426 | Original obj = -5027873.714427
+Iter  132 | Phase 2 | Dummy obj = -5639071.652426 | Original obj = -5639071.652427
+Iter  133 | Phase 2 | Dummy obj = -5639071.652426 | Original obj = -5639071.652427
+Iter  134 | Phase 2 | Dummy obj = -6762151.652426 | Original obj = -6762151.652427
+Iter  135 | Phase 2 | Dummy obj = -6762151.652426 | Original obj = -6762151.652427
+Iter  136 | Phase 2 | Dummy obj = -8687931.558686 | Original obj = -8687931.558687
+Iter  137 | Phase 2 | Dummy obj = -8687931.558686 | Original obj = -8687931.558687
+Iter  138 | Phase 2 | Dummy obj = -8703392.042946 | Original obj = -8703392.042947
+sys:1: OptimizeWarning: The pivot operation produces a pivot value of: 7.2e-04, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+Iter  139 | Phase 2 | Dummy obj = -8868255.861698 | Original obj = -8868255.861698
+Iter  140 | Phase 2 | Dummy obj = -8868255.861698 | Original obj = -8868255.861698
+Iter  141 | Phase 2 | Dummy obj = -8868255.861698 | Original obj = -8868255.861698
+Iter  142 | Phase 2 | Dummy obj = -9755719.414926 | Original obj = -9755719.414926
+Iter  143 | Phase 2 | Dummy obj = -9755719.414926 | Original obj = -9755719.414926
+Iter  144 | Phase 2 | Dummy obj = -9936047.721911 | Original obj = -9936047.721911
+Iter  145 | Phase 2 | Dummy obj = -9936047.721911 | Original obj = -9936047.721911
+Iter  146 | Phase 2 | Dummy obj = -12089691.920904 | Original obj = -12089691.920904
+Iter  147 | Phase 2 | Dummy obj = -12089691.920904 | Original obj = -12089691.920904
+sys:1: OptimizeWarning: The pivot operation produces a pivot value of: 6.2e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+Iter  148 | Phase 2 | Dummy obj = -12128103.272330 | Original obj = -12128103.272330
+Iter  149 | Phase 2 | Dummy obj = -13715252.725116 | Original obj = -13715252.725116
+Iter  150 | Phase 2 | Dummy obj = -13715252.725116 | Original obj = -13715252.725116
+Iter  151 | Phase 2 | Dummy obj = -14781492.725116 | Original obj = -14781492.725116
+Iter  152 | Phase 2 | Dummy obj = -14781492.725116 | Original obj = -14781492.725116
+sys:1: OptimizeWarning: The pivot operation produces a pivot value of: 4.2e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+Iter  153 | Phase 2 | Dummy obj = -16169035.646721 | Original obj = -16169035.646721
+Iter  154 | Phase 2 | Dummy obj = -16186946.587436 | Original obj = -16186946.587436
+Iter  155 | Phase 2 | Dummy obj = -16609790.959056 | Original obj = -16609790.959056
+sys:1: OptimizeWarning: The pivot operation produces a pivot value of: 5.7e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+Iter  156 | Phase 2 | Dummy obj = -16609790.959056 | Original obj = -16609790.959056
+Iter  157 | Phase 2 | Dummy obj = -16624468.684576 | Original obj = -16624468.684576
+sys:1: OptimizeWarning: The pivot operation produces a pivot value of: 5.5e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+Iter  158 | Phase 2 | Dummy obj = -16731193.375088 | Original obj = -16731193.375088
+Iter  159 | Phase 2 | Dummy obj = -16744242.735927 | Original obj = -16744242.735927
+Iter  160 | Phase 2 | Dummy obj = -17224181.078539 | Original obj = -17224181.078539
+Iter  161 | Phase 2 | Dummy obj = -17224181.078539 | Original obj = -17224181.078539
+Iter  162 | Phase 2 | Dummy obj = -17224181.078539 | Original obj = -17224181.078539
+sys:1: OptimizeWarning: The pivot operation produces a pivot value of: 4.0e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+Iter  163 | Phase 2 | Dummy obj = -17300856.860563 | Original obj = -17300856.860563
+Iter  164 | Phase 2 | Dummy obj = -17300856.860563 | Original obj = -17300856.860563
+Iter  165 | Phase 2 | Dummy obj = -17396800.834684 | Original obj = -17396800.834684
+Iter  166 | Phase 2 | Dummy obj = -17400586.198515 | Original obj = -17400586.198515
+Iter  167 | Phase 2 | Dummy obj = -17400586.198515 | Original obj = -17400586.198515
+Iter  168 | Phase 2 | Dummy obj = -17400586.198515 | Original obj = -17400586.198515
+Iter  169 | Phase 2 | Dummy obj = -17402442.295127 | Original obj = -17402442.295127
+Iter  170 | Phase 2 | Dummy obj = -17402442.295127 | Original obj = -17402442.295127
+Iter  171 | Phase 2 | Dummy obj = -17414189.933297 | Original obj = -17414189.933297
+Iter  172 | Phase 2 | Dummy obj = -17435321.933297 | Original obj = -17435321.933297
+Iter  173 | Phase 2 | Dummy obj = -17445300.933297 | Original obj = -17445300.933297
+Iter  174 | Phase 2 | Dummy obj = -17445300.933297 | Original obj = -17445300.933297
+Iter  175 | Phase 2 | Dummy obj = -17465363.733297 | Original obj = -17465363.733297
+Iter  176 | Phase 2 | Dummy obj = -17474837.833297 | Original obj = -17474837.833297
+Iter  177 | Phase 2 | Dummy obj = -17474837.833297 | Original obj = -17474837.833297
+Iter  178 | Phase 2 | Dummy obj = -17622467.833297 | Original obj = -17622467.833297
+Iter  179 | Phase 2 | Dummy obj = -17654117.003752 | Original obj = -17654117.003752
+Iter  180 | Phase 2 | Dummy obj = -17654117.003752 | Original obj = -17654117.003752
+Iter  181 | Phase 2 | Dummy obj = -17794277.003752 | Original obj = -17794277.003752
+Iter  182 | Phase 2 | Dummy obj = -17824479.021445 | Original obj = -17824479.021445
+Iter  183 | Phase 2 | Dummy obj = -17957529.021445 | Original obj = -17957529.021445
+Iter  184 | Phase 2 | Dummy obj = -18014320.021445 | Original obj = -18014320.021445
+Iter  185 | Phase 2 | Dummy obj = -18014320.021445 | Original obj = -18014320.021445
+Iter  186 | Phase 2 | Dummy obj = -18024716.724573 | Original obj = -18024716.724573
+Iter  187 | Phase 2 | Dummy obj = -18024716.724573 | Original obj = -18024716.724573
+Iter  188 | Phase 2 | Dummy obj = -18078634.924573 | Original obj = -18078634.924573
+Iter  189 | Phase 2 | Dummy obj = -18078634.924573 | Original obj = -18078634.924573
+sys:1: OptimizeWarning: The pivot operation produces a pivot value of: 2.0e-04, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+Iter  190 | Phase 2 | Dummy obj = -18639783.640697 | Original obj = -18639783.640697
+sys:1: OptimizeWarning: The pivot operation produces a pivot value of: 5.3e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+Iter  191 | Phase 2 | Dummy obj = -18668091.528184 | Original obj = -18668091.528184
+Iter  192 | Phase 2 | Dummy obj = -18821234.924573 | Original obj = -18821234.924573
+sys:1: OptimizeWarning: The pivot operation produces a pivot value of: 7.9e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+Iter  193 | Phase 2 | Dummy obj = -19151819.075812 | Original obj = -19151819.075812
+Iter  194 | Phase 2 | Dummy obj = -19151819.075812 | Original obj = -19151819.075812
+Iter  195 | Phase 2 | Dummy obj = -19192534.924573 | Original obj = -19192534.924573
+Iter  196 | Phase 2 | Dummy obj = -19192534.924573 | Original obj = -19192534.924573
+Iter  197 | Phase 2 | Dummy obj = -19819410.130097 | Original obj = -19819410.130097
+Iter  198 | Phase 2 | Dummy obj = -19819410.130097 | Original obj = -19819410.130097
+Iter  199 | Phase 2 | Dummy obj = -19852734.924573 | Original obj = -19852734.924573
+Iter  200 | Phase 2 | Dummy obj = -19852734.924573 | Original obj = -19852734.924573
+sys:1: OptimizeWarning: The pivot operation produces a pivot value of: 5.9e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+Iter  201 | Phase 2 | Dummy obj = -20125413.652495 | Original obj = -20125413.652495
+sys:1: OptimizeWarning: The pivot operation produces a pivot value of: 6.7e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+Iter  202 | Phase 2 | Dummy obj = -20155473.883046 | Original obj = -20155473.883047
+Iter  203 | Phase 2 | Dummy obj = -20161680.892798 | Original obj = -20161680.892799
+Iter  204 | Phase 2 | Dummy obj = -20161680.892798 | Original obj = -20161680.892799
+Iter  205 | Phase 2 | Dummy obj = -20161680.892798 | Original obj = -20161680.892799
+sys:1: OptimizeWarning: The pivot operation produces a pivot value of: 3.5e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+Iter  206 | Phase 2 | Dummy obj = -20163934.924573 | Original obj = -20163934.924573
+Iter  207 | Phase 2 | Dummy obj = -20163934.924573 | Original obj = -20163934.924573
+Iter  208 | Phase 2 | Dummy obj = -20163934.924573 | Original obj = -20163934.924573
+Iter  209 | Phase 2 | Dummy obj = -20163934.924573 | Original obj = -20163934.924573
+Iter  210 | Phase 2 | Dummy obj = -20163934.924573 | Original obj = -20163934.924573
+sys:1: OptimizeWarning: The pivot operation produces a pivot value of: 7.5e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+Iter  211 | Phase 2 | Dummy obj = -20163934.924573 | Original obj = -20163934.924573
+Iter  212 | Phase 2 | Dummy obj = -20163934.924573 | Original obj = -20163934.924573
+Iter  213 | Phase 2 | Dummy obj = -20165614.926054 | Original obj = -20165614.926054
+Iter  214 | Phase 2 | Dummy obj = -20165614.926054 | Original obj = -20165614.926054
+Iter  215 | Phase 2 | Dummy obj = -20168876.105399 | Original obj = -20168876.105399
+Iter  216 | Phase 2 | Dummy obj = -20171916.318554 | Original obj = -20171916.318554
+Iter  217 | Phase 2 | Dummy obj = -20171916.318554 | Original obj = -20171916.318554
+Iter  218 | Phase 2 | Dummy obj = -20176585.356057 | Original obj = -20176585.356057
+Iter  219 | Phase 2 | Dummy obj = -20176585.356057 | Original obj = -20176585.356057
+Iter  220 | Phase 2 | Dummy obj = -20176585.356057 | Original obj = -20176585.356057
+Iter  221 | Phase 2 | Dummy obj = -20177144.650753 | Original obj = -20177144.650753
+sys:1: OptimizeWarning: The pivot operation produces a pivot value of: 1.2e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+Iter  222 | Phase 2 | Dummy obj = -20194563.698153 | Original obj = -20194563.698153
+Iter  223 | Phase 2 | Dummy obj = -20194563.698153 | Original obj = -20194563.698153
+Iter  224 | Phase 2 | Dummy obj = -20211363.698153 | Original obj = -20211363.698153
+Iter  225 | Phase 2 | Dummy obj = -20211363.698153 | Original obj = -20211363.698153
+Iter  226 | Phase 2 | Dummy obj = -20211363.698153 | Original obj = -20211363.698153
+sys:1: OptimizeWarning: The pivot operation produces a pivot value of: 5.5e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+Iter  227 | Phase 2 | Dummy obj = -20211760.917880 | Original obj = -20211760.917880
+Iter  228 | Phase 2 | Dummy obj = -20217309.314760 | Original obj = -20217309.314760
+Iter  229 | Phase 2 | Dummy obj = -20217309.314760 | Original obj = -20217309.314760
+sys:1: OptimizeWarning: The pivot operation produces a pivot value of: 9.3e-04, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+Iter  230 | Phase 2 | Dummy obj = -20225906.341837 | Original obj = -20225906.341837
+Iter  231 | Phase 2 | Dummy obj = -20226869.804203 | Original obj = -20226869.804203
+Iter  232 | Phase 2 | Dummy obj = -20228400.914760 | Original obj = -20228400.914760
+Iter  233 | Phase 2 | Dummy obj = -20228400.914760 | Original obj = -20228400.914760
+sys:1: OptimizeWarning: The pivot operation produces a pivot value of: 9.0e-04, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+Iter  234 | Phase 2 | Dummy obj = -20229153.584944 | Original obj = -20229153.584944
+Iter  235 | Phase 2 | Dummy obj = -20230850.914760 | Original obj = -20230850.914760
+Iter  236 | Phase 2 | Dummy obj = -20230850.914760 | Original obj = -20230850.914760
+Iter  237 | Phase 2 | Dummy obj = -20230850.914760 | Original obj = -20230850.914760
+Iter  238 | Phase 2 | Dummy obj = -20230850.914760 | Original obj = -20230850.914760
+Iter  239 | Phase 2 | Dummy obj = -20230850.914760 | Original obj = -20230850.914760
+Iter  240 | Phase 2 | Dummy obj = -20233150.914760 | Original obj = -20233150.914760
+Iter  241 | Phase 2 | Dummy obj = -20233150.914760 | Original obj = -20233150.914760
+Iter  242 | Phase 2 | Dummy obj = -20233150.914760 | Original obj = -20233150.914760
+Iter  243 | Phase 2 | Dummy obj = -20234950.914760 | Original obj = -20234950.914760
+Iter  244 | Phase 2 | Dummy obj = -20234950.914760 | Original obj = -20234950.914760
+Iter  245 | Phase 2 | Dummy obj = -20239249.563922 | Original obj = -20239249.563922
+Iter  246 | Phase 2 | Dummy obj = -20239249.563922 | Original obj = -20239249.563922
+Iter  247 | Phase 2 | Dummy obj = -20239249.563922 | Original obj = -20239249.563922
+Iter  248 | Phase 2 | Dummy obj = -20239249.563922 | Original obj = -20239249.563922
+Iter  249 | Phase 2 | Dummy obj = -20239249.563922 | Original obj = -20239249.563922
+Iter  250 | Phase 2 | Dummy obj = -20239249.563922 | Original obj = -20239249.563922
+Iter  251 | Phase 2 | Dummy obj = -20239249.563922 | Original obj = -20239249.563922
+Iter  252 | Phase 2 | Dummy obj = -20239249.563922 | Original obj = -20239249.563922
+Iter  253 | Phase 2 | Dummy obj = -20239249.563922 | Original obj = -20239249.563922
+Iter  254 | Phase 2 | Dummy obj = -20239249.563922 | Original obj = -20239249.563922
+Iter  255 | Phase 2 | Dummy obj = -20239249.563922 | Original obj = -20239249.563922
+Iter  256 | Phase 2 | Dummy obj = -20239249.563922 | Original obj = -20239249.563922
+Iter  257 | Phase 2 | Dummy obj = -20239249.563922 | Original obj = -20239249.563922
+Iter  258 | Phase 2 | Dummy obj = -20239249.563922 | Original obj = -20239249.563922
+Iter  259 | Phase 2 | Dummy obj = -20239249.563922 | Original obj = -20239249.563922
+Iter  260 | Phase 2 | Dummy obj = -20239252.355977 | Original obj = -20239252.355977
+Edge steps: 119
+Occurred at iterations: [4, 7, 13, 14, 16, 17, 19, 21, 23, 24, 26, 28, 31, 32, 33, 36, 38, 40, 42, 43, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 63, 65, 66, 67, 69, 71, 73, 74, 92, 94, 96, 97, 103, 105, 108, 113, 115, 118, 120, 121, 122, 124, 126, 128, 131, 132, 134, 136, 138, 139, 142, 144, 146, 148, 149, 151, 153, 154, 155, 157, 158, 159, 160, 163, 165, 166, 169, 171, 172, 173, 175, 176, 178, 179, 181, 182, 183, 184, 186, 188, 190, 191, 192, 193, 195, 197, 199, 201, 202, 203, 206, 213, 215, 216, 218, 221, 222, 224, 227, 228, 230, 231, 232, 234, 235, 240, 243, 245, 260]
+Optimal objective after scipy simplex is: -20239252.355977036
+
+Solving agg2: variant 'sdac'...
+Problem size: n = 1362,  m_A = 818
+Problem size: n = 1362,  m_A = 818
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Polyhedral model build time: 0.7138385772705078
+
+Iteration 0
+Objective: 219585301.08277208
+Steepness: -28.08461064876318
+Step length: 55698.965603367855
+
+Iteration 1
+Objective: 204587425.46677208
+Steepness: -27.31638769992337
+Step length: 549043.152438566
+
+Iteration 50
+Objective: -15246660.557610238
+Steepness: -0.9851740794950241
+Step length: 302992.13734186336
+Total time for steepest-descent scheme: 1.0640881061553955
+Final sdac objective value: -20239252.35597711
+Final steepness value: 0.0
+
+Solving agg2: variant 'sdac_rest'...
+Problem size: n = 1362,  m_A = 818
+Problem size: n = 1362,  m_A = 818
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Polyhedral model build time: 0.7106449604034424
+
+Iteration 0
+Objective: 219585301.08277208
+Steepness: -28.08461064876318
+Step length: 55698.965603367855
+
+Iteration 1
+Objective: 204587425.46677208
+Steepness: -27.31638769992337
+Step length: 549043.152438566
+------ Entered Facet Restriction! ------
+
+Iteration 50
+Objective: -14614147.850438021
+Steepness: -0.0044806213128218975
+Step length: 300055.2000684534
+++++++ Exited Facet Restriction! ++++++
+problem was built
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 7.2e-04, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 5.8e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 1.2e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 6.9e-04, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 1.7e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 2.5e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 3.1e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 5.7e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 4.2e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 8.4e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 5.3e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 9.0e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 6.3e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 5.9e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 7.1e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+len c_new: 1362
+m: 818
+T shape[1]: 1362
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 2.0e-04, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 4.2e-03, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:334: OptimizeWarning: The pivot operation produces a pivot value of: 1.5e-04, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+Total time for steepest-descent scheme: 6.3915088176727295
+Final sdac objective value: -20239252.355977114
+Final steepness value: 0.0
+
+Solving agg2: variant 'sdac_triv'...
+basis1 length: 818
+Problem size: n = 1362,  m_A = 818
+Problem size: n = 1362,  m_A = 818
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Using trivial warm start
+Polyhedral model build time: 0.6671264171600342
+
+Iteration 0
+Objective: 219585301.08277208
+Steepness: -28.08461064876318
+Step length: 55698.965603367855
+
+Iteration 1
+Objective: 204587425.46677208
+Steepness: -27.316392271278726
+Step length: 549043.0605570566
+
+Iteration 50
+Objective: -15246660.557610251
+Steepness: -0.9851740794950241
+Step length: 302992.1373418635
+Total time for steepest-descent scheme: 1.1049487590789795
+Final sdac objective value: -20239252.355977107
+Final steepness value: 0.0
+
+Solving agg2: variant 'sdac_edge'...
+Problem size: n = 1362,  m_A = 818
+Problem size: n = 1362,  m_A = 818
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Using edge warm start
+x1==x2: False basis1 len: 818 basis2 len: 818 basis1: 

@@ -1,0 +1,224 @@
+
+Solving: sc50a
+Working on problem 1 of 15
+removing redundant constraint 'ROW00003'
+[DEBUG inside mps_to_standard] new_c shape: (173,), new_A shape: (97, 173)
+Standard form dimensions -> c: (173,), A: (97, 173)
+Building polyhedron in standard form...
+Problem size: n = 173,  m_A = 97
+rank(A): 97
+Finding feasible solution for polyhedron in standard form...
+Set parameter Username
+Set parameter LicenseID to value 2851667
+Academic license - for non-commercial use only - expires 2027-08-05
+problem was built
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:387: OptimizeWarning: The pivot operation produces a pivot value of: 1.0e-01, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:387: OptimizeWarning: The pivot operation produces a pivot value of: 5.9e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  rec = recover_start_vertex(x_gurobi, P)
+max |x_gurobi - x_start| = 2.842e-15
+Problem size: n = 173,  m_A = 97
+[DEBUG] callback_log last entry keys: ['x', 'basis', 'T']
+[DEBUG] last_basis is None? False, tableau is None? False
+len c_new: 173
+m: 97
+T shape[1]: 173
+  -> first Phase II iteration
+  -> degenerate iteration
+  -> degenerate iteration
+  -> degenerate iteration
+  -> degenerate iteration
+  -> degenerate iteration
+  -> degenerate iteration
+  -> degenerate iteration
+  -> degenerate iteration
+  -> degenerate iteration
+  -> degenerate iteration
+  -> degenerate iteration
+  -> degenerate iteration
+  -> degenerate iteration
+  -> degenerate iteration
+  -> degenerate iteration
+  -> degenerate iteration
+  -> degenerate iteration
+  -> degenerate iteration
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:394: OptimizeWarning: The pivot operation produces a pivot value of: 6.6e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  warmstart_info = get_warmstart_info(rec, P.copy())
+  -> degenerate iteration
+  -> degenerate iteration
+  -> degenerate iteration
+  -> degenerate iteration
+  -> non-degenerate edge step (change in obj = -2.618e+01), stopping
+[DEBUG] Warmstart caught StopWhenFeasible with len(info_list) = 24
+length of x1: 173
+length of x_feasible: 173
+[DEBUG] info1 basis is None? False
+[DEBUG] info2 basis is None? False
+
+Solving with simplex method (Gurobi)...
+Model Status: 2
+
+Final objective value for simplex: -64.5750770585645
+
+Solving with scipy simplex...
+len c_new: 173
+m: 97
+T shape[1]: 173
+Iter    0 | Phase 2 | Dummy obj =    -0.000000 | Original obj =     0.000000
+Iter    1 | Phase 2 | Dummy obj =    -0.000000 | Original obj =     0.000000
+Iter    2 | Phase 2 | Dummy obj =    -0.000000 | Original obj =     0.000000
+Iter    3 | Phase 2 | Dummy obj =    -0.000000 | Original obj =     0.000000
+Iter    4 | Phase 2 | Dummy obj =    -0.000000 | Original obj =     0.000000
+Iter    5 | Phase 2 | Dummy obj =    -0.000000 | Original obj =     0.000000
+Iter    6 | Phase 2 | Dummy obj =    -0.000000 | Original obj =     0.000000
+Iter    7 | Phase 2 | Dummy obj =    -0.000000 | Original obj =     0.000000
+Iter    8 | Phase 2 | Dummy obj =    -0.000000 | Original obj =     0.000000
+Iter    9 | Phase 2 | Dummy obj =    -0.000000 | Original obj =     0.000000
+Iter   10 | Phase 2 | Dummy obj =    -0.000000 | Original obj =     0.000000
+Iter   11 | Phase 2 | Dummy obj =    -0.000000 | Original obj =     0.000000
+Iter   12 | Phase 2 | Dummy obj =    -0.000000 | Original obj =     0.000000
+Iter   13 | Phase 2 | Dummy obj =    -0.000000 | Original obj =     0.000000
+Iter   14 | Phase 2 | Dummy obj =    -0.000000 | Original obj =     0.000000
+Iter   15 | Phase 2 | Dummy obj =    -0.000000 | Original obj =     0.000000
+Iter   16 | Phase 2 | Dummy obj =    -0.000000 | Original obj =     0.000000
+Iter   17 | Phase 2 | Dummy obj =    -0.000000 | Original obj =     0.000000
+Iter   18 | Phase 2 | Dummy obj =    -0.000000 | Original obj =     0.000000
+sys:1: OptimizeWarning: The pivot operation produces a pivot value of: 6.6e-02, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+Iter   19 | Phase 2 | Dummy obj =    -0.000000 | Original obj =    -0.000000
+Iter   20 | Phase 2 | Dummy obj =    -0.000000 | Original obj =    -0.000000
+Iter   21 | Phase 2 | Dummy obj =    -0.000000 | Original obj =    -0.000000
+Iter   22 | Phase 2 | Dummy obj =    -0.000000 | Original obj =    -0.000000
+Iter   23 | Phase 2 | Dummy obj =   -26.183283 | Original obj =   -26.183283
+Iter   24 | Phase 2 | Dummy obj =   -26.183283 | Original obj =   -26.183283
+Iter   25 | Phase 2 | Dummy obj =   -41.269841 | Original obj =   -41.269841
+Iter   26 | Phase 2 | Dummy obj =   -41.269841 | Original obj =   -41.269841
+Iter   27 | Phase 2 | Dummy obj =   -41.436150 | Original obj =   -41.436150
+Iter   28 | Phase 2 | Dummy obj =   -41.436150 | Original obj =   -41.436150
+Iter   29 | Phase 2 | Dummy obj =   -41.436150 | Original obj =   -41.436150
+Iter   30 | Phase 2 | Dummy obj =   -41.436150 | Original obj =   -41.436150
+Iter   31 | Phase 2 | Dummy obj =   -50.162615 | Original obj =   -50.162615
+Iter   32 | Phase 2 | Dummy obj =   -50.162615 | Original obj =   -50.162615
+Iter   33 | Phase 2 | Dummy obj =   -54.185734 | Original obj =   -54.185734
+Iter   34 | Phase 2 | Dummy obj =   -54.185734 | Original obj =   -54.185734
+Iter   35 | Phase 2 | Dummy obj =   -54.185734 | Original obj =   -54.185734
+Iter   36 | Phase 2 | Dummy obj =   -54.927247 | Original obj =   -54.927247
+Iter   37 | Phase 2 | Dummy obj =   -54.927247 | Original obj =   -54.927247
+Iter   38 | Phase 2 | Dummy obj =   -57.035260 | Original obj =   -57.035260
+Iter   39 | Phase 2 | Dummy obj =   -57.035260 | Original obj =   -57.035260
+Iter   40 | Phase 2 | Dummy obj =   -58.020329 | Original obj =   -58.020329
+Iter   41 | Phase 2 | Dummy obj =   -58.847918 | Original obj =   -58.847918
+Iter   42 | Phase 2 | Dummy obj =   -60.447219 | Original obj =   -60.447219
+Iter   43 | Phase 2 | Dummy obj =   -60.447219 | Original obj =   -60.447219
+Iter   44 | Phase 2 | Dummy obj =   -60.904104 | Original obj =   -60.904104
+Iter   45 | Phase 2 | Dummy obj =   -60.904104 | Original obj =   -60.904104
+Iter   46 | Phase 2 | Dummy obj =   -62.433237 | Original obj =   -62.433237
+Iter   47 | Phase 2 | Dummy obj =   -62.433237 | Original obj =   -62.433237
+Iter   48 | Phase 2 | Dummy obj =   -62.654487 | Original obj =   -62.654487
+Iter   49 | Phase 2 | Dummy obj =   -62.654487 | Original obj =   -62.654487
+Iter   50 | Phase 2 | Dummy obj =   -64.091701 | Original obj =   -64.091701
+Iter   51 | Phase 2 | Dummy obj =   -64.091701 | Original obj =   -64.091701
+Iter   52 | Phase 2 | Dummy obj =   -64.333412 | Original obj =   -64.333412
+Iter   53 | Phase 2 | Dummy obj =   -64.475597 | Original obj =   -64.475597
+Iter   54 | Phase 2 | Dummy obj =   -64.475597 | Original obj =   -64.475597
+Iter   55 | Phase 2 | Dummy obj =   -64.575077 | Original obj =   -64.575077
+Edge steps: 17
+Occurred at iterations: [23, 25, 27, 31, 33, 36, 38, 40, 41, 42, 44, 46, 48, 50, 52, 53, 55]
+Optimal objective after scipy simplex is: -64.57507705856449
+
+Solving sc50a: variant 'sdac'...
+Problem size: n = 173,  m_A = 97
+Problem size: n = 173,  m_A = 97
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Polyhedral model build time: 0.016295909881591797
+
+Iteration 0
+Objective: -41.436149625482166
+Steepness: -0.008914319887058111
+Step length: 4648.268196616944
+
+Iteration 1
+Objective: -47.15148060830683
+Steepness: -0.007284492958705041
+Step length: 784.5887167746911
+Total time for steepest-descent scheme: 0.009337425231933594
+Final sdac objective value: -64.5750770585648
+Final steepness value: 0.0
+
+Solving sc50a: variant 'sdac_rest'...
+Problem size: n = 173,  m_A = 97
+Problem size: n = 173,  m_A = 97
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Polyhedral model build time: 0.019681692123413086
+
+Iteration 0
+Objective: -41.436149625482166
+Steepness: -0.008914319887058111
+Step length: 4648.268196616944
+------ Entered Facet Restriction! ------
+++++++ Exited Facet Restriction! ++++++
+problem was built
+C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py:349: OptimizeWarning: The pivot operation produces a pivot value of: 1.0e-01, which is only slightly greater than the specified tolerance 1.0e-05. This may lead to issues regarding the numerical stability of the simplex method. Removing redundant constraints, changing the pivot strategy via Bland's rule or increasing the tolerance may help reduce the issue.
+  res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+len c_new: 173
+m: 97
+T shape[1]: 173
+Total time for steepest-descent scheme: 0.09153532981872559
+Final sdac objective value: -64.57507705856449
+Final steepness value: 0.0
+
+Solving sc50a: variant 'sdac_triv'...
+basis1 length: 97
+Problem size: n = 173,  m_A = 97
+Problem size: n = 173,  m_A = 97
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Using trivial warm start
+Polyhedral model build time: 0.0170133113861084
+
+Iteration 0
+Objective: -41.436149625482166
+Steepness: -0.008914319887058111
+Step length: 4648.268196616944
+
+Iteration 1
+Objective: -47.15148060830683
+Steepness: -0.007284492958705041
+Step length: 784.5887167746911
+Total time for steepest-descent scheme: 0.012960433959960938
+Final sdac objective value: -64.5750770585648
+Final steepness value: 0.0
+
+Solving sc50a: variant 'sdac_edge'...
+Problem size: n = 173,  m_A = 97
+Problem size: n = 173,  m_A = 97
+Building polyhedral model for standard form in standard form. Solve method: dual_simplex
+Polyhedral model built!
+Using edge warm start
+x1==x2: False basis1 len: 97 basis2 len: 97 basis1: [128  96  50 160  13  60  52  54   3  45  70 141 142  46 100  47 152 153
+  43 106   1  97  24  26  44 101 102  38 133 134   9 107 108   0 144 145
+  19 113 114  23  78  79  29 119 120  32  41  33  39 125 126 127  42 129
+ 155 156 132  98  99 135  58  59   8 139 140  14  16 143 104 105 146  68
+  69  18 150 151  34  36 154 110 111 157 166 167  28 161 162 163 164 165
+ 116 117 168 169 170 171 172] basis2: [128  96  50 160  13  60  52  54   3  45  70 141 142  46 100  47 152 153
+  43 106   1  40  24  26  44 101 102  38 133 134   9 107 108   0 144 145
+  19 113 114  23  78  79  29 119 120  32  41  33  39 125 126 127  42 129
+ 155 156 132  98  99 135  58  59   8 139 140  14  16 143 104 105 146  68
+  69  18 150 151  34  36 154 110 111 157 166 167  28 161 162 163 164 165
+ 116 117 168 169 170 171 172]
+Traceback (most recent call last):
+  File "C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py", line 465, in <module>
+    res = run_variant(cfg, P, rankA, x_feasible, warmstart_info)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DillW\Documents\refined polyhedral model\refined_netlib_runs.py", line 349, in run_variant
+    res = refined_sdac(P=P.copy(), x=x0, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DillW\Documents\refined polyhedral model\refined_sdac.py", line 120, in refined_sdac
+    pm.set_edge_basis(x=x_current, x2=x2, basis_array1=first_warm_start, basis_array2=second_warm_start)
+  File "C:\Users\DillW\Documents\refined polyhedral model\refined_polyhedral_model.py", line 269, in set_edge_basis
+    vb_before = self.model.getAttr(gp.GRB.Attr.VBasis, self.model.getVars())
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src\\gurobipy\\model.pxi", line 1928, in gurobipy.Model.getAttr
+  File "src\\gurobipy\\attrutil.pxi", line 139, in gurobipy._gettypedattrlist
+gurobipy.GurobiError: Unable to retrieve attribute 'VBasis'

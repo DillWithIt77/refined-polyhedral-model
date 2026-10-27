@@ -1,0 +1,105 @@
+NAME          NETWORK 2
+ROWS
+ N  COST
+ E  FLOW1
+ E  FLOW2
+ E  FLOW3
+ E  FLOW4
+ E  FLOW5
+ E  FLOW6
+ E  FLOW7
+ E  FLOW8
+ E  FLOW9
+ E  FLOW10
+ E  FLOW11
+ E  FLOW12
+ E  FLOW13
+COLUMNS
+    X12        COST         2
+    X12        FLOW1        1
+    X12        FLOW2       -1
+    X19        COST         3
+    X19        FLOW1        1
+    X19        FLOW9       -1
+    X23        COST         2
+    X23        FLOW2        1
+    X23        FLOW3       -1
+    X34        COST         3
+    X34        FLOW3        1
+    X34        FLOW4       -1
+    X36        COST         2
+    X36        FLOW3        1
+    X36        FLOW6       -1
+    X37        COST         3
+    X37        FLOW3        1
+    X37        FLOW7       -1
+    X45        COST         1
+    X45        FLOW4        1
+    X45        FLOW5       -1
+    X513       COST         3
+    X513       FLOW5        1
+    X513       FLOW13      -1
+    X611       COST         2
+    X611       FLOW6        1
+    X611       FLOW11      -1
+    X78        COST         3 
+    X78        FLOW7        1
+    X78        FLOW8       -1
+    X84        COST         2
+    X84        FLOW8        1
+    X84        FLOW4       -1
+    X812       COST         3
+    X812       FLOW8        1
+    X812       FLOW12      -1
+    X813       COST         2
+    X813       FLOW8        1
+    X813       FLOW13      -1
+    X96        COST         3
+    X96        FLOW9        1
+    X96        FLOW6       -1
+    X910       COST         2
+    X910       FLOW9        1
+    X910       FLOW10      -1
+    X107       COST         3
+    X107       FLOW10       1
+    X107       FLOW7       -1
+    X1112      COST         2
+    X1112      FLOW11       1
+    X1112      FLOW12      -1
+    X1213      COST         3
+    X1213      FLOW3        1
+    X1213      FLOW7       -1
+RHS
+    RHS        FLOW1       10
+    RHS        FLOW2        0
+    RHS        FLOW3        0
+    RHS        FLOW4        0
+    RHS        FLOW5        0
+    RHS        FLOW6        0
+    RHS        FLOW7        0
+    RHS        FLOW8        0
+    RHS        FLOW9        0
+    RHS        FLOW10       0
+    RHS        FLOW11       0
+    RHS        FLOW12       0
+    RHS        FLOW13     -10
+BOUNDS
+ UP BOUND     X12           5
+ UP BOUND     X19          10
+ UP BOUND     X23           5
+ UP BOUND     X34          10
+ UP BOUND     X36           5
+ UP BOUND     X37           5
+ UP BOUND     X45          10
+ UP BOUND     X513          5
+ UP BOUND     X611          5
+ UP BOUND     X78          10
+ UP BOUND     X84           5
+ UP BOUND     X812          5
+ UP BOUND     X813         10
+ UP BOUND     X96           5
+ UP BOUND     X910          5
+ UP BOUND     X107         10
+ UP BOUND     X1112         5
+ UP BOUND     X1213         5
+ENDATA

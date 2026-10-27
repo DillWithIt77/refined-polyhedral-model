@@ -1,0 +1,34 @@
+
+=== Total solve time (s) ===
+Problem           Gurobi LP          Scipy           sdac      sdac_edge      sdac_triv      sdac_rest
+------------------------------------------------------------------------------------------------------
+adlittle                n/a            n/a            n/a            n/a            n/a            n/a
+afiro                   n/a            n/a            n/a            n/a            n/a            n/a
+agg                     n/a            n/a            n/a            n/a            n/a            n/a
+agg2                    n/a            n/a            n/a            n/a            n/a            n/a
+agg3                    n/a            n/a            n/a            n/a            n/a            n/a
+beaconfd                n/a            n/a            n/a            n/a            n/a            n/a
+blend                   n/a            n/a            n/a            n/a            n/a            n/a
+capri                   n/a            n/a            n/a            n/a            n/a            n/a
+e226                    n/a            n/a            n/a            n/a            n/a            n/a
+gfrd-pnc                n/a            n/a            n/a            n/a            n/a            n/a
+israel                  n/a            n/a            n/a            n/a            n/a            n/a
+kb2                     n/a            n/a            n/a            n/a            n/a            n/a
+lotfi                   n/a            n/a            n/a            n/a            n/a            n/a
+sc105                   n/a            n/a            n/a            n/a            n/a            n/a
+sc205                   n/a            n/a            n/a            n/a            n/a            n/a
+sc50a                   n/a            n/a            n/a            n/a            n/a            n/a
+sc50b                   n/a            n/a            n/a            n/a            n/a            n/a
+scagr7                  n/a            n/a            n/a            n/a            n/a            n/a
+scrs8                   n/a            n/a            n/a            n/a            n/a            n/a
+scsd1                   n/a            n/a            n/a            n/a            n/a            n/a
+sctap1                  n/a            n/a            n/a            n/a            n/a            n/a
+share1b                 n/a            n/a            n/a            n/a            n/a            n/a
+share2b                 n/a            n/a            n/a            n/a            n/a            n/a
+ship04l                 n/a            n/a            n/a            n/a            n/a            n/a
+ship04s                 n/a            n/a            n/a            n/a            n/a            n/a
+ship08s                 n/a            n/a            n/a            n/a            n/a            n/a
+ship12s                 n/a            n/a            n/a            n/a            n/a            n/a
+standata                n/a            n/a            n/a            n/a            n/a            n/a
+standmps                n/a            n/a            n/a            n/a            n/a            n/a
+stocfor1                n/a            n/a            n/a            n/a            n/a            n/a

@@ -1,0 +1,84 @@
+,problem,tol,bland,recover_iterations,recover_time,x_match,finished,status,objective,warmstart_iterations,warmstart_time,total_iterations,total_time,message
+0,adlittle,1e-05,False,336,0.5898153781890869,True,True,Success,225494.96316238947,169.0,0.3263998031616211,505.0,0.916215181350708,Optimization terminated successfully.
+1,afiro,1e-05,False,90,0.09392476081848145,True,True,Success,-464.75314285714296,21.0,0.02716517448425293,111.0,0.12108993530273438,Optimization terminated successfully.
+2,agg2,1e-05,False,1196,13.498303651809692,True,True,Success,-20239252.35597711,260.0,1.9849283695220947,1456.0,15.483232021331787,Optimization terminated successfully.
+3,agg3,1e-05,False,1195,12.895318984985352,True,True,Success,10312115.935089227,265.0,1.9903857707977295,1460.0,14.885704755783081,Optimization terminated successfully.
+4,agg,1e-05,False,977,6.742616176605225,True,True,Success,-35991767.28657484,105.0,0.5537731647491455,1082.0,7.29638934135437,Optimization terminated successfully.
+5,bandm,1e-05,False,5000,45.98985505104065,,False,Error,,,,,,"operands could not be broadcast together with shapes (2193,) (1416,) "
+6,beaconfd,1e-05,False,903,3.7981443405151367,True,True,Success,33592.485807196164,105.0,0.3905653953552246,1008.0,4.188709735870361,Optimization terminated successfully.
+7,blend,1e-05,False,1168,2.0123796463012695,True,True,Success,-30.812149845683507,115.0,0.19051837921142578,1283.0,2.2028980255126953,Optimization terminated successfully.
+8,bnl1,1e-05,False,5000,158.54301691055298,,False,Error,,,,,,"operands could not be broadcast together with shapes (5733,) (3926,) "
+9,boeing1,1e-05,False,5000,30.77561855316162,,False,Error,,,,,,"operands could not be broadcast together with shapes (2713,) (1736,) "
+10,boeing2,1e-05,False,1203,1.6445741653442383,,False,Error,,,,,,"operands could not be broadcast together with shapes (994,) (638,) "
+11,bore3d,1e-05,False,5000,11.358561515808105,,False,Error,,,,,,"operands could not be broadcast together with shapes (1533,) (974,) "
+12,brandy,1e-05,False,5000,8.513920307159424,,False,Error,,,,,,"operands could not be broadcast together with shapes (1221,) (790,) "
+13,capri,1e-05,False,1818,6.98138952255249,True,True,Success,2690.0129137681834,214.0,0.6014962196350098,2032.0,7.5828857421875,Optimization terminated successfully.
+14,degen2,1e-05,False,5000,29.89964723587036,,False,Error,,,,,,"operands could not be broadcast together with shapes (2803,) (1825,) "
+15,degen3,1e-05,False,5000,264.8499507904053,,False,Error,,,,,,"operands could not be broadcast together with shapes (9561,) (6240,) "
+16,e226,1e-05,False,1761,4.2498157024383545,True,True,Success,-18.751929066823216,947.0,1.7573504447937012,2708.0,6.007166147232056,Optimization terminated successfully.
+17,etamacro,1e-05,False,4271,41.896254539489746,True,False,Error,,,,,,Recovered basis for etamacro still contains artificial-variable indices (>= 2245): [2598]
+18,fffff800,1e-05,False,5000,56.93701648712158,,False,Error,,,,,,"operands could not be broadcast together with shapes (4114,) (2736,) "
+19,finnis,1e-05,False,5000,42.757935523986816,,False,Error,,,,,,"operands could not be broadcast together with shapes (3430,) (2283,) "
+20,fit1d,1e-05,False,5000,116.22520351409912,,False,Error,,,,,,"operands could not be broadcast together with shapes (6203,) (4127,) "
+21,fit1p,1e-05,False,5000,188.78160500526428,,False,Error,,,,,,"operands could not be broadcast together with shapes (8133,) (5430,) "
+22,forplan,1e-05,False,2128,5.457181692123413,,False,Error,,,,,,"operands could not be broadcast together with shapes (1905,) (1327,) "
+23,ganges,1e-05,False,5000,274.85055661201477,,False,Error,,,,,,"operands could not be broadcast together with shapes (8852,) (5465,) "
+24,gfrd-pnc,1e-05,False,4652,161.136168718338,True,True,Success,6902235.999548817,382.0,5.21446418762207,5034.0,166.35063290596008,Optimization terminated successfully.
+25,grow15,1e-05,False,2858,39.78607249259949,,False,Error,,,,,,"operands could not be broadcast together with shapes (4080,) (2535,) "
+26,grow22,1e-05,False,4529,126.699373960495,,False,Error,,,,,,"operands could not be broadcast together with shapes (5984,) (3718,) "
+27,grow7,1e-05,False,1582,5.061079502105713,,False,Error,,,,,,"operands could not be broadcast together with shapes (1904,) (1183,) "
+28,israel,1e-05,False,1564,2.067354917526245,True,True,Success,-896644.8218630597,648.0,0.7601985931396484,2212.0,2.8275535106658936,Optimization terminated successfully.
+29,kb2,1e-05,False,437,0.20411062240600586,True,True,Success,-1749.9001299019155,86.0,0.03972005844116211,523.0,0.24383068084716797,Optimization terminated successfully.
+30,ken-07,1e-05,False,5000,1704.4668834209442,,False,Error,,,,,,"operands could not be broadcast together with shapes (24038,) (14408,) "
+31,lotfi,1e-05,False,960,2.089385986328125,True,True,Success,-25.26470606186554,347.0,0.5979220867156982,1307.0,2.6873080730438232,Optimization terminated successfully.
+32,maros,1e-05,False,5000,173.2301869392395,,False,Error,,,,,,"operands could not be broadcast together with shapes (7104,) (4816,) "
+33,modszk1,1e-05,False,4962,204.73407459259033,True,False,Iteration limit,699998.447478,5000.0,108.18545317649841,9962.0,312.91952776908875,Iteration limit reached.
+34,network_ex,1e-05,False,30,0.007584095001220703,True,False,Error,,,,,,Recovered basis for network_ex still contains artificial-variable indices (>= 20): [23]
+35,network_ex_2,1e-05,False,71,0.026503801345825195,True,False,Error,,,,,,Recovered basis for network_ex_2 still contains artificial-variable indices (>= 72): [84]
+36,pds-02,1e-05,False,5000,3863.7358293533325,,False,Error,,,,,,"operands could not be broadcast together with shapes (37542,) (24920,) "
+37,perold,1e-05,False,5000,160.56703734397888,,False,Error,,,,,,"operands could not be broadcast together with shapes (6551,) (4372,) "
+38,pilot4,1e-05,False,5000,99.03193807601929,,False,Error,,,,,,"operands could not be broadcast together with shapes (4821,) (3252,) "
+39,pilotnov,1e-05,False,5000,362.49069714546204,,False,Error,,,,,,"operands could not be broadcast together with shapes (10413,) (6926,) "
+40,qap08,1e-05,False,5000,212.62617874145508,,False,Error,,,,,,"operands could not be broadcast together with shapes (7440,) (4896,) "
+41,recipe,1e-05,False,572,0.8046231269836426,True,False,Error,,,,,,Recovered basis for recipe still contains artificial-variable indices (>= 607): [637 635 648 659 696]
+42,sc105,1e-05,False,288,0.2586970329284668,True,True,Success,-52.20206121170724,108.0,0.09054136276245117,396.0,0.34923839569091797,Optimization terminated successfully.
+43,sc205,1e-05,False,578,0.968034029006958,True,True,Success,-52.20206121170719,277.0,0.4145069122314453,855.0,1.3825409412384033,Optimization terminated successfully.
+44,sc50a,1e-05,False,134,0.07082104682922363,True,True,Success,-64.57507705856449,55.0,0.026844501495361328,189.0,0.09766554832458496,Optimization terminated successfully.
+45,sc50b,1e-05,False,146,0.07419538497924805,True,True,Success,-69.99999999999997,51.0,0.024296998977661133,197.0,0.09849238395690918,Optimization terminated successfully.
+46,scagr25,1e-05,False,3024,22.282731533050537,,False,Error,,,,,,"operands could not be broadcast together with shapes (2642,) (1671,) "
+47,scagr7,1e-05,False,751,0.8176889419555664,True,True,Success,-2331389.824327239,79.0,0.07618927955627441,830.0,0.8938782215118408,Optimization terminated successfully.
+48,scfxm1,1e-05,False,5000,24.80765151977539,,False,Error,,,,,,"operands could not be broadcast together with shapes (2301,) (1514,) "
+49,scfxm2,1e-05,False,5000,99.65311670303345,,False,Error,,,,,,"operands could not be broadcast together with shapes (4602,) (3028,) "
+50,scfxm3,1e-05,False,5000,189.38886713981628,,False,Error,,,,,,"operands could not be broadcast together with shapes (6903,) (4542,) "
+51,scorpion,1e-05,False,1368,5.418644428253174,True,False,Error,,,,,,"Recovered basis for scorpion still contains artificial-variable indices (>= 1182): [1185 1189 1194 1198 1202 1233 1237 1246 1250 1283 1287 1296 1300 1304
+ 1334 1338 1347 1351 1355 1379 1383 1388 1396 1422 1426 1431 1435 1439
+ 1242 1392]"
+52,scrs8,1e-05,False,4242,158.087238073349,True,True,Success,904.2969538013576,959.0,12.17384672164917,5201.0,170.26108479499817,Optimization terminated successfully.
+53,scsd1,1e-05,False,5000,38.58927607536316,True,True,Success,8.666666674341956,697.0,3.375112295150757,5697.0,41.964388370513916,Optimization terminated successfully.
+54,scsd6,1e-05,False,5000,103.05422925949097,,False,Error,,,,,,"operands could not be broadcast together with shapes (5547,) (4050,) "
+55,scsd8,1e-05,False,5000,354.45179653167725,,False,Error,,,,,,"operands could not be broadcast together with shapes (11397,) (8250,) "
+56,sctap1,1e-05,False,2218,14.266093015670776,True,True,Success,1412.2499999999925,186.0,0.6394627094268799,2404.0,14.905555725097656,Optimization terminated successfully.
+57,sctap2,1e-05,False,5000,300.2439761161804,,False,Error,,,,,,"operands could not be broadcast together with shapes (9230,) (6260,) "
+58,sctap3,1e-05,False,5000,503.95688343048096,,False,Error,,,,,,"operands could not be broadcast together with shapes (12260,) (8300,) "
+59,seba,1e-05,False,5000,161.88036394119263,,False,Error,,,,,,"operands could not be broadcast together with shapes (5663,) (3606,) "
+60,share1b,1e-05,False,1320,2.027729034423828,True,True,Success,-76589.31857918698,341.0,0.4502894878387451,1661.0,2.4780185222625732,Optimization terminated successfully.
+61,share2b,1e-05,False,695,0.5098698139190674,True,True,Success,-415.73224074142206,76.0,0.05175304412841797,771.0,0.5616228580474854,Optimization terminated successfully.
+62,shell,1e-05,False,4894,295.7208845615387,True,False,Error,,,,,,Recovered basis for shell still contains artificial-variable indices (>= 5194): [5194]
+63,ship04l,1e-05,False,3724,313.6294095516205,True,True,Success,1793324.537970356,368.0,12.20934796333313,4092.0,325.8387575149536,Optimization terminated successfully.
+64,ship04s,1e-05,False,2608,104.43687796592712,True,True,Success,1798714.7004453922,355.0,5.773164510726929,2963.0,110.21004247665405,Optimization terminated successfully.
+65,ship08l,1e-05,False,5000,693.1467499732971,,False,Error,,,,,,"operands could not be broadcast together with shapes (17924,) (12929,) "
+66,ship08s,1e-05,False,5000,450.60877799987793,True,True,Success,1920098.2105346194,648.0,25.844672918319702,5648.0,476.45345091819763,Optimization terminated successfully.
+67,ship12l,1e-05,False,5000,1143.1133403778076,,False,Error,,,,,,"operands could not be broadcast together with shapes (22856,) (16387,) "
+68,ship12s,1e-05,False,5000,484.31156635284424,False,True,Success,1489236.134406129,380.0,21.65695071220398,5380.0,505.9685170650482,Optimization terminated successfully.
+69,sierra,1e-05,False,5000,610.0015733242035,,False,Error,,,,,,"operands could not be broadcast together with shapes (14082,) (8803,) "
+70,stair,1e-05,False,5000,25.66203236579895,,False,Error,,,,,,"operands could not be broadcast together with shapes (2289,) (1466,) "
+71,standata,1e-05,False,3797,119.31775450706482,True,True,Success,1257.6995000016136,406.0,4.82627010345459,4203.0,124.14402461051941,Optimization terminated successfully.
+72,standgub,1e-05,False,4036,138.59267902374268,True,False,Error,,,,,,Recovered basis for standgub still contains artificial-variable indices (>= 3839): [3840]
+73,standmps,1e-05,False,4574,160.45355558395386,True,True,Success,1406.0175000012168,368.0,4.511549949645996,4942.0,164.96510553359985,Optimization terminated successfully.
+74,stocfor1,1e-05,False,725,0.6767423152923584,True,True,Success,-41131.97621944641,84.0,0.07574462890625,809.0,0.7524869441986084,Optimization terminated successfully.
+75,stocfor2,1e-05,False,5000,377.9384789466858,,False,Error,,,,,,"operands could not be broadcast together with shapes (11295,) (7107,) "
+76,tuff,1e-05,False,5000,34.163169622421265,,False,Error,,,,,,"operands could not be broadcast together with shapes (2720,) (1815,) "
+77,vtp_base,1e-05,False,5000,9.636771440505981,,False,Error,,,,,,"operands could not be broadcast together with shapes (1263,) (798,) "
+78,wood1p,1e-05,False,5000,330.35256147384644,,False,Error,,,,,,"operands could not be broadcast together with shapes (10621,) (7783,) "
+79,cre-c,1e-05,False,5000,1090.0528988838196,,False,Error,,,,,,"operands could not be broadcast together with shapes (20431,) (13767,) "
+80,angela_test_prob,1e-05,False,36,0.011072158813476562,True,False,Error,,,,,,Recovered basis for angela_test_prob still contains artificial-variable indices (>= 39): [44]

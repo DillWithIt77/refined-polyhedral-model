@@ -1,0 +1,11 @@
+
+Solving: circ_n50_01
+Working on problem 1 of 10
+Traceback (most recent call last):
+  File "C:\Users\DillW\Documents\refined polyhedral model\refined_circ_runs.py", line 432, in <module>
+    c, A, b = circulation_mps_to_standard(path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DillW\Documents\refined polyhedral model\refined_circ_runs.py", line 160, in circulation_mps_to_standard
+    with open(filepath) as f:
+         ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'instances\\circ_n50_01.mps'

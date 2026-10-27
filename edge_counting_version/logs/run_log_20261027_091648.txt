@@ -1,0 +1,13 @@
+
+Solving: circ_n50_01
+Working on problem 1 of 20
+[DEBUG inside circulation_mps_to_standard] new_c shape: (4900,), new_A shape: (2500, 4900)
+Known optimal value (minimization form): -1488869804481.0
+Standard form dimensions -> c: (4900,), A: (2500, 4900)
+Building polyhedron in standard form...
+Problem size: n = 4900,  m_A = 2500
+rank(A): 2499
+Finding feasible solution for polyhedron in standard form...
+Set parameter Username
+Set parameter LicenseID to value 2851667
+Academic license - for non-commercial use only - expires 2027-08-05

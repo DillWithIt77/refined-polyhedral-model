@@ -1,0 +1,67 @@
+
+=== Total solve time (s) ===
+Problem           Gurobi LP          Scipy           sdac      sdac_edge      sdac_triv      sdac_rest
+------------------------------------------------------------------------------------------------------
+circ_n50_01          0.0884        50.3137            n/a            n/a            n/a        36.5377
+circ_n50_02          0.0785        89.2539            n/a            n/a            n/a        39.9594
+circ_n50_03          0.0790        94.8735            n/a            n/a            n/a        39.6704
+circ_n50_04          0.0795       114.8896            n/a            n/a            n/a        43.8693
+circ_n50_05          0.0794        99.1874            n/a            n/a            n/a        44.8916
+circ_n50_06          0.1111       126.6103            n/a            n/a            n/a        56.7673
+circ_n50_07          0.1315       143.1437            n/a            n/a            n/a        60.8926
+circ_n50_08          0.0950       135.4990            n/a            n/a            n/a        48.9464
+circ_n50_09          0.1031       107.4122            n/a            n/a            n/a        41.9906
+circ_n50_10          0.1001       103.9570            n/a            n/a            n/a        44.1652
+------------------------------------------------------------------------------------------------------
+Mean                 0.0946       106.5140            n/a            n/a            n/a        45.7690
+Median               0.0917       105.6846            n/a            n/a            n/a        44.0172
+Geo mean             0.0932       102.9030            n/a            n/a            n/a        45.2248
+  note: columns have different numbers of problems with data: [10, 10, 0, 0, 0, 10]
+
+=== Number of steps (last x-value in the step plots) ===
+Problem             Scipy         sdac    sdac_edge    sdac_triv    sdac_rest
+-----------------------------------------------------------------------------
+circ_n50_01          1926          n/a          n/a          n/a         1225
+circ_n50_02          2107          n/a          n/a          n/a         1321
+circ_n50_03          1985          n/a          n/a          n/a         1294
+circ_n50_04          2083          n/a          n/a          n/a         1339
+circ_n50_05          2013          n/a          n/a          n/a         1348
+circ_n50_06          2094          n/a          n/a          n/a         1316
+circ_n50_07          2034          n/a          n/a          n/a         1304
+circ_n50_08          1983          n/a          n/a          n/a         1276
+circ_n50_09          2011          n/a          n/a          n/a         1310
+circ_n50_10          1996          n/a          n/a          n/a         1312
+-----------------------------------------------------------------------------
+Mean               2023.2          n/a          n/a          n/a       1304.5
+Median             2012.0          n/a          n/a          n/a       1311.0
+Geo mean           2022.5          n/a          n/a          n/a       1304.1
+  note: columns have different numbers of problems with data: [10, 0, 0, 0, 10]
+
+=== Time per step (ms) = solve_time_total / steps ===
+Problem             Scipy         sdac    sdac_edge    sdac_triv    sdac_rest
+-----------------------------------------------------------------------------
+circ_n50_01          26.1          n/a          n/a          n/a         29.8
+circ_n50_02          42.4          n/a          n/a          n/a         30.2
+circ_n50_03          47.8          n/a          n/a          n/a         30.7
+circ_n50_04          55.2          n/a          n/a          n/a         32.8
+circ_n50_05          49.3          n/a          n/a          n/a         33.3
+circ_n50_06          60.5          n/a          n/a          n/a         43.1
+circ_n50_07          70.4          n/a          n/a          n/a         46.7
+circ_n50_08          68.3          n/a          n/a          n/a         38.4
+circ_n50_09          53.4          n/a          n/a          n/a         32.1
+circ_n50_10          52.1          n/a          n/a          n/a         33.7
+-----------------------------------------------------------------------------
+Mean                 52.5          n/a          n/a          n/a         35.1
+Median               52.7          n/a          n/a          n/a         33.0
+Geo mean             50.9          n/a          n/a          n/a         34.7
+  note: columns have different numbers of problems with data: [10, 0, 0, 0, 10]
+
+=== Facet restriction: entry step / restricted moves / simplex steps after exit ===
+
+[sdac] facet restriction never fired
+
+[sdac_edge] facet restriction never fired
+
+[sdac_triv] facet restriction never fired
+
+[sdac_rest] facet restriction never fired
